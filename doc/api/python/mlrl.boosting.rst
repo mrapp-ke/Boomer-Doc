@@ -1,0 +1,21 @@
+mlrl.boosting package
+=====================
+
+Submodules
+----------
+
+mlrl.boosting.boosting\_learners module
+---------------------------------------
+
+.. automodule:: mlrl.boosting.boosting_learners
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: mlrl.boosting
+   :members:
+   :undoc-members:
+   :show-inheritance:
