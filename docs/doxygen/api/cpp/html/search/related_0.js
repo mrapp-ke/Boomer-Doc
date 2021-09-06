@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['operator_2a_1400',['operator*',['../structTuple.html#ac10ba6346fb97d861832206c372b55dd',1,'Tuple']]],
-  ['operator_2b_1401',['operator+',['../structTuple.html#a2928a8ca33980d06f15c061aaaf8fb80',1,'Tuple::operator+()'],['../structTuple.html#a47b5a8d2e6789a2c0022cf934d84bbdc',1,'Tuple::operator+()']]],
-  ['operator_2d_1402',['operator-',['../structTuple.html#aea6e9145f3ea11cb37ee603c434a379f',1,'Tuple::operator-()'],['../structTuple.html#ae7d15e19f115f9e44dcf312d1016186d',1,'Tuple::operator-()']]]
+  ['operator_2a_0',['operator*',['../structTuple.html#aa80eb321f8dc1ce9a5526da5404157c9',1,'Tuple']]],
+  ['operator_2b_1',['operator+',['../structTuple.html#a98d0e7ba837b239c170d90e754e32bd5',1,'Tuple::operator+()'],['../structTuple.html#a5940a6a5dfe4297410eae7b0f5e81f6c',1,'Tuple::operator+()']]],
+  ['operator_2d_2',['operator-',['../structTuple.html#a2abe50d667749c8cbf716da7fc7d4074',1,'Tuple::operator-()'],['../structTuple.html#aa67ad98ae2aa8403dc3d3cde7933185a',1,'Tuple::operator-()']]]
 ];
