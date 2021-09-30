@@ -21,7 +21,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">BOOMER<span id="projectnumber">&#160;0.6.0</span>
+   <div id="projectname">BOOMER<span id="projectnumber">&#160;0.6.1</span>
    </div>
    <div id="projectbrief">An Algorithm for Learning Gradient Boosted Multi-label Classification Rules</div>
   </td>
@@ -89,10 +89,10 @@ Inheritance diagram for boosting::ExampleWiseCompleteBinnedRuleEvaluationFactory
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a42ca60f95b7eff3f017394569913d3fe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1ExampleWiseCompleteBinnedRuleEvaluationFactory.html#a42ca60f95b7eff3f017394569913d3fe">ExampleWiseCompleteBinnedRuleEvaluationFactory</a> (float64 l2RegularizationWeight, std::unique_ptr&lt; <a class="el" href="classboosting_1_1ILabelBinningFactory.html">ILabelBinningFactory</a> &gt; labelBinningFactoryPtr, std::unique_ptr&lt; <a class="el" href="classboosting_1_1Blas.html">Blas</a> &gt; blasPtr, std::unique_ptr&lt; <a class="el" href="classboosting_1_1Lapack.html">Lapack</a> &gt; lapackPtr)</td></tr>
 <tr class="separator:a42ca60f95b7eff3f017394569913d3fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fcc38198101ab0d89389538577d40b5"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classboosting_1_1IRuleEvaluation.html">IRuleEvaluation</a>&lt; <a class="el" href="classboosting_1_1DenseExampleWiseStatisticVector.html">DenseExampleWiseStatisticVector</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1ExampleWiseCompleteBinnedRuleEvaluationFactory.html#a2fcc38198101ab0d89389538577d40b5">createDense</a> (const <a class="el" href="classCompleteIndexVector.html">CompleteIndexVector</a> &amp;indexVector) const override</td></tr>
-<tr class="separator:a2fcc38198101ab0d89389538577d40b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad548cfa67963cc475583a429f2868d7"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classboosting_1_1IRuleEvaluation.html">IRuleEvaluation</a>&lt; <a class="el" href="classboosting_1_1DenseExampleWiseStatisticVector.html">DenseExampleWiseStatisticVector</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1ExampleWiseCompleteBinnedRuleEvaluationFactory.html#aad548cfa67963cc475583a429f2868d7">createDense</a> (const <a class="el" href="classPartialIndexVector.html">PartialIndexVector</a> &amp;indexVector) const override</td></tr>
-<tr class="separator:aad548cfa67963cc475583a429f2868d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5539848b1393cdc171034db862729c93"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classboosting_1_1IRuleEvaluation.html">IRuleEvaluation</a>&lt; <a class="el" href="classboosting_1_1DenseExampleWiseStatisticVector.html">DenseExampleWiseStatisticVector</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1ExampleWiseCompleteBinnedRuleEvaluationFactory.html#a5539848b1393cdc171034db862729c93">create</a> (const <a class="el" href="classboosting_1_1DenseExampleWiseStatisticVector.html">DenseExampleWiseStatisticVector</a> &amp;statisticVector, const <a class="el" href="classCompleteIndexVector.html">CompleteIndexVector</a> &amp;indexVector) const override</td></tr>
+<tr class="separator:a5539848b1393cdc171034db862729c93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42cf53ab8eccf5aedd11c134e3d835a3"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classboosting_1_1IRuleEvaluation.html">IRuleEvaluation</a>&lt; <a class="el" href="classboosting_1_1DenseExampleWiseStatisticVector.html">DenseExampleWiseStatisticVector</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1ExampleWiseCompleteBinnedRuleEvaluationFactory.html#a42cf53ab8eccf5aedd11c134e3d835a3">create</a> (const <a class="el" href="classboosting_1_1DenseExampleWiseStatisticVector.html">DenseExampleWiseStatisticVector</a> &amp;statisticVector, const <a class="el" href="classPartialIndexVector.html">PartialIndexVector</a> &amp;indexVector) const override</td></tr>
+<tr class="separator:a42cf53ab8eccf5aedd11c134e3d835a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Allows to create instances of the class <code><a class="el" href="classboosting_1_1ExampleWiseCompleteBinnedRuleEvaluationFactory.html">ExampleWiseCompleteBinnedRuleEvaluationFactory</a></code>. </p>
@@ -147,8 +147,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a2fcc38198101ab0d89389538577d40b5" name="a2fcc38198101ab0d89389538577d40b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2fcc38198101ab0d89389538577d40b5">&#9670;&nbsp;</a></span>createDense() <span class="overload">[1/2]</span></h2>
+<a id="a5539848b1393cdc171034db862729c93" name="a5539848b1393cdc171034db862729c93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5539848b1393cdc171034db862729c93">&#9670;&nbsp;</a></span>create() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157,11 +157,21 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt; <a class="el" href="classboosting_1_1IRuleEvaluation.html">IRuleEvaluation</a>&lt; <a class="el" href="classboosting_1_1DenseExampleWiseStatisticVector.html">DenseExampleWiseStatisticVector</a> &gt; &gt; boosting::ExampleWiseCompleteBinnedRuleEvaluationFactory::createDense </td>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classboosting_1_1IRuleEvaluation.html">IRuleEvaluation</a>&lt; <a class="el" href="classboosting_1_1DenseExampleWiseStatisticVector.html">DenseExampleWiseStatisticVector</a> &gt; &gt; boosting::ExampleWiseCompleteBinnedRuleEvaluationFactory::create </td>
           <td>(</td>
+          <td class="paramtype">const <a class="el" href="classboosting_1_1DenseExampleWiseStatisticVector.html">DenseExampleWiseStatisticVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>statisticVector</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const <a class="el" href="classCompleteIndexVector.html">CompleteIndexVector</a> &amp;&#160;</td>
-          <td class="paramname"><em>indexVector</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>indexVector</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -173,18 +183,19 @@ Public Member Functions</h2></td></tr>
 <p >Creates and returns a new object of type <code><a class="el" href="classboosting_1_1IRuleEvaluation.html">IRuleEvaluation</a></code> that allows to calculate the predictions of rules that predict for all available labels, based on the gradients and Hessians that are stored by a <code> <a class="el" href="classboosting_1_1DenseExampleWiseStatisticVector.html">DenseExampleWiseStatisticVector</a></code>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">statisticVector</td><td>A reference to an object of type <code><a class="el" href="classboosting_1_1DenseExampleWiseStatisticVector.html">DenseExampleWiseStatisticVector</a></code>. This vector is only used to identify the function that is able to deal with this particular type of vector via function overloading </td></tr>
     <tr><td class="paramname">indexVector</td><td>A reference to an object of type <code><a class="el" href="classCompleteIndexVector.html">CompleteIndexVector</a></code> that provides access to the indices of the labels for which the rules may predict </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>An unique pointer to an object of type <code><a class="el" href="classboosting_1_1IRuleEvaluation.html">IRuleEvaluation</a></code> that has been created </dd></dl>
 
-<p>Implements <a class="el" href="classboosting_1_1IExampleWiseRuleEvaluationFactory.html#ac946c16d247885fe9ba97d6f298572a4">boosting::IExampleWiseRuleEvaluationFactory</a>.</p>
+<p>Implements <a class="el" href="classboosting_1_1IExampleWiseRuleEvaluationFactory.html#aa46207178626c646768eb7efc4d18f4b">boosting::IExampleWiseRuleEvaluationFactory</a>.</p>
 
 </div>
 </div>
-<a id="aad548cfa67963cc475583a429f2868d7" name="aad548cfa67963cc475583a429f2868d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad548cfa67963cc475583a429f2868d7">&#9670;&nbsp;</a></span>createDense() <span class="overload">[2/2]</span></h2>
+<a id="a42cf53ab8eccf5aedd11c134e3d835a3" name="a42cf53ab8eccf5aedd11c134e3d835a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42cf53ab8eccf5aedd11c134e3d835a3">&#9670;&nbsp;</a></span>create() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -193,11 +204,21 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt; <a class="el" href="classboosting_1_1IRuleEvaluation.html">IRuleEvaluation</a>&lt; <a class="el" href="classboosting_1_1DenseExampleWiseStatisticVector.html">DenseExampleWiseStatisticVector</a> &gt; &gt; boosting::ExampleWiseCompleteBinnedRuleEvaluationFactory::createDense </td>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classboosting_1_1IRuleEvaluation.html">IRuleEvaluation</a>&lt; <a class="el" href="classboosting_1_1DenseExampleWiseStatisticVector.html">DenseExampleWiseStatisticVector</a> &gt; &gt; boosting::ExampleWiseCompleteBinnedRuleEvaluationFactory::create </td>
           <td>(</td>
+          <td class="paramtype">const <a class="el" href="classboosting_1_1DenseExampleWiseStatisticVector.html">DenseExampleWiseStatisticVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>statisticVector</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const <a class="el" href="classPartialIndexVector.html">PartialIndexVector</a> &amp;&#160;</td>
-          <td class="paramname"><em>indexVector</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>indexVector</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -209,13 +230,14 @@ Public Member Functions</h2></td></tr>
 <p >Creates and returns a new object of type <code><a class="el" href="classboosting_1_1IRuleEvaluation.html">IRuleEvaluation</a></code> that allows to calculate the predictions of rules that predict for a subset of the available labels, based on the gradients and Hessians that are stored by a <code><a class="el" href="classboosting_1_1DenseExampleWiseStatisticVector.html">DenseExampleWiseStatisticVector</a></code>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">statisticVector</td><td>A reference to an object of type <code><a class="el" href="classboosting_1_1DenseExampleWiseStatisticVector.html">DenseExampleWiseStatisticVector</a></code>. This vector is only used to identify the function that is able to deal with this particular type of vector via function overloading </td></tr>
     <tr><td class="paramname">indexVector</td><td>A reference to an object of type <code><a class="el" href="classPartialIndexVector.html">PartialIndexVector</a></code> that provides access to the indices of the labels for which the rules may predict </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>An unique pointer to an object of type <code><a class="el" href="classboosting_1_1IRuleEvaluation.html">IRuleEvaluation</a></code> that has been created </dd></dl>
 
-<p>Implements <a class="el" href="classboosting_1_1IExampleWiseRuleEvaluationFactory.html#a63421b0b25138fd8d96964454f46c4b3">boosting::IExampleWiseRuleEvaluationFactory</a>.</p>
+<p>Implements <a class="el" href="classboosting_1_1IExampleWiseRuleEvaluationFactory.html#a801089e40c1284dec7fec328bb72ab6c">boosting::IExampleWiseRuleEvaluationFactory</a>.</p>
 
 </div>
 </div>

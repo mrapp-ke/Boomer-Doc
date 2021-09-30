@@ -21,7 +21,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">BOOMER<span id="projectnumber">&#160;0.6.0</span>
+   <div id="projectname">BOOMER<span id="projectnumber">&#160;0.6.1</span>
    </div>
    <div id="projectbrief">An Algorithm for Learning Gradient Boosted Multi-label Classification Rules</div>
   </td>
@@ -83,8 +83,8 @@ Inheritance diagram for MeasureStoppingCriterion:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a11da0716c049c797c110e4b59d96ad40"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMeasureStoppingCriterion.html#a11da0716c049c797c110e4b59d96ad40">MeasureStoppingCriterion</a> (std::unique_ptr&lt; <a class="el" href="classIEvaluationMeasure.html">IEvaluationMeasure</a> &gt; measurePtr, std::unique_ptr&lt; <a class="el" href="classIAggregationFunction.html">IAggregationFunction</a> &gt; aggregationFunctionPtr, uint32 minRules, uint32 updateInterval, uint32 stopInterval, uint32 numPast, uint32 numCurrent, float64 minImprovement, bool forceStop)</td></tr>
-<tr class="separator:a11da0716c049c797c110e4b59d96ad40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b8a2c843b7a94251b93bf3275407d76"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMeasureStoppingCriterion.html#a3b8a2c843b7a94251b93bf3275407d76">MeasureStoppingCriterion</a> (std::unique_ptr&lt; <a class="el" href="classIAggregationFunction.html">IAggregationFunction</a> &gt; aggregationFunctionPtr, uint32 minRules, uint32 updateInterval, uint32 stopInterval, uint32 numPast, uint32 numCurrent, float64 minImprovement, bool forceStop)</td></tr>
+<tr class="separator:a3b8a2c843b7a94251b93bf3275407d76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a723a94593c609cc8049fd4d82efea07c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structIStoppingCriterion_1_1Result.html">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMeasureStoppingCriterion.html#a723a94593c609cc8049fd4d82efea07c">test</a> (const <a class="el" href="classIPartition.html">IPartition</a> &amp;partition, const <a class="el" href="classIStatistics.html">IStatistics</a> &amp;statistics, uint32 numRules) override</td></tr>
 <tr class="separator:a723a94593c609cc8049fd4d82efea07c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -101,8 +101,8 @@ Additional Inherited Members</h2></td></tr>
 <div class="textblock"><p >A stopping criterion that stops the induction of rules as soon as the quality of a model's predictions for the examples in a holdout set do not improve according a certain measure.</p>
 <p >This stopping criterion assesses the performance of the current model after every <code>updateInterval</code> rules and stores the resulting quality score in a buffer that keeps track of the last <code>numRecent</code> scores. If the capacity of this buffer is already reached, the oldest score is passed to a buffer of size <code>numPast</code>. Every <code>stopInterval</code> rules, it is decided whether the rule induction should be stopped. For this reason, the <code>numRecent</code> scores in the first buffer, as well as the <code>numPast</code> scores in the second buffer are aggregated according to a certain <code>aggregationFunction</code>. If the percentage improvement, which results from comparing the more recent scores from the first buffer to the older scores from the second buffer, is greater than a certain <code>minImprovement</code>, the rule induction is continued, otherwise it is stopped. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a11da0716c049c797c110e4b59d96ad40" name="a11da0716c049c797c110e4b59d96ad40"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11da0716c049c797c110e4b59d96ad40">&#9670;&nbsp;</a></span>MeasureStoppingCriterion()</h2>
+<a id="a3b8a2c843b7a94251b93bf3275407d76" name="a3b8a2c843b7a94251b93bf3275407d76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b8a2c843b7a94251b93bf3275407d76">&#9670;&nbsp;</a></span>MeasureStoppingCriterion()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -110,12 +110,6 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">MeasureStoppingCriterion::MeasureStoppingCriterion </td>
           <td>(</td>
-          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classIEvaluationMeasure.html">IEvaluationMeasure</a> &gt;&#160;</td>
-          <td class="paramname"><em>measurePtr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classIAggregationFunction.html">IAggregationFunction</a> &gt;&#160;</td>
           <td class="paramname"><em>aggregationFunctionPtr</em>, </td>
         </tr>
@@ -170,7 +164,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">measurePtr</td><td>An unique pointer to an object of type <code><a class="el" href="classIEvaluationMeasure.html">IEvaluationMeasure</a></code> that should be used to assess the quality of a model </td></tr>
     <tr><td class="paramname">aggregationFunctionPtr</td><td>An unique pointer to an object of type <code><a class="el" href="classIAggregationFunction.html">IAggregationFunction</a></code> that should be used to aggregate the scores in the buffer </td></tr>
     <tr><td class="paramname">minRules</td><td>The minimum number of rules that must have been learned until the induction of rules might be stopped. Must be at least 1 </td></tr>
     <tr><td class="paramname">updateInterval</td><td>The interval to be used to update the quality of the current model, e.g., a value of 5 means that the model quality is assessed every 5 rules. Must be at least 1 </td></tr>
