@@ -21,7 +21,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">BOOMER<span id="projectnumber">&#160;0.6.1</span>
+   <div id="projectname">BOOMER<span id="projectnumber">&#160;0.6.2</span>
    </div>
    <div id="projectbrief">An Algorithm for Learning Gradient Boosted Multi-label Classification Rules</div>
   </td>
@@ -142,12 +142,12 @@ $(function() {
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        }</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    }</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> applyRulesCsr(<span class="keyword">const</span> <a class="code hl_class" href="classRuleModel.html">RuleModel</a>&amp; model, <a class="code hl_typedef" href="classCsrConstView.html#a131cf9623006927625c7f42a7c9b23b2">CsrFeatureMatrix::index_const_iterator</a> featureIndicesBegin,</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>                                     <a class="code hl_typedef" href="classCsrConstView.html#a131cf9623006927625c7f42a7c9b23b2">CsrFeatureMatrix::index_const_iterator</a> featureIndicesEnd,</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>                                     <a class="code hl_typedef" href="classCsrConstView.html#a11d6217f66c6aa0224ac78a7901b3d0a">CsrFeatureMatrix::value_const_iterator</a> featureValuesBegin,</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>                                     <a class="code hl_typedef" href="classCsrConstView.html#a11d6217f66c6aa0224ac78a7901b3d0a">CsrFeatureMatrix::value_const_iterator</a> featureValuesEnd,</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>                                     <a class="code hl_typedef" href="classCContiguousView.html#acfbe3f1e298414d5d1d3d86aa4c57577">CContiguousView&lt;float64&gt;::iterator</a> scoreIterator) {</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>        uint32 numFeatures = featureIndicesEnd - featureIndicesBegin;</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> applyRulesCsr(<span class="keyword">const</span> <a class="code hl_class" href="classRuleModel.html">RuleModel</a>&amp; model, uint32 numFeatures,</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>                                     <a class="code hl_typedef" href="classCsrConstView.html#a131cf9623006927625c7f42a7c9b23b2">CsrFeatureMatrix::index_const_iterator</a> featureIndicesBegin,</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>                                     <a class="code hl_typedef" href="classCsrConstView.html#a131cf9623006927625c7f42a7c9b23b2">CsrFeatureMatrix::index_const_iterator</a> featureIndicesEnd,</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>                                     <a class="code hl_typedef" href="classCsrConstView.html#a11d6217f66c6aa0224ac78a7901b3d0a">CsrFeatureMatrix::value_const_iterator</a> featureValuesBegin,</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>                                     <a class="code hl_typedef" href="classCsrConstView.html#a11d6217f66c6aa0224ac78a7901b3d0a">CsrFeatureMatrix::value_const_iterator</a> featureValuesEnd,</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>                                     <a class="code hl_typedef" href="classCContiguousView.html#acfbe3f1e298414d5d1d3d86aa4c57577">CContiguousView&lt;float64&gt;::iterator</a> scoreIterator) {</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        float32 tmpArray1[numFeatures];</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        uint32 tmpArray2[numFeatures] = {};</div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        uint32 n = 1;</div>
