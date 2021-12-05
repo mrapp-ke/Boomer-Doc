@@ -21,7 +21,7 @@ copyright = '2020-2021, Michael Rapp'
 author = 'Michael Rapp'
 
 # The full version, including alpha/beta/rc tags
-release = (Path(__file__).resolve().parent.parent / 'VERSION').read_text()
+release = '0.7.0'
 
 # -- General configuration ---------------------------------------------------
 
