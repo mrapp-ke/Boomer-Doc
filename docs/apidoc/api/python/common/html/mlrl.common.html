@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>mlrl.common package &mdash; mlrl-common 0.7.1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="mlrl package" href="mlrl.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> mlrl-common
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="mlrl.html">mlrl package</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="mlrl.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">mlrl.common package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-mlrl.common.arrays">mlrl.common.arrays module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-mlrl.common.data_types">mlrl.common.data_types module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-mlrl.common.learners">mlrl.common.learners module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-mlrl.common.options">mlrl.common.options module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-mlrl.common.rule_learners">mlrl.common.rule_learners module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-mlrl.common.strings">mlrl.common.strings module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-mlrl.common">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="mlrl.html#module-mlrl">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">mlrl-common</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="mlrl.html">mlrl package</a> &raquo;</li>
+      <li>mlrl.common package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/mlrl.common.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="mlrl-common-package">
+<h1>mlrl.common package<a class="headerlink" href="#mlrl-common-package" title="Permalink to this headline"></a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline"></a></h2>
+</section>
+<section id="module-mlrl.common.arrays">
+<span id="mlrl-common-arrays-module"></span><h2>mlrl.common.arrays module<a class="headerlink" href="#module-mlrl.common.arrays" title="Permalink to this headline"></a></h2>
+<p>Author: Michael Rapp (<a class="reference external" href="mailto:michael&#46;rapp&#46;ml&#37;&#52;&#48;gmail&#46;com">michael<span>&#46;</span>rapp<span>&#46;</span>ml<span>&#64;</span>gmail<span>&#46;</span>com</a>)</p>
+<p>Provides utility functions for handling arrays.</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="mlrl.common.arrays.enforce_dense">
+<span class="sig-prename descclassname"><span class="pre">mlrl.common.arrays.</span></span><span class="sig-name descname"><span class="pre">enforce_dense</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">a</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">order</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dtype</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.common.arrays.enforce_dense" title="Permalink to this definition"></a></dt>
+<dd><p>Converts a given array into a <cite>np.ndarray</cite>, if necessary, and enforces a specific memory layout and type.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>a</strong> – A <cite>np.ndarray</cite> or <cite>scipy.sparse.matrix</cite> to be converted</p></li>
+<li><p><strong>order</strong> – The memory layout to be used. Must be <cite>C</cite> or <cite>F</cite></p></li>
+<li><p><strong>dtype</strong> – The type to be used</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A <cite>np.ndarray</cite> that uses the given memory layout</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="module-mlrl.common.data_types">
+<span id="mlrl-common-data-types-module"></span><h2>mlrl.common.data_types module<a class="headerlink" href="#module-mlrl.common.data_types" title="Permalink to this headline"></a></h2>
+<p>Author: Michael Rapp (<a class="reference external" href="mailto:michael&#46;rapp&#46;ml&#37;&#52;&#48;gmail&#46;com">michael<span>&#46;</span>rapp<span>&#46;</span>ml<span>&#64;</span>gmail<span>&#46;</span>com</a>)</p>
+<p>Provides type definitions.</p>
+</section>
+<section id="module-mlrl.common.learners">
+<span id="mlrl-common-learners-module"></span><h2>mlrl.common.learners module<a class="headerlink" href="#module-mlrl.common.learners" title="Permalink to this headline"></a></h2>
+<p>Author: Michael Rapp (<a class="reference external" href="mailto:michael&#46;rapp&#46;ml&#37;&#52;&#48;gmail&#46;com">michael<span>&#46;</span>rapp<span>&#46;</span>ml<span>&#64;</span>gmail<span>&#46;</span>com</a>)</p>
+<p>Provides base classes for implementing single- or multi-label classifiers or rankers.</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="mlrl.common.learners.Learner">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mlrl.common.learners.</span></span><span class="sig-name descname"><span class="pre">Learner</span></span><a class="headerlink" href="#mlrl.common.learners.Learner" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">sklearn.base.BaseEstimator</span></code></p>
+<p>A base class for all single- or multi-label classifiers or rankers.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="mlrl.common.learners.Learner.fit">
+<span class="sig-name descname"><span class="pre">fit</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.common.learners.Learner.fit" title="Permalink to this definition"></a></dt>
+<dd><p>Fits a model according to given training examples and corresponding ground truth labels.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>x</strong> – A <cite>numpy.ndarray</cite> or <cite>scipy.sparse</cite> matrix, shape <cite>(num_examples, num_features)</cite>, that stores the
+feature values of the training examples</p></li>
+<li><p><strong>y</strong> – A <cite>numpy.ndarray</cite> or <cite>scipy.sparse</cite> matrix, shape <cite>(num_examples, num_labels)</cite>, that stores the
+labels of the training examples according to the ground truth</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The fitted learner</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="mlrl.common.learners.Learner.get_name">
+<em class="property"><span class="pre">abstract</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">get_name</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#mlrl.common.learners.Learner.get_name" title="Permalink to this definition"></a></dt>
+<dd><p>Returns a human-readable name that allows to identify the configuration used by the classifier or ranker.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>The name of the classifier or ranker</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="mlrl.common.learners.Learner.predict">
+<span class="sig-name descname"><span class="pre">predict</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.common.learners.Learner.predict" title="Permalink to this definition"></a></dt>
+<dd><p>Makes a prediction for given query examples.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>x</strong> – A <cite>numpy.ndarray</cite> or <cite>scipy.sparse</cite> matrix, shape <cite>(num_examples, num_features)</cite>, that stores the
+feature values of the query examples</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A <cite>numpy.ndarray</cite> or <cite>scipy.sparse</cite> matrix of shape <cite>(num_examples, num_labels)</cite>, that stores the
+prediction for individual examples and labels</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="mlrl.common.learners.Learner.predict_proba">
+<span class="sig-name descname"><span class="pre">predict_proba</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.common.learners.Learner.predict_proba" title="Permalink to this definition"></a></dt>
+<dd><p>Returns probability estimates for given query examples.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>x</strong> – A <cite>numpy.ndarray</cite> or <cite>scipy.sparse</cite> matrix, shape <cite>(num_examples, num_features)</cite>, that stores the
+feature values of the query examples</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A <cite>numpy.ndarray</cite> or <cite>scipy.sparse</cite> matrix of shape <cite>(num_examples, num_labels)</cite>, that stores the
+probabilities for individual examples and labels</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="mlrl.common.learners.NominalAttributeLearner">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mlrl.common.learners.</span></span><span class="sig-name descname"><span class="pre">NominalAttributeLearner</span></span><a class="headerlink" href="#mlrl.common.learners.NominalAttributeLearner" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">abc.ABC</span></code></p>
+<p>A base class for all single- or multi-label classifiers or rankers that natively support nominal attributes.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.common.learners.NominalAttributeLearner.nominal_attribute_indices">
+<span class="sig-name descname"><span class="pre">nominal_attribute_indices</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#mlrl.common.learners.NominalAttributeLearner.nominal_attribute_indices" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-mlrl.common.options">
+<span id="mlrl-common-options-module"></span><h2>mlrl.common.options module<a class="headerlink" href="#module-mlrl.common.options" title="Permalink to this headline"></a></h2>
+<p>Author: Michael Rapp (<a class="reference external" href="mailto:michael&#46;rapp&#46;ml&#37;&#52;&#48;gmail&#46;com">michael<span>&#46;</span>rapp<span>&#46;</span>ml<span>&#64;</span>gmail<span>&#46;</span>com</a>)</p>
+<p>Provides a data structure that allows to store and parse options that are provided as key-value pairs.</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="mlrl.common.options.BooleanOption">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mlrl.common.options.</span></span><span class="sig-name descname"><span class="pre">BooleanOption</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.common.options.BooleanOption" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">enum.Enum</span></code></p>
+<p>An enumeration.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.common.options.BooleanOption.FALSE">
+<span class="sig-name descname"><span class="pre">FALSE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'false'</span></em><a class="headerlink" href="#mlrl.common.options.BooleanOption.FALSE" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.common.options.BooleanOption.TRUE">
+<span class="sig-name descname"><span class="pre">TRUE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'true'</span></em><a class="headerlink" href="#mlrl.common.options.BooleanOption.TRUE" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="mlrl.common.options.BooleanOption.parse">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">parse</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">s</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.common.options.BooleanOption.parse" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="mlrl.common.options.Options">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mlrl.common.options.</span></span><span class="sig-name descname"><span class="pre">Options</span></span><a class="headerlink" href="#mlrl.common.options.Options" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Stores key-value pairs in a dictionary and provides methods to access and validate them.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.common.options.Options.ERROR_MESSAGE_INVALID_OPTION">
+<span class="sig-name descname"><span class="pre">ERROR_MESSAGE_INVALID_OPTION</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Expected</span> <span class="pre">comma-separated</span> <span class="pre">list</span> <span class="pre">of</span> <span class="pre">key-value</span> <span class="pre">pairs'</span></em><a class="headerlink" href="#mlrl.common.options.Options.ERROR_MESSAGE_INVALID_OPTION" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.common.options.Options.ERROR_MESSAGE_INVALID_SYNTAX">
+<span class="sig-name descname"><span class="pre">ERROR_MESSAGE_INVALID_SYNTAX</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Invalid</span> <span class="pre">syntax</span> <span class="pre">used</span> <span class="pre">to</span> <span class="pre">specify</span> <span class="pre">additional</span> <span class="pre">options'</span></em><a class="headerlink" href="#mlrl.common.options.Options.ERROR_MESSAGE_INVALID_SYNTAX" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="mlrl.common.options.Options.create">
+<em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">create</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">string</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">allowed_keys</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Set</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.common.options.Options.create" title="Permalink to this definition"></a></dt>
+<dd><p>Parses the options that are provided via a given string that is formatted according to the following syntax:
+“[key1=value1,key2=value2]”. If the given string is malformed, a <cite>ValueError</cite> will be raised.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>string</strong> – The string to be parsed</p></li>
+<li><p><strong>allowed_keys</strong> – A set that contains all valid keys</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>An object of type <cite>Options</cite> that stores the key-value pairs that have been parsed from
+the given string</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="mlrl.common.options.Options.get_bool">
+<span class="sig-name descname"><span class="pre">get_bool</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">key</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">default_value</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#mlrl.common.options.Options.get_bool" title="Permalink to this definition"></a></dt>
+<dd><p>Returns a boolean that corresponds to a specific key.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>key</strong> – The key</p></li>
+<li><p><strong>default_value</strong> – The default value to be returned, if no value is associated with the given key</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The value that is associated with the given key or the given default value</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="mlrl.common.options.Options.get_float">
+<span class="sig-name descname"><span class="pre">get_float</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">key</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">default_value</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#mlrl.common.options.Options.get_float" title="Permalink to this definition"></a></dt>
+<dd><p>Returns a float that corresponds to a specific key.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>key</strong> – The key</p></li>
+<li><p><strong>default_value</strong> – The default value to be returned, if no value is associated with the given key</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>THe value that is associated with the given key or the given default value</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="mlrl.common.options.Options.get_int">
+<span class="sig-name descname"><span class="pre">get_int</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">key</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">default_value</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#mlrl.common.options.Options.get_int" title="Permalink to this definition"></a></dt>
+<dd><p>Returns an integer that corresponds to a specific key.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>key</strong> – The key</p></li>
+<li><p><strong>default_value</strong> – The default value to be returned, if no value is associated with the given key</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The value that is associated with the given key or the given default value</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="mlrl.common.options.Options.get_string">
+<span class="sig-name descname"><span class="pre">get_string</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">key</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">default_value</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#mlrl.common.options.Options.get_string" title="Permalink to this definition"></a></dt>
+<dd><p>Returns a string that corresponds to a specific key.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>key</strong> – The key</p></li>
+<li><p><strong>default_value</strong> – The default value to be returned, if no value is associated with the given key</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The value that is associated with the given key or the given default value</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-mlrl.common.rule_learners">
+<span id="mlrl-common-rule-learners-module"></span><h2>mlrl.common.rule_learners module<a class="headerlink" href="#module-mlrl.common.rule_learners" title="Permalink to this headline"></a></h2>
+<p>Author: Michael Rapp (<a class="reference external" href="mailto:michael&#46;rapp&#46;ml&#37;&#52;&#48;gmail&#46;com">michael<span>&#46;</span>rapp<span>&#46;</span>ml<span>&#64;</span>gmail<span>&#46;</span>com</a>)</p>
+<p>Provides base classes for implementing single- or multi-label rule learning algorithms.</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="mlrl.common.rule_learners.FeatureCharacteristics">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mlrl.common.rule_learners.</span></span><span class="sig-name descname"><span class="pre">FeatureCharacteristics</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">feature_matrix</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">mlrl.common.cython.input.FeatureMatrix</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.common.rule_learners.FeatureCharacteristics" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Allows to obtain certain characteristics of a feature matrix.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="mlrl.common.rule_learners.FeatureCharacteristics.get_num_examples">
+<span class="sig-name descname"><span class="pre">get_num_examples</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#mlrl.common.rule_learners.FeatureCharacteristics.get_num_examples" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the number of examples.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>The number of examples</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="mlrl.common.rule_learners.FeatureCharacteristics.get_num_features">
+<span class="sig-name descname"><span class="pre">get_num_features</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#mlrl.common.rule_learners.FeatureCharacteristics.get_num_features" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the number of features.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>The number of features</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="mlrl.common.rule_learners.FeatureCharacteristics.is_sparse">
+<span class="sig-name descname"><span class="pre">is_sparse</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#mlrl.common.rule_learners.FeatureCharacteristics.is_sparse" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="mlrl.common.rule_learners.LabelCharacteristics">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mlrl.common.rule_learners.</span></span><span class="sig-name descname"><span class="pre">LabelCharacteristics</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">label_matrix</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">mlrl.common.cython.input.LabelMatrix</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.common.rule_learners.LabelCharacteristics" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Allows to obtain certain characteristics of a label matrix.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="mlrl.common.rule_learners.LabelCharacteristics.get_label_cardinality">
+<span class="sig-name descname"><span class="pre">get_label_cardinality</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#mlrl.common.rule_learners.LabelCharacteristics.get_label_cardinality" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the label cardinality.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>The label cardinality</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="mlrl.common.rule_learners.LabelCharacteristics.get_num_examples">
+<span class="sig-name descname"><span class="pre">get_num_examples</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#mlrl.common.rule_learners.LabelCharacteristics.get_num_examples" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the number of examples.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>The number of examples</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="mlrl.common.rule_learners.LabelCharacteristics.get_num_labels">
+<span class="sig-name descname"><span class="pre">get_num_labels</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#mlrl.common.rule_learners.LabelCharacteristics.get_num_labels" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the number of labels.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>The number of labels</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="mlrl.common.rule_learners.LabelCharacteristics.is_sparse">
+<span class="sig-name descname"><span class="pre">is_sparse</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#mlrl.common.rule_learners.LabelCharacteristics.is_sparse" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="mlrl.common.rule_learners.MLRuleLearner">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mlrl.common.rule_learners.</span></span><span class="sig-name descname"><span class="pre">MLRuleLearner</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">random_state</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">feature_format</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">label_format</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">prediction_format</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.common.rule_learners.MLRuleLearner" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="#mlrl.common.learners.Learner" title="mlrl.common.learners.Learner"><code class="xref py py-class docutils literal notranslate"><span class="pre">mlrl.common.learners.Learner</span></code></a>, <a class="reference internal" href="#mlrl.common.learners.NominalAttributeLearner" title="mlrl.common.learners.NominalAttributeLearner"><code class="xref py py-class docutils literal notranslate"><span class="pre">mlrl.common.learners.NominalAttributeLearner</span></code></a></p>
+<p>A scikit-multilearn implementation of a rule learning algorithm for multi-label classification or ranking.</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="mlrl.common.rule_learners.SparseFormat">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mlrl.common.rule_learners.</span></span><span class="sig-name descname"><span class="pre">SparseFormat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.common.rule_learners.SparseFormat" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">enum.Enum</span></code></p>
+<p>An enumeration.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.common.rule_learners.SparseFormat.CSC">
+<span class="sig-name descname"><span class="pre">CSC</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'csc'</span></em><a class="headerlink" href="#mlrl.common.rule_learners.SparseFormat.CSC" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.common.rule_learners.SparseFormat.CSR">
+<span class="sig-name descname"><span class="pre">CSR</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'csr'</span></em><a class="headerlink" href="#mlrl.common.rule_learners.SparseFormat.CSR" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="mlrl.common.rule_learners.SparsePolicy">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mlrl.common.rule_learners.</span></span><span class="sig-name descname"><span class="pre">SparsePolicy</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.common.rule_learners.SparsePolicy" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">enum.Enum</span></code></p>
+<p>An enumeration.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.common.rule_learners.SparsePolicy.AUTO">
+<span class="sig-name descname"><span class="pre">AUTO</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'auto'</span></em><a class="headerlink" href="#mlrl.common.rule_learners.SparsePolicy.AUTO" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.common.rule_learners.SparsePolicy.FORCE_DENSE">
+<span class="sig-name descname"><span class="pre">FORCE_DENSE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'dense'</span></em><a class="headerlink" href="#mlrl.common.rule_learners.SparsePolicy.FORCE_DENSE" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.common.rule_learners.SparsePolicy.FORCE_SPARSE">
+<span class="sig-name descname"><span class="pre">FORCE_SPARSE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'sparse'</span></em><a class="headerlink" href="#mlrl.common.rule_learners.SparsePolicy.FORCE_SPARSE" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="mlrl.common.rule_learners.create_feature_sampling_factory">
+<span class="sig-prename descclassname"><span class="pre">mlrl.common.rule_learners.</span></span><span class="sig-name descname"><span class="pre">create_feature_sampling_factory</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">feature_sampling</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">mlrl.common.cython.feature_sampling.FeatureSamplingFactory</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#mlrl.common.rule_learners.create_feature_sampling_factory" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="mlrl.common.rule_learners.create_instance_sampling_factory">
+<span class="sig-prename descclassname"><span class="pre">mlrl.common.rule_learners.</span></span><span class="sig-name descname"><span class="pre">create_instance_sampling_factory</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">instance_sampling</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">mlrl.common.cython.instance_sampling.InstanceSamplingFactory</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#mlrl.common.rule_learners.create_instance_sampling_factory" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="mlrl.common.rule_learners.create_label_sampling_factory">
+<span class="sig-prename descclassname"><span class="pre">mlrl.common.rule_learners.</span></span><span class="sig-name descname"><span class="pre">create_label_sampling_factory</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">label_sampling</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">mlrl.common.cython.label_sampling.LabelSamplingFactory</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#mlrl.common.rule_learners.create_label_sampling_factory" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="mlrl.common.rule_learners.create_num_threads">
+<span class="sig-prename descclassname"><span class="pre">mlrl.common.rule_learners.</span></span><span class="sig-name descname"><span class="pre">create_num_threads</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">parallel</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parameter_name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#mlrl.common.rule_learners.create_num_threads" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="mlrl.common.rule_learners.create_partition_sampling_factory">
+<span class="sig-prename descclassname"><span class="pre">mlrl.common.rule_learners.</span></span><span class="sig-name descname"><span class="pre">create_partition_sampling_factory</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">holdout</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">mlrl.common.cython.partition_sampling.PartitionSamplingFactory</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#mlrl.common.rule_learners.create_partition_sampling_factory" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="mlrl.common.rule_learners.create_pruning">
+<span class="sig-prename descclassname"><span class="pre">mlrl.common.rule_learners.</span></span><span class="sig-name descname"><span class="pre">create_pruning</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pruning</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">instance_sampling</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">mlrl.common.cython.pruning.Pruning</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#mlrl.common.rule_learners.create_pruning" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="mlrl.common.rule_learners.create_sparse_policy">
+<span class="sig-prename descclassname"><span class="pre">mlrl.common.rule_learners.</span></span><span class="sig-name descname"><span class="pre">create_sparse_policy</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">parameter_name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">policy</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#mlrl.common.rule_learners.SparsePolicy" title="mlrl.common.rule_learners.SparsePolicy"><span class="pre">mlrl.common.rule_learners.SparsePolicy</span></a></span></span><a class="headerlink" href="#mlrl.common.rule_learners.create_sparse_policy" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="mlrl.common.rule_learners.create_stopping_criteria">
+<span class="sig-prename descclassname"><span class="pre">mlrl.common.rule_learners.</span></span><span class="sig-name descname"><span class="pre">create_stopping_criteria</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">max_rules</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">time_limit</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">mlrl.common.cython.stopping.StoppingCriterion</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#mlrl.common.rule_learners.create_stopping_criteria" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="mlrl.common.rule_learners.create_thresholds_factory">
+<span class="sig-prename descclassname"><span class="pre">mlrl.common.rule_learners.</span></span><span class="sig-name descname"><span class="pre">create_thresholds_factory</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">feature_binning</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">num_threads</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">mlrl.common.cython.thresholds.ThresholdsFactory</span></span></span><a class="headerlink" href="#mlrl.common.rule_learners.create_thresholds_factory" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="mlrl.common.rule_learners.is_sparse">
+<span class="sig-prename descclassname"><span class="pre">mlrl.common.rule_learners.</span></span><span class="sig-name descname"><span class="pre">is_sparse</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">m</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sparse_format</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#mlrl.common.rule_learners.SparseFormat" title="mlrl.common.rule_learners.SparseFormat"><span class="pre">mlrl.common.rule_learners.SparseFormat</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">dtype</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sparse_values</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#mlrl.common.rule_learners.is_sparse" title="Permalink to this definition"></a></dt>
+<dd><p>Returns whether a given matrix is considered sparse or not. A matrix is considered sparse if it is given in a sparse
+format and is expected to occupy less memory than a dense matrix.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>m</strong> – A <cite>np.ndarray</cite> or <cite>scipy.sparse.matrix</cite> to be checked</p></li>
+<li><p><strong>sparse_format</strong> – The <cite>SparseFormat</cite> to be used</p></li>
+<li><p><strong>dtype</strong> – The type of the values that should be stored in the matrix</p></li>
+<li><p><strong>sparse_values</strong> – True, if the values must explicitly be stored when using a sparse format, False otherwise</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>True, if the given matrix is considered sparse, False otherwise</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="mlrl.common.rule_learners.parse_param">
+<span class="sig-prename descclassname"><span class="pre">mlrl.common.rule_learners.</span></span><span class="sig-name descname"><span class="pre">parse_param</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">parameter_name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">value</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">allowed_values</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Set</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#mlrl.common.rule_learners.parse_param" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="mlrl.common.rule_learners.parse_param_and_options">
+<span class="sig-prename descclassname"><span class="pre">mlrl.common.rule_learners.</span></span><span class="sig-name descname"><span class="pre">parse_param_and_options</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">parameter_name:</span> <span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">value:</span> <span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">allowed_values_and_options:</span> <span class="pre">Dict[str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">Set[str]])</span> <span class="pre">-&gt;</span> <span class="pre">(&lt;class</span> <span class="pre">'str'&gt;</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">&lt;class</span> <span class="pre">'mlrl.common.options.Options'&gt;</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.common.rule_learners.parse_param_and_options" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="mlrl.common.rule_learners.should_enforce_sparse">
+<span class="sig-prename descclassname"><span class="pre">mlrl.common.rule_learners.</span></span><span class="sig-name descname"><span class="pre">should_enforce_sparse</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">m</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sparse_format</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#mlrl.common.rule_learners.SparseFormat" title="mlrl.common.rule_learners.SparseFormat"><span class="pre">mlrl.common.rule_learners.SparseFormat</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">policy</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#mlrl.common.rule_learners.SparsePolicy" title="mlrl.common.rule_learners.SparsePolicy"><span class="pre">mlrl.common.rule_learners.SparsePolicy</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">dtype</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sparse_values</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#mlrl.common.rule_learners.should_enforce_sparse" title="Permalink to this definition"></a></dt>
+<dd><p>Returns whether it is preferable to convert a given matrix into a <cite>scipy.sparse.csr_matrix</cite>,
+<cite>scipy.sparse.csc_matrix</cite> or <cite>scipy.sparse.dok_matrix</cite>, depending on the format of the given matrix and a given
+<cite>SparsePolicy</cite>:</p>
+<p>If the given policy is <cite>SparsePolicy.AUTO</cite>, the matrix will be converted into the given sparse format, if possible,
+if the sparse matrix is expected to occupy less memory than a dense matrix. To be able to convert the matrix into a
+sparse format, it must be a <cite>scipy.sparse.lil_matrix</cite>, <cite>scipy.sparse.dok_matrix</cite> or <cite>scipy.sparse.coo_matrix</cite>. If
+the given sparse format is <cite>csr</cite> or <cite>csc</cite> and the matrix is a already in that format, it will not be converted.</p>
+<p>If the given policy is <cite>SparsePolicy.FORCE_DENSE</cite>, the matrix will always be converted into the specified sparse
+format, if possible.</p>
+<p>If the given policy is <cite>SparsePolicy.FORCE_SPARSE</cite>, the matrix will always be converted into a dense matrix.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>m</strong> – A <cite>np.ndarray</cite> or <cite>scipy.sparse.matrix</cite> to be checked</p></li>
+<li><p><strong>sparse_format</strong> – The <cite>SparseFormat</cite> to be used</p></li>
+<li><p><strong>policy</strong> – The <cite>SparsePolicy</cite> to be used</p></li>
+<li><p><strong>dtype</strong> – The type of the values that should be stored in the matrix</p></li>
+<li><p><strong>sparse_values</strong> – True, if the values must explicitly be stored when using a sparse format, False otherwise</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>True, if it is preferable to convert the matrix into a sparse matrix of the given format,
+False otherwise</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="module-mlrl.common.strings">
+<span id="mlrl-common-strings-module"></span><h2>mlrl.common.strings module<a class="headerlink" href="#module-mlrl.common.strings" title="Permalink to this headline"></a></h2>
+<p>Author: Michael Rapp (<a class="reference external" href="mailto:michael&#46;rapp&#46;ml&#37;&#52;&#48;gmail&#46;com">michael<span>&#46;</span>rapp<span>&#46;</span>ml<span>&#64;</span>gmail<span>&#46;</span>com</a>)</p>
+<p>Provides utility functions for dealing with strings.</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="mlrl.common.strings.format_dict_keys">
+<span class="sig-prename descclassname"><span class="pre">mlrl.common.strings.</span></span><span class="sig-name descname"><span class="pre">format_dict_keys</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dictionary</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Set</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#mlrl.common.strings.format_dict_keys" title="Permalink to this definition"></a></dt>
+<dd><p>Creates and returns a textual representation of the keys in a dictionary.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>dictionary</strong> – The dictionary to be formatted</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The textual representation that has been created</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="mlrl.common.strings.format_enum_values">
+<span class="sig-prename descclassname"><span class="pre">mlrl.common.strings.</span></span><span class="sig-name descname"><span class="pre">format_enum_values</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">enum</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#mlrl.common.strings.format_enum_values" title="Permalink to this definition"></a></dt>
+<dd><p>Creates and returns a textual representation of an enum’s values.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>enum</strong> – The enum to be formatted</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The textual representation that has been created</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="mlrl.common.strings.format_string_set">
+<span class="sig-prename descclassname"><span class="pre">mlrl.common.strings.</span></span><span class="sig-name descname"><span class="pre">format_string_set</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">strings</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Set</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#mlrl.common.strings.format_string_set" title="Permalink to this definition"></a></dt>
+<dd><p>Creates and returns a textual representation of the strings in a set.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>strings</strong> – The set of strings to be formatted</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The textual representation that has been created</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="module-mlrl.common">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-mlrl.common" title="Permalink to this headline"></a></h2>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="mlrl.html" class="btn btn-neutral float-left" title="mlrl package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2020-2021, Michael Rapp.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
