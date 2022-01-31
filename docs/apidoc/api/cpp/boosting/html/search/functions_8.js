@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['measuresimilarity_0',['measureSimilarity',['../classboosting_1_1ExampleWiseLogisticLoss.html#ae880602135d2654589bd5b68e1a776f8',1,'boosting::ExampleWiseLogisticLoss::measureSimilarity()'],['../classboosting_1_1AbstractLabelWiseLoss.html#ae770a3a0959fe6e60f99018b525f8139',1,'boosting::AbstractLabelWiseLoss::measureSimilarity()']]]
+  ['measuresimilarity_0',['measureSimilarity',['../classboosting_1_1ExampleWiseLogisticLoss.html#a3380166d3144040f825ee51483b5ba9e',1,'boosting::ExampleWiseLogisticLoss::measureSimilarity()'],['../classboosting_1_1LabelWiseLoss.html#a400ca8cb38d55c498cc61d65a0e414b6',1,'boosting::LabelWiseLoss::measureSimilarity()']]]
 ];

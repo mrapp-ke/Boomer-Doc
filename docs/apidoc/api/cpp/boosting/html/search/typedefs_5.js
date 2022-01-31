@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['partialsubset_0',['PartialSubset',['../classboosting_1_1AbstractExampleWiseImmutableStatistics.html#a7dccdc8a9d667218316e019e539e38ce',1,'boosting::AbstractExampleWiseImmutableStatistics::PartialSubset()'],['../classboosting_1_1AbstractLabelWiseImmutableStatistics.html#a6a5a786aa9cc2907a0050557e2b4a11e',1,'boosting::AbstractLabelWiseImmutableStatistics::PartialSubset()']]],
-  ['pointer_1',['pointer',['../classboosting_1_1DiagonalConstIterator.html#afc2d998968e7559390fc8a6cedaaef13',1,'boosting::DiagonalConstIterator']]]
+  ['iterator_0',['iterator',['../classboosting_1_1DenseLabelWiseStatisticVector.html#aa3007da0facbf46965da584214b11aff',1,'boosting::DenseLabelWiseStatisticVector::iterator()'],['../classboosting_1_1DenseLabelWiseStatisticView.html#a62667307ac0edfae08dd7e886e363d49',1,'boosting::DenseLabelWiseStatisticView::iterator()']]],
+  ['iterator_5fcategory_1',['iterator_category',['../classboosting_1_1DiagonalConstIterator.html#a0015444816c512c3703afc3e586ea798',1,'boosting::DiagonalConstIterator']]]
 ];

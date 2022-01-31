@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['value_5ftype_0',['value_type',['../classboosting_1_1DiagonalConstIterator.html#a2dd9c165739613402f96b7934197c5ab',1,'boosting::DiagonalConstIterator']]]
+  ['reference_0',['reference',['../classboosting_1_1DiagonalConstIterator.html#aa0d52a98744cd9f40ece38d1b0862cf2',1,'boosting::DiagonalConstIterator']]]
 ];

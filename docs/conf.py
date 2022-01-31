@@ -17,11 +17,11 @@ from pathlib import Path
 # -- Project information -----------------------------------------------------
 
 project = 'BOOMER'
-copyright = '2020-2021, Michael Rapp'
+copyright = '2020-2022, Michael Rapp'
 author = 'Michael Rapp'
 
 # The full version, including alpha/beta/rc tags
-release = '0.7.1'
+release = (Path(__file__).resolve().parent.parent / 'VERSION').read_text()
 
 # -- General configuration ---------------------------------------------------
 

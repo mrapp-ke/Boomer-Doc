@@ -1,12 +1,22 @@
 var searchData=
 [
-  ['labelwiseclassificationpredictor_0',['LabelWiseClassificationPredictor',['../classboosting_1_1LabelWiseClassificationPredictor.html#a42ba9c0f5e412cd07eb5204da9dece00',1,'boosting::LabelWiseClassificationPredictor']]],
-  ['labelwisecompletebinnedruleevaluationfactory_1',['LabelWiseCompleteBinnedRuleEvaluationFactory',['../classboosting_1_1LabelWiseCompleteBinnedRuleEvaluationFactory.html#a716380e4d69bd3672e975f299af21cac',1,'boosting::LabelWiseCompleteBinnedRuleEvaluationFactory']]],
-  ['labelwisecompleteruleevaluationfactory_2',['LabelWiseCompleteRuleEvaluationFactory',['../classboosting_1_1LabelWiseCompleteRuleEvaluationFactory.html#a129ad4b67ad83b6afe8ec5a987d9a9ff',1,'boosting::LabelWiseCompleteRuleEvaluationFactory']]],
-  ['labelwisehistogram_3',['LabelWiseHistogram',['../classboosting_1_1LabelWiseHistogram.html#a09e6083b10a244c2612f15e05edbda59',1,'boosting::LabelWiseHistogram']]],
-  ['labelwiseprobabilitypredictor_4',['LabelWiseProbabilityPredictor',['../classboosting_1_1LabelWiseProbabilityPredictor.html#ae1af2bb5b9c6ba5e3013f6a6081d4333',1,'boosting::LabelWiseProbabilityPredictor']]],
-  ['labelwiseregressionpredictor_5',['LabelWiseRegressionPredictor',['../classboosting_1_1LabelWiseRegressionPredictor.html#aa404f26e49cd15bb305d114f905048bf',1,'boosting::LabelWiseRegressionPredictor']]],
-  ['labelwisesinglelabelruleevaluationfactory_6',['LabelWiseSingleLabelRuleEvaluationFactory',['../classboosting_1_1LabelWiseSingleLabelRuleEvaluationFactory.html#a22982632e3367095cc3db6779d25f050',1,'boosting::LabelWiseSingleLabelRuleEvaluationFactory']]],
-  ['labelwisestatisticsprovider_7',['LabelWiseStatisticsProvider',['../classboosting_1_1LabelWiseStatisticsProvider.html#a35681d5adeb50a57200aab756d63b14c',1,'boosting::LabelWiseStatisticsProvider']]],
-  ['lapack_8',['Lapack',['../classboosting_1_1Lapack.html#af88bae9d8a333ae1b25d9ca583ba9fef',1,'boosting::Lapack']]]
+  ['labelwiseclassificationpredictor_0',['LabelWiseClassificationPredictor',['../classboosting_1_1LabelWiseClassificationPredictor.html#a868cd64a681ad74469371809a2691a1f',1,'boosting::LabelWiseClassificationPredictor']]],
+  ['labelwiseclassificationpredictorconfig_1',['LabelWiseClassificationPredictorConfig',['../classboosting_1_1LabelWiseClassificationPredictorConfig.html#a786de3e6c7eea5e366d98c779ad0f3b0',1,'boosting::LabelWiseClassificationPredictorConfig']]],
+  ['labelwiseclassificationpredictorfactory_2',['LabelWiseClassificationPredictorFactory',['../classboosting_1_1LabelWiseClassificationPredictorFactory.html#a40c3aa8fb706059adf5d639074b47a30',1,'boosting::LabelWiseClassificationPredictorFactory']]],
+  ['labelwisecompletebinnedruleevaluationfactory_3',['LabelWiseCompleteBinnedRuleEvaluationFactory',['../classboosting_1_1LabelWiseCompleteBinnedRuleEvaluationFactory.html#a716380e4d69bd3672e975f299af21cac',1,'boosting::LabelWiseCompleteBinnedRuleEvaluationFactory']]],
+  ['labelwisecompleteruleevaluationfactory_4',['LabelWiseCompleteRuleEvaluationFactory',['../classboosting_1_1LabelWiseCompleteRuleEvaluationFactory.html#a129ad4b67ad83b6afe8ec5a987d9a9ff',1,'boosting::LabelWiseCompleteRuleEvaluationFactory']]],
+  ['labelwisehistogram_5',['LabelWiseHistogram',['../classboosting_1_1LabelWiseHistogram.html#a09e6083b10a244c2612f15e05edbda59',1,'boosting::LabelWiseHistogram']]],
+  ['labelwiselogisticlossconfig_6',['LabelWiseLogisticLossConfig',['../classboosting_1_1LabelWiseLogisticLossConfig.html#ac8ef192348fa7c56065d80c031b9fdde',1,'boosting::LabelWiseLogisticLossConfig']]],
+  ['labelwiseloss_7',['LabelWiseLoss',['../classboosting_1_1LabelWiseLoss.html#ad7b4c53a806fb1815f7c94816c87da00',1,'boosting::LabelWiseLoss']]],
+  ['labelwiseprobabilitypredictor_8',['LabelWiseProbabilityPredictor',['../classboosting_1_1LabelWiseProbabilityPredictor.html#a5668e3b0c8c400740b6da9c1af7d3322',1,'boosting::LabelWiseProbabilityPredictor']]],
+  ['labelwiseprobabilitypredictorconfig_9',['LabelWiseProbabilityPredictorConfig',['../classboosting_1_1LabelWiseProbabilityPredictorConfig.html#a2219b63877595c620d3596d77ac4fbdc',1,'boosting::LabelWiseProbabilityPredictorConfig']]],
+  ['labelwiseprobabilitypredictorfactory_10',['LabelWiseProbabilityPredictorFactory',['../classboosting_1_1LabelWiseProbabilityPredictorFactory.html#aeb6ea618eb69b28aadfd4054cdf49f47',1,'boosting::LabelWiseProbabilityPredictorFactory']]],
+  ['labelwiseregressionpredictor_11',['LabelWiseRegressionPredictor',['../classboosting_1_1LabelWiseRegressionPredictor.html#a8a204604072a64082e502c7a64dd7279',1,'boosting::LabelWiseRegressionPredictor']]],
+  ['labelwiseregressionpredictorconfig_12',['LabelWiseRegressionPredictorConfig',['../classboosting_1_1LabelWiseRegressionPredictorConfig.html#a7b8398fa28f9dd63f2cfd4b799c03559',1,'boosting::LabelWiseRegressionPredictorConfig']]],
+  ['labelwiseregressionpredictorfactory_13',['LabelWiseRegressionPredictorFactory',['../classboosting_1_1LabelWiseRegressionPredictorFactory.html#a4aa6d64440ccbcdd0972f31f0ddb0c89',1,'boosting::LabelWiseRegressionPredictorFactory']]],
+  ['labelwisesinglelabelruleevaluationfactory_14',['LabelWiseSingleLabelRuleEvaluationFactory',['../classboosting_1_1LabelWiseSingleLabelRuleEvaluationFactory.html#a22982632e3367095cc3db6779d25f050',1,'boosting::LabelWiseSingleLabelRuleEvaluationFactory']]],
+  ['labelwisesquarederrorlossconfig_15',['LabelWiseSquaredErrorLossConfig',['../classboosting_1_1LabelWiseSquaredErrorLossConfig.html#a18f0d222978a1a47283c4c0dfc474944',1,'boosting::LabelWiseSquaredErrorLossConfig']]],
+  ['labelwisesquaredhingelossconfig_16',['LabelWiseSquaredHingeLossConfig',['../classboosting_1_1LabelWiseSquaredHingeLossConfig.html#a21846739c2030749751c2d3f9a50b716',1,'boosting::LabelWiseSquaredHingeLossConfig']]],
+  ['labelwisestatisticsprovider_17',['LabelWiseStatisticsProvider',['../classboosting_1_1LabelWiseStatisticsProvider.html#a35681d5adeb50a57200aab756d63b14c',1,'boosting::LabelWiseStatisticsProvider']]],
+  ['lapack_18',['Lapack',['../classboosting_1_1Lapack.html#af2610098f137fccc50ad89b4db1f9d0e',1,'boosting::Lapack']]]
 ];

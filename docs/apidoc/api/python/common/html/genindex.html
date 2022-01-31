@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Index &mdash; mlrl-common 0.7.1 documentation</title>
+  <title>Index &mdash; mlrl-common 0.8.0 documentation</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
@@ -100,27 +100,37 @@
 <h2 id="C">C</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="mlrl.common.html#mlrl.common.options.Options.create">create() (mlrl.common.options.Options class method)</a>
+      <li><a href="mlrl.common.html#mlrl.common.rule_learners.configure_feature_binning">configure_feature_binning() (in module mlrl.common.rule_learners)</a>
 </li>
-      <li><a href="mlrl.common.html#mlrl.common.rule_learners.create_feature_sampling_factory">create_feature_sampling_factory() (in module mlrl.common.rule_learners)</a>
+      <li><a href="mlrl.common.html#mlrl.common.rule_learners.configure_feature_sampling">configure_feature_sampling() (in module mlrl.common.rule_learners)</a>
 </li>
-      <li><a href="mlrl.common.html#mlrl.common.rule_learners.create_instance_sampling_factory">create_instance_sampling_factory() (in module mlrl.common.rule_learners)</a>
+      <li><a href="mlrl.common.html#mlrl.common.rule_learners.configure_instance_sampling">configure_instance_sampling() (in module mlrl.common.rule_learners)</a>
 </li>
-      <li><a href="mlrl.common.html#mlrl.common.rule_learners.create_label_sampling_factory">create_label_sampling_factory() (in module mlrl.common.rule_learners)</a>
+      <li><a href="mlrl.common.html#mlrl.common.rule_learners.configure_label_sampling">configure_label_sampling() (in module mlrl.common.rule_learners)</a>
 </li>
-      <li><a href="mlrl.common.html#mlrl.common.rule_learners.create_num_threads">create_num_threads() (in module mlrl.common.rule_learners)</a>
+      <li><a href="mlrl.common.html#mlrl.common.rule_learners.configure_parallel_prediction">configure_parallel_prediction() (in module mlrl.common.rule_learners)</a>
 </li>
-      <li><a href="mlrl.common.html#mlrl.common.rule_learners.create_partition_sampling_factory">create_partition_sampling_factory() (in module mlrl.common.rule_learners)</a>
+      <li><a href="mlrl.common.html#mlrl.common.rule_learners.configure_parallel_rule_refinement">configure_parallel_rule_refinement() (in module mlrl.common.rule_learners)</a>
+</li>
+      <li><a href="mlrl.common.html#mlrl.common.rule_learners.configure_parallel_statistic_update">configure_parallel_statistic_update() (in module mlrl.common.rule_learners)</a>
+</li>
+      <li><a href="mlrl.common.html#mlrl.common.rule_learners.configure_partition_sampling">configure_partition_sampling() (in module mlrl.common.rule_learners)</a>
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="mlrl.common.html#mlrl.common.rule_learners.create_pruning">create_pruning() (in module mlrl.common.rule_learners)</a>
+      <li><a href="mlrl.common.html#mlrl.common.rule_learners.configure_pruning">configure_pruning() (in module mlrl.common.rule_learners)</a>
+</li>
+      <li><a href="mlrl.common.html#mlrl.common.rule_learners.configure_rule_induction">configure_rule_induction() (in module mlrl.common.rule_learners)</a>
+</li>
+      <li><a href="mlrl.common.html#mlrl.common.rule_learners.configure_rule_model_assemblage">configure_rule_model_assemblage() (in module mlrl.common.rule_learners)</a>
+</li>
+      <li><a href="mlrl.common.html#mlrl.common.rule_learners.configure_size_stopping_criterion">configure_size_stopping_criterion() (in module mlrl.common.rule_learners)</a>
+</li>
+      <li><a href="mlrl.common.html#mlrl.common.rule_learners.configure_time_stopping_criterion">configure_time_stopping_criterion() (in module mlrl.common.rule_learners)</a>
+</li>
+      <li><a href="mlrl.common.html#mlrl.common.options.Options.create">create() (mlrl.common.options.Options class method)</a>
 </li>
       <li><a href="mlrl.common.html#mlrl.common.rule_learners.create_sparse_policy">create_sparse_policy() (in module mlrl.common.rule_learners)</a>
-</li>
-      <li><a href="mlrl.common.html#mlrl.common.rule_learners.create_stopping_criteria">create_stopping_criteria() (in module mlrl.common.rule_learners)</a>
-</li>
-      <li><a href="mlrl.common.html#mlrl.common.rule_learners.create_thresholds_factory">create_thresholds_factory() (in module mlrl.common.rule_learners)</a>
 </li>
       <li><a href="mlrl.common.html#mlrl.common.rule_learners.SparseFormat.CSC">CSC (mlrl.common.rule_learners.SparseFormat attribute)</a>
 </li>
@@ -148,8 +158,6 @@
   <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="mlrl.common.html#mlrl.common.options.BooleanOption.FALSE">FALSE (mlrl.common.options.BooleanOption attribute)</a>
 </li>
-      <li><a href="mlrl.common.html#mlrl.common.rule_learners.FeatureCharacteristics">FeatureCharacteristics (class in mlrl.common.rule_learners)</a>
-</li>
       <li><a href="mlrl.common.html#mlrl.common.learners.Learner.fit">fit() (mlrl.common.learners.Learner method)</a>
 </li>
       <li><a href="mlrl.common.html#mlrl.common.rule_learners.SparsePolicy.FORCE_DENSE">FORCE_DENSE (mlrl.common.rule_learners.SparsePolicy attribute)</a>
@@ -174,23 +182,11 @@
 </li>
       <li><a href="mlrl.common.html#mlrl.common.options.Options.get_float">get_float() (mlrl.common.options.Options method)</a>
 </li>
-      <li><a href="mlrl.common.html#mlrl.common.options.Options.get_int">get_int() (mlrl.common.options.Options method)</a>
-</li>
-      <li><a href="mlrl.common.html#mlrl.common.rule_learners.LabelCharacteristics.get_label_cardinality">get_label_cardinality() (mlrl.common.rule_learners.LabelCharacteristics method)</a>
-</li>
-      <li><a href="mlrl.common.html#mlrl.common.learners.Learner.get_name">get_name() (mlrl.common.learners.Learner method)</a>
-</li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="mlrl.common.html#mlrl.common.rule_learners.FeatureCharacteristics.get_num_examples">get_num_examples() (mlrl.common.rule_learners.FeatureCharacteristics method)</a>
-
-      <ul>
-        <li><a href="mlrl.common.html#mlrl.common.rule_learners.LabelCharacteristics.get_num_examples">(mlrl.common.rule_learners.LabelCharacteristics method)</a>
+      <li><a href="mlrl.common.html#mlrl.common.options.Options.get_int">get_int() (mlrl.common.options.Options method)</a>
 </li>
-      </ul></li>
-      <li><a href="mlrl.common.html#mlrl.common.rule_learners.FeatureCharacteristics.get_num_features">get_num_features() (mlrl.common.rule_learners.FeatureCharacteristics method)</a>
-</li>
-      <li><a href="mlrl.common.html#mlrl.common.rule_learners.LabelCharacteristics.get_num_labels">get_num_labels() (mlrl.common.rule_learners.LabelCharacteristics method)</a>
+      <li><a href="mlrl.common.html#mlrl.common.learners.Learner.get_name">get_name() (mlrl.common.learners.Learner method)</a>
 </li>
       <li><a href="mlrl.common.html#mlrl.common.options.Options.get_string">get_string() (mlrl.common.options.Options method)</a>
 </li>
@@ -201,22 +197,12 @@
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="mlrl.common.html#mlrl.common.rule_learners.is_sparse">is_sparse() (in module mlrl.common.rule_learners)</a>
-
-      <ul>
-        <li><a href="mlrl.common.html#mlrl.common.rule_learners.FeatureCharacteristics.is_sparse">(mlrl.common.rule_learners.FeatureCharacteristics method)</a>
 </li>
-        <li><a href="mlrl.common.html#mlrl.common.rule_learners.LabelCharacteristics.is_sparse">(mlrl.common.rule_learners.LabelCharacteristics method)</a>
-</li>
-      </ul></li>
   </ul></td>
 </tr></table>
 
 <h2 id="L">L</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="mlrl.common.html#mlrl.common.rule_learners.LabelCharacteristics">LabelCharacteristics (class in mlrl.common.rule_learners)</a>
-</li>
-  </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="mlrl.common.html#mlrl.common.learners.Learner">Learner (class in mlrl.common.learners)</a>
 </li>

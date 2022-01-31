@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['rulelistbuilder_0',['RuleListBuilder',['../classboosting_1_1RuleListBuilder.html',1,'boosting']]]
+  ['nolabelbinningconfig_0',['NoLabelBinningConfig',['../classboosting_1_1NoLabelBinningConfig.html',1,'boosting']]],
+  ['noregularizationconfig_1',['NoRegularizationConfig',['../classboosting_1_1NoRegularizationConfig.html',1,'boosting']]],
+  ['numericdensematrix_2',['NumericDenseMatrix',['../classboosting_1_1NumericDenseMatrix.html',1,'boosting']]]
 ];

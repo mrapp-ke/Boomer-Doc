@@ -7,10 +7,9 @@ var searchData=
   ['binarydokvector_4',['BinaryDokVector',['../classBinaryDokVector.html',1,'']]],
   ['binaryforwarditerator_5',['BinaryForwardIterator',['../classBinaryForwardIterator.html',1,'']]],
   ['binarylilmatrix_6',['BinaryLilMatrix',['../classBinaryLilMatrix.html',1,'']]],
-  ['binarysparsearrayvector_7',['BinarySparseArrayVector',['../classBinarySparseArrayVector.html',1,'']]],
-  ['binarysparsepredictionmatrix_8',['BinarySparsePredictionMatrix',['../classBinarySparsePredictionMatrix.html',1,'']]],
-  ['bipartition_9',['BiPartition',['../classBiPartition.html',1,'']]],
-  ['bitnominalfeaturemask_10',['BitNominalFeatureMask',['../classBitNominalFeatureMask.html',1,'']]],
-  ['bitvector_11',['BitVector',['../classBitVector.html',1,'']]],
-  ['bitweightvector_12',['BitWeightVector',['../classBitWeightVector.html',1,'']]]
+  ['binarysparsepredictionmatrix_7',['BinarySparsePredictionMatrix',['../classBinarySparsePredictionMatrix.html',1,'']]],
+  ['bipartition_8',['BiPartition',['../classBiPartition.html',1,'']]],
+  ['bitnominalfeaturemask_9',['BitNominalFeatureMask',['../classBitNominalFeatureMask.html',1,'']]],
+  ['bitvector_10',['BitVector',['../classBitVector.html',1,'']]],
+  ['bitweightvector_11',['BitWeightVector',['../classBitWeightVector.html',1,'']]]
 ];

@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>mlrl.testbed package &mdash; mlrl-testbed 0.7.1 documentation</title>
+  <title>mlrl.testbed package &mdash; mlrl-testbed 0.8.0 documentation</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
@@ -50,6 +50,7 @@
 <li class="toctree-l4"><a class="reference internal" href="#module-mlrl.testbed.interfaces">mlrl.testbed.interfaces module</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#module-mlrl.testbed.io">mlrl.testbed.io module</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#module-mlrl.testbed.main_boomer">mlrl.testbed.main_boomer module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-mlrl.testbed.main_seco">mlrl.testbed.main_seco module</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#module-mlrl.testbed.model_characteristics">mlrl.testbed.model_characteristics module</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#module-mlrl.testbed.parameters">mlrl.testbed.parameters module</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#module-mlrl.testbed.persistence">mlrl.testbed.persistence module</a></li>
@@ -148,22 +149,22 @@
 
 <dl class="py function">
 <dt class="sig sig-object py" id="mlrl.testbed.args.add_learner_arguments">
-<span class="sig-prename descclassname"><span class="pre">mlrl.testbed.args.</span></span><span class="sig-name descname"><span class="pre">add_learner_arguments</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">parser</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">argparse.ArgumentParser</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.testbed.args.add_learner_arguments" title="Permalink to this definition"></a></dt>
+<span class="sig-prename descclassname"><span class="pre">mlrl.testbed.args.</span></span><span class="sig-name descname"><span class="pre">add_learner_arguments</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">parser</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">argparse.ArgumentParser</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.testbed.args.add_learner_arguments" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py function">
 <dt class="sig sig-object py" id="mlrl.testbed.args.add_log_level_argument">
-<span class="sig-prename descclassname"><span class="pre">mlrl.testbed.args.</span></span><span class="sig-name descname"><span class="pre">add_log_level_argument</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">parser</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">argparse.ArgumentParser</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.testbed.args.add_log_level_argument" title="Permalink to this definition"></a></dt>
+<span class="sig-prename descclassname"><span class="pre">mlrl.testbed.args.</span></span><span class="sig-name descname"><span class="pre">add_log_level_argument</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">parser</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">argparse.ArgumentParser</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.testbed.args.add_log_level_argument" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py function">
 <dt class="sig sig-object py" id="mlrl.testbed.args.add_random_state_argument">
-<span class="sig-prename descclassname"><span class="pre">mlrl.testbed.args.</span></span><span class="sig-name descname"><span class="pre">add_random_state_argument</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">parser</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">argparse.ArgumentParser</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.testbed.args.add_random_state_argument" title="Permalink to this definition"></a></dt>
+<span class="sig-prename descclassname"><span class="pre">mlrl.testbed.args.</span></span><span class="sig-name descname"><span class="pre">add_random_state_argument</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">parser</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">argparse.ArgumentParser</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.testbed.args.add_random_state_argument" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py function">
 <dt class="sig sig-object py" id="mlrl.testbed.args.add_rule_learner_arguments">
-<span class="sig-prename descclassname"><span class="pre">mlrl.testbed.args.</span></span><span class="sig-name descname"><span class="pre">add_rule_learner_arguments</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">parser</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">argparse.ArgumentParser</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.testbed.args.add_rule_learner_arguments" title="Permalink to this definition"></a></dt>
+<span class="sig-prename descclassname"><span class="pre">mlrl.testbed.args.</span></span><span class="sig-name descname"><span class="pre">add_rule_learner_arguments</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">parser</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">argparse.ArgumentParser</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.testbed.args.add_rule_learner_arguments" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py function">
@@ -174,16 +175,6 @@
 <dl class="py function">
 <dt class="sig sig-object py" id="mlrl.testbed.args.current_fold_string">
 <span class="sig-prename descclassname"><span class="pre">mlrl.testbed.args.</span></span><span class="sig-name descname"><span class="pre">current_fold_string</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">s</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.testbed.args.current_fold_string" title="Permalink to this definition"></a></dt>
-<dd></dd></dl>
-
-<dl class="py function">
-<dt class="sig sig-object py" id="mlrl.testbed.args.get_argument_name">
-<span class="sig-prename descclassname"><span class="pre">mlrl.testbed.args.</span></span><span class="sig-name descname"><span class="pre">get_argument_name</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#mlrl.testbed.args.get_argument_name" title="Permalink to this definition"></a></dt>
-<dd></dd></dl>
-
-<dl class="py function">
-<dt class="sig sig-object py" id="mlrl.testbed.args.get_or_default">
-<span class="sig-prename descclassname"><span class="pre">mlrl.testbed.args.</span></span><span class="sig-name descname"><span class="pre">get_or_default</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">key</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">default_value</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.testbed.args.get_or_default" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py function">
@@ -1202,6 +1193,21 @@ a specific fold</p></li>
 <dd></dd></dl>
 
 </section>
+<section id="module-mlrl.testbed.main_seco">
+<span id="mlrl-testbed-main-seco-module"></span><h2>mlrl.testbed.main_seco module<a class="headerlink" href="#module-mlrl.testbed.main_seco" title="Permalink to this headline"></a></h2>
+<p>Author: Michael Rapp (<a class="reference external" href="mailto:michael&#46;rapp&#46;ml&#37;&#52;&#48;gmail&#46;com">michael<span>&#46;</span>rapp<span>&#46;</span>ml<span>&#64;</span>gmail<span>&#46;</span>com</a>)</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="mlrl.testbed.main_seco.SeCoRunnable">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mlrl.testbed.main_seco.</span></span><span class="sig-name descname"><span class="pre">SeCoRunnable</span></span><a class="headerlink" href="#mlrl.testbed.main_seco.SeCoRunnable" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="#mlrl.testbed.runnables.RuleLearnerRunnable" title="mlrl.testbed.runnables.RuleLearnerRunnable"><code class="xref py py-class docutils literal notranslate"><span class="pre">mlrl.testbed.runnables.RuleLearnerRunnable</span></code></a></p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="mlrl.testbed.main_seco.main">
+<span class="sig-prename descclassname"><span class="pre">mlrl.testbed.main_seco.</span></span><span class="sig-name descname"><span class="pre">main</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.testbed.main_seco.main" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</section>
 <section id="module-mlrl.testbed.model_characteristics">
 <span id="mlrl-testbed-model-characteristics-module"></span><h2>mlrl.testbed.model_characteristics module<a class="headerlink" href="#module-mlrl.testbed.model_characteristics" title="Permalink to this headline"></a></h2>
 <p>Author: Michael Rapp (<a class="reference external" href="mailto:michael&#46;rapp&#46;ml&#37;&#52;&#48;gmail&#46;com">michael<span>&#46;</span>rapp<span>&#46;</span>ml<span>&#64;</span>gmail<span>&#46;</span>com</a>)</p>
@@ -1459,11 +1465,11 @@ is used</p></li>
 <dl class="py class">
 <dt class="sig sig-object py" id="mlrl.testbed.model_characteristics.RuleModelCharacteristicsVisitor">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mlrl.testbed.model_characteristics.</span></span><span class="sig-name descname"><span class="pre">RuleModelCharacteristicsVisitor</span></span><a class="headerlink" href="#mlrl.testbed.model_characteristics.RuleModelCharacteristicsVisitor" title="Permalink to this definition"></a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">mlrl.common.cython.model.RuleModelVisitor</span></code></p>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">mlrl.common.cython.rule_model.RuleModelVisitor</span></code></p>
 <p>A visitor that allows to determine the characteristics of a <cite>RuleModel</cite>.</p>
 <dl class="py method">
 <dt class="sig sig-object py" id="mlrl.testbed.model_characteristics.RuleModelCharacteristicsVisitor.visit_complete_head">
-<span class="sig-name descname"><span class="pre">visit_complete_head</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">head</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">mlrl.common.cython.model.CompleteHead</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.testbed.model_characteristics.RuleModelCharacteristicsVisitor.visit_complete_head" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">visit_complete_head</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">head</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">mlrl.common.cython.rule_model.CompleteHead</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.testbed.model_characteristics.RuleModelCharacteristicsVisitor.visit_complete_head" title="Permalink to this definition"></a></dt>
 <dd><p>Must be implemented by subclasses in order to visit the heads of rules that predict for all available labels.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -1474,7 +1480,7 @@ is used</p></li>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="mlrl.testbed.model_characteristics.RuleModelCharacteristicsVisitor.visit_conjunctive_body">
-<span class="sig-name descname"><span class="pre">visit_conjunctive_body</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">body</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">mlrl.common.cython.model.ConjunctiveBody</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.testbed.model_characteristics.RuleModelCharacteristicsVisitor.visit_conjunctive_body" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">visit_conjunctive_body</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">body</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">mlrl.common.cython.rule_model.ConjunctiveBody</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.testbed.model_characteristics.RuleModelCharacteristicsVisitor.visit_conjunctive_body" title="Permalink to this definition"></a></dt>
 <dd><p>Must be implemented by subclasses in order to visit the bodies of rule that are given as a conjunction of
 several conditions.</p>
 <dl class="field-list simple">
@@ -1486,7 +1492,7 @@ several conditions.</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="mlrl.testbed.model_characteristics.RuleModelCharacteristicsVisitor.visit_empty_body">
-<span class="sig-name descname"><span class="pre">visit_empty_body</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">mlrl.common.cython.model.EmptyBody</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.testbed.model_characteristics.RuleModelCharacteristicsVisitor.visit_empty_body" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">visit_empty_body</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">mlrl.common.cython.rule_model.EmptyBody</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.testbed.model_characteristics.RuleModelCharacteristicsVisitor.visit_empty_body" title="Permalink to this definition"></a></dt>
 <dd><p>Must be implemented by subclasses in order to visit bodies of rules that do not contain any conditions.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -1497,7 +1503,7 @@ several conditions.</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="mlrl.testbed.model_characteristics.RuleModelCharacteristicsVisitor.visit_partial_head">
-<span class="sig-name descname"><span class="pre">visit_partial_head</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">head</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">mlrl.common.cython.model.PartialHead</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.testbed.model_characteristics.RuleModelCharacteristicsVisitor.visit_partial_head" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">visit_partial_head</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">head</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">mlrl.common.cython.rule_model.PartialHead</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.testbed.model_characteristics.RuleModelCharacteristicsVisitor.visit_partial_head" title="Permalink to this definition"></a></dt>
 <dd><p>Must be implemented by subclasses in order to visit the heads of rules that predict for a subset of the
 available labels.</p>
 <dl class="field-list simple">
@@ -1512,7 +1518,7 @@ available labels.</p>
 <dl class="py class">
 <dt class="sig sig-object py" id="mlrl.testbed.model_characteristics.RuleModelFormatter">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mlrl.testbed.model_characteristics.</span></span><span class="sig-name descname"><span class="pre">RuleModelFormatter</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">attributes</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#mlrl.testbed.data.Attribute" title="mlrl.testbed.data.Attribute"><span class="pre">mlrl.testbed.data.Attribute</span></a><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">labels</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#mlrl.testbed.data.Attribute" title="mlrl.testbed.data.Attribute"><span class="pre">mlrl.testbed.data.Attribute</span></a><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">print_feature_names</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">print_label_names</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">print_nominal_values</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.testbed.model_characteristics.RuleModelFormatter" title="Permalink to this definition"></a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">mlrl.common.cython.model.RuleModelVisitor</span></code></p>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">mlrl.common.cython.rule_model.RuleModelVisitor</span></code></p>
 <p>Allows to create textual representation of the rules in a <cite>RuleModel</cite>.</p>
 <dl class="py method">
 <dt class="sig sig-object py" id="mlrl.testbed.model_characteristics.RuleModelFormatter.get_text">
@@ -1527,7 +1533,7 @@ available labels.</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="mlrl.testbed.model_characteristics.RuleModelFormatter.visit_complete_head">
-<span class="sig-name descname"><span class="pre">visit_complete_head</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">head</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">mlrl.common.cython.model.CompleteHead</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.testbed.model_characteristics.RuleModelFormatter.visit_complete_head" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">visit_complete_head</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">head</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">mlrl.common.cython.rule_model.CompleteHead</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.testbed.model_characteristics.RuleModelFormatter.visit_complete_head" title="Permalink to this definition"></a></dt>
 <dd><p>Must be implemented by subclasses in order to visit the heads of rules that predict for all available labels.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -1538,7 +1544,7 @@ available labels.</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="mlrl.testbed.model_characteristics.RuleModelFormatter.visit_conjunctive_body">
-<span class="sig-name descname"><span class="pre">visit_conjunctive_body</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">body</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">mlrl.common.cython.model.ConjunctiveBody</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.testbed.model_characteristics.RuleModelFormatter.visit_conjunctive_body" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">visit_conjunctive_body</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">body</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">mlrl.common.cython.rule_model.ConjunctiveBody</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.testbed.model_characteristics.RuleModelFormatter.visit_conjunctive_body" title="Permalink to this definition"></a></dt>
 <dd><p>Must be implemented by subclasses in order to visit the bodies of rule that are given as a conjunction of
 several conditions.</p>
 <dl class="field-list simple">
@@ -1550,7 +1556,7 @@ several conditions.</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="mlrl.testbed.model_characteristics.RuleModelFormatter.visit_empty_body">
-<span class="sig-name descname"><span class="pre">visit_empty_body</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">mlrl.common.cython.model.EmptyBody</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.testbed.model_characteristics.RuleModelFormatter.visit_empty_body" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">visit_empty_body</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">mlrl.common.cython.rule_model.EmptyBody</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.testbed.model_characteristics.RuleModelFormatter.visit_empty_body" title="Permalink to this definition"></a></dt>
 <dd><p>Must be implemented by subclasses in order to visit bodies of rules that do not contain any conditions.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -1561,7 +1567,7 @@ several conditions.</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="mlrl.testbed.model_characteristics.RuleModelFormatter.visit_partial_head">
-<span class="sig-name descname"><span class="pre">visit_partial_head</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">head</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">mlrl.common.cython.model.PartialHead</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.testbed.model_characteristics.RuleModelFormatter.visit_partial_head" title="Permalink to this definition"></a></dt>
+<span class="sig-name descname"><span class="pre">visit_partial_head</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">head</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">mlrl.common.cython.rule_model.PartialHead</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.testbed.model_characteristics.RuleModelFormatter.visit_partial_head" title="Permalink to this definition"></a></dt>
 <dd><p>Must be implemented by subclasses in order to visit the heads of rules that predict for a subset of the
 available labels.</p>
 <dl class="field-list simple">

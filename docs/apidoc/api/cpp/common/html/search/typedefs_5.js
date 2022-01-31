@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['labelvectorvisitor_0',['LabelVectorVisitor',['../classLabelVectorSet.html#a393a452106cea6e06b6e2c87fc3bd4c6',1,'LabelVectorSet']]]
+  ['labelvectorvisitor_0',['LabelVectorVisitor',['../classILabelVectorSet.html#a5c4e2a9c67b4b7bbb7bfa7fff643b1f4',1,'ILabelVectorSet']]]
 ];
