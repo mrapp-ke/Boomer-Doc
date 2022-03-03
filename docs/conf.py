@@ -21,7 +21,7 @@ copyright = '2020-2022, Michael Rapp'
 author = 'Michael Rapp'
 
 # The full version, including alpha/beta/rc tags
-release = '0.8.0'
+release = '0.8.1'
 
 # -- General configuration ---------------------------------------------------
 

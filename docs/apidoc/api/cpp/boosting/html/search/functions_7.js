@@ -5,7 +5,7 @@ var searchData=
   ['labelwiseclassificationpredictorfactory_2',['LabelWiseClassificationPredictorFactory',['../classboosting_1_1LabelWiseClassificationPredictorFactory.html#a40c3aa8fb706059adf5d639074b47a30',1,'boosting::LabelWiseClassificationPredictorFactory']]],
   ['labelwisecompletebinnedruleevaluationfactory_3',['LabelWiseCompleteBinnedRuleEvaluationFactory',['../classboosting_1_1LabelWiseCompleteBinnedRuleEvaluationFactory.html#a716380e4d69bd3672e975f299af21cac',1,'boosting::LabelWiseCompleteBinnedRuleEvaluationFactory']]],
   ['labelwisecompleteruleevaluationfactory_4',['LabelWiseCompleteRuleEvaluationFactory',['../classboosting_1_1LabelWiseCompleteRuleEvaluationFactory.html#a129ad4b67ad83b6afe8ec5a987d9a9ff',1,'boosting::LabelWiseCompleteRuleEvaluationFactory']]],
-  ['labelwisehistogram_5',['LabelWiseHistogram',['../classboosting_1_1LabelWiseHistogram.html#a09e6083b10a244c2612f15e05edbda59',1,'boosting::LabelWiseHistogram']]],
+  ['labelwisehistogram_5',['LabelWiseHistogram',['../classboosting_1_1LabelWiseHistogram.html#aa4c8634277671fd37c525d05516fa711',1,'boosting::LabelWiseHistogram']]],
   ['labelwiselogisticlossconfig_6',['LabelWiseLogisticLossConfig',['../classboosting_1_1LabelWiseLogisticLossConfig.html#ac8ef192348fa7c56065d80c031b9fdde',1,'boosting::LabelWiseLogisticLossConfig']]],
   ['labelwiseloss_7',['LabelWiseLoss',['../classboosting_1_1LabelWiseLoss.html#ad7b4c53a806fb1815f7c94816c87da00',1,'boosting::LabelWiseLoss']]],
   ['labelwiseprobabilitypredictor_8',['LabelWiseProbabilityPredictor',['../classboosting_1_1LabelWiseProbabilityPredictor.html#a5668e3b0c8c400740b6da9c1af7d3322',1,'boosting::LabelWiseProbabilityPredictor']]],

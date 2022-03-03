@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">mlrlboosting<span id="projectnumber">&#160;0.8.0</span>
+   <div id="projectname">mlrlboosting<span id="projectnumber">&#160;0.8.1</span>
    </div>
    <div id="projectbrief">An Algorithm for Learning Gradient Boosted Multi-label Classification Rules</div>
   </td>
@@ -92,6 +92,10 @@ Inheritance diagram for boosting::ILabelWiseLossConfig:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aa32d3bd5be4043c115da4de8e8ea61e5"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; <a class="el" href="classboosting_1_1ILabelWiseLossFactory.html">ILabelWiseLossFactory</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1ILabelWiseLossConfig.html#aa32d3bd5be4043c115da4de8e8ea61e5">createLabelWiseLossFactory</a> () const =0</td></tr>
 <tr class="separator:aa32d3bd5be4043c115da4de8e8ea61e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c911068d17dfea5df29d6a75db90bb9"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; IEvaluationMeasureFactory &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1ILabelWiseLossConfig.html#a6c911068d17dfea5df29d6a75db90bb9">createEvaluationMeasureFactory</a> () const override final</td></tr>
+<tr class="separator:a6c911068d17dfea5df29d6a75db90bb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a855a6dd3841f757cdfdaca0242d924d9"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; ISimilarityMeasureFactory &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1ILabelWiseLossConfig.html#a855a6dd3841f757cdfdaca0242d924d9">createSimilarityMeasureFactory</a> () const override final</td></tr>
+<tr class="separator:a855a6dd3841f757cdfdaca0242d924d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classboosting_1_1ILossConfig"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classboosting_1_1ILossConfig')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classboosting_1_1ILossConfig.html">boosting::ILossConfig</a></td></tr>
 <tr class="memitem:aab07e989e92c167acfc36051360bd027 inherit pub_methods_classboosting_1_1ILossConfig"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; IStatisticsProviderFactory &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1ILossConfig.html#aab07e989e92c167acfc36051360bd027">createStatisticsProviderFactory</a> (const IFeatureMatrix &amp;featureMatrix, const ILabelMatrix &amp;labelMatrix, const <a class="el" href="classboosting_1_1Blas.html">Blas</a> &amp;blas, const <a class="el" href="classboosting_1_1Lapack.html">Lapack</a> &amp;lapack) const =0</td></tr>
 <tr class="separator:aab07e989e92c167acfc36051360bd027 inherit pub_methods_classboosting_1_1ILossConfig"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -107,6 +111,35 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Defines an interface for all classes that allow to configure a (decomposable) loss function that is applied label-wise. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a6c911068d17dfea5df29d6a75db90bb9" name="a6c911068d17dfea5df29d6a75db90bb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c911068d17dfea5df29d6a75db90bb9">&#9670;&nbsp;</a></span>createEvaluationMeasureFactory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; IEvaluationMeasureFactory &gt; boosting::ILabelWiseLossConfig::createEvaluationMeasureFactory </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Creates and returns a new object of type <code>IEvaluationMeasureFactory</code> according to the specified configuration.</p>
+<dl class="section return"><dt>Returns</dt><dd>An unique pointer to an object of type <code>IEvaluationMeasureFactory</code> that has been created </dd></dl>
+
+<p>Implements <a class="el" href="classboosting_1_1ILossConfig.html#a759fd4a270550d0a93e0e61421b416a0">boosting::ILossConfig</a>.</p>
+
+</div>
+</div>
 <a id="aa32d3bd5be4043c115da4de8e8ea61e5" name="aa32d3bd5be4043c115da4de8e8ea61e5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa32d3bd5be4043c115da4de8e8ea61e5">&#9670;&nbsp;</a></span>createLabelWiseLossFactory()</h2>
 
@@ -133,6 +166,35 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>An unique pointer to an object of type <code><a class="el" href="classboosting_1_1ILabelWiseLossFactory.html">ILabelWiseLossFactory</a></code> that has been created </dd></dl>
 
 <p>Implemented in <a class="el" href="classboosting_1_1LabelWiseLogisticLossConfig.html#a215330a447443ac1487d9b1ddfb25de9">boosting::LabelWiseLogisticLossConfig</a>, <a class="el" href="classboosting_1_1LabelWiseSquaredErrorLossConfig.html#aaf8fce8065b8823e7204a268b596c856">boosting::LabelWiseSquaredErrorLossConfig</a>, and <a class="el" href="classboosting_1_1LabelWiseSquaredHingeLossConfig.html#a4fd3120f3e4d50a351dd47ecb0f73200">boosting::LabelWiseSquaredHingeLossConfig</a>.</p>
+
+</div>
+</div>
+<a id="a855a6dd3841f757cdfdaca0242d924d9" name="a855a6dd3841f757cdfdaca0242d924d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a855a6dd3841f757cdfdaca0242d924d9">&#9670;&nbsp;</a></span>createSimilarityMeasureFactory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; ISimilarityMeasureFactory &gt; boosting::ILabelWiseLossConfig::createSimilarityMeasureFactory </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Creates and returns a new object of type <code>ISimilarityMeasureFactory</code> according to the specified configuration.</p>
+<dl class="section return"><dt>Returns</dt><dd>An unique pointer to an object of type <code>ISimilarityMeasureFactory</code> that has been created </dd></dl>
+
+<p>Implements <a class="el" href="classboosting_1_1ILossConfig.html#af1fb2d4d78b2773805eabb5d0bf8782f">boosting::ILossConfig</a>.</p>
 
 </div>
 </div>

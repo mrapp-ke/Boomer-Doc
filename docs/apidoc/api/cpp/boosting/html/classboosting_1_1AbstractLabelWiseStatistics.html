@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>mlrlboosting: boosting::AbstractLabelWiseStatistics&lt; LabelMatrix, StatisticVector, StatisticView, StatisticMatrix, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt; Class Template Reference</title>
+<title>mlrlboosting: boosting::AbstractLabelWiseStatistics&lt; LabelMatrix, StatisticVector, StatisticView, Histogram, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">mlrlboosting<span id="projectnumber">&#160;0.8.0</span>
+   <div id="projectname">mlrlboosting<span id="projectnumber">&#160;0.8.1</span>
    </div>
    <div id="projectbrief">An Algorithm for Learning Gradient Boosted Multi-label Classification Rules</div>
   </td>
@@ -68,82 +68,78 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classboosting_1_1AbstractLabelWiseStatistics-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">boosting::AbstractLabelWiseStatistics&lt; LabelMatrix, StatisticVector, StatisticView, StatisticMatrix, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt; Class Template Reference</div></div>
+  <div class="headertitle"><div class="title">boosting::AbstractLabelWiseStatistics&lt; LabelMatrix, StatisticVector, StatisticView, Histogram, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt; Class Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="statistics__label__wise__common_8hpp_source.html">statistics_label_wise_common.hpp</a>&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for boosting::AbstractLabelWiseStatistics&lt; LabelMatrix, StatisticVector, StatisticView, StatisticMatrix, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt;:</div>
+Inheritance diagram for boosting::AbstractLabelWiseStatistics&lt; LabelMatrix, StatisticVector, StatisticView, Histogram, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt;:</div>
 <div class="dyncontent">
  <div class="center">
-  <img src="classboosting_1_1AbstractLabelWiseStatistics.png" usemap="#boosting::AbstractLabelWiseStatistics_3C_20LabelMatrix_2C_20StatisticVector_2C_20StatisticView_2C_20StatisticMatrix_2C_20ScoreMatrix_2C_20LossFunction_2C_20EvaluationMeasure_2C_20RuleEvaluationFactory_20_3E_map" alt=""/>
-  <map id="boosting::AbstractLabelWiseStatistics_3C_20LabelMatrix_2C_20StatisticVector_2C_20StatisticView_2C_20StatisticMatrix_2C_20ScoreMatrix_2C_20LossFunction_2C_20EvaluationMeasure_2C_20RuleEvaluationFactory_20_3E_map" name="boosting::AbstractLabelWiseStatistics_3C_20LabelMatrix_2C_20StatisticVector_2C_20StatisticView_2C_20StatisticMatrix_2C_20ScoreMatrix_2C_20LossFunction_2C_20EvaluationMeasure_2C_20RuleEvaluationFactory_20_3E_map">
-<area href="classboosting_1_1AbstractLabelWiseImmutableStatistics.html" alt="boosting::AbstractLabelWiseImmutableStatistics&lt; StatisticVector, StatisticView, StatisticMatrix, ScoreMatrix, RuleEvaluationFactory &gt;" shape="rect" coords="0,56,983,80"/>
-<area href="classboosting_1_1ILabelWiseStatistics.html" alt="boosting::ILabelWiseStatistics&lt; RuleEvaluationFactory &gt;" shape="rect" coords="993,56,1976,80"/>
+  <img src="classboosting_1_1AbstractLabelWiseStatistics.png" usemap="#boosting::AbstractLabelWiseStatistics_3C_20LabelMatrix_2C_20StatisticVector_2C_20StatisticView_2C_20Histogram_2C_20ScoreMatrix_2C_20LossFunction_2C_20EvaluationMeasure_2C_20RuleEvaluationFactory_20_3E_map" alt=""/>
+  <map id="boosting::AbstractLabelWiseStatistics_3C_20LabelMatrix_2C_20StatisticVector_2C_20StatisticView_2C_20Histogram_2C_20ScoreMatrix_2C_20LossFunction_2C_20EvaluationMeasure_2C_20RuleEvaluationFactory_20_3E_map" name="boosting::AbstractLabelWiseStatistics_3C_20LabelMatrix_2C_20StatisticVector_2C_20StatisticView_2C_20Histogram_2C_20ScoreMatrix_2C_20LossFunction_2C_20EvaluationMeasure_2C_20RuleEvaluationFactory_20_3E_map">
+<area href="classboosting_1_1AbstractLabelWiseImmutableStatistics.html" alt="boosting::AbstractLabelWiseImmutableStatistics&lt; StatisticVector, StatisticView, ScoreMatrix, RuleEvaluationFactory &gt;" shape="rect" coords="0,56,961,80"/>
+<area href="classboosting_1_1ILabelWiseStatistics.html" alt="boosting::ILabelWiseStatistics&lt; RuleEvaluationFactory &gt;" shape="rect" coords="971,56,1932,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a89da568ae5c31e50ef210e72a09d7261"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html#a89da568ae5c31e50ef210e72a09d7261">AbstractLabelWiseStatistics</a> (std::unique_ptr&lt; LossFunction &gt; lossPtr, std::unique_ptr&lt; EvaluationMeasure &gt; evaluationMeasurePtr, const RuleEvaluationFactory &amp;ruleEvaluationFactory, const LabelMatrix &amp;labelMatrix, std::unique_ptr&lt; StatisticView &gt; statisticViewPtr, std::unique_ptr&lt; ScoreMatrix &gt; scoreMatrixPtr)</td></tr>
-<tr class="separator:a89da568ae5c31e50ef210e72a09d7261"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9a9d2c7135476eb3e2506803d7d8a1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html#ab9a9d2c7135476eb3e2506803d7d8a1c">setRuleEvaluationFactory</a> (const RuleEvaluationFactory &amp;ruleEvaluationFactory) override final</td></tr>
-<tr class="separator:ab9a9d2c7135476eb3e2506803d7d8a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7740ffb7dfccb2c8204a2db1b8a4fe3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html#aa7740ffb7dfccb2c8204a2db1b8a4fe3">resetSampledStatistics</a> () override final</td></tr>
-<tr class="separator:aa7740ffb7dfccb2c8204a2db1b8a4fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a162b0ba5a5c487ca263db4c94ba42db2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html#a162b0ba5a5c487ca263db4c94ba42db2">addSampledStatistic</a> (uint32 statisticIndex, float64 weight) override final</td></tr>
-<tr class="separator:a162b0ba5a5c487ca263db4c94ba42db2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a943d0d77c8d686a2380446c77e2b1b75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html#a943d0d77c8d686a2380446c77e2b1b75">resetCoveredStatistics</a> () override final</td></tr>
-<tr class="separator:a943d0d77c8d686a2380446c77e2b1b75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bf145343ff9978b26956581b016e9a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html#a0bf145343ff9978b26956581b016e9a2">updateCoveredStatistic</a> (uint32 statisticIndex, float64 weight, bool remove) override final</td></tr>
-<tr class="separator:a0bf145343ff9978b26956581b016e9a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafe41d296f4b5ad48069dc8a496b6872"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html#aafe41d296f4b5ad48069dc8a496b6872">applyPrediction</a> (uint32 statisticIndex, const CompletePrediction &amp;prediction) override final</td></tr>
-<tr class="separator:aafe41d296f4b5ad48069dc8a496b6872"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cd0a47f071b286e6fbead5a23f4790f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html#a1cd0a47f071b286e6fbead5a23f4790f">applyPrediction</a> (uint32 statisticIndex, const PartialPrediction &amp;prediction) override final</td></tr>
-<tr class="separator:a1cd0a47f071b286e6fbead5a23f4790f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab279218c336d1970fac539ab1b317284"><td class="memItemLeft" align="right" valign="top">float64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html#ab279218c336d1970fac539ab1b317284">evaluatePrediction</a> (uint32 statisticIndex) const override final</td></tr>
-<tr class="separator:ab279218c336d1970fac539ab1b317284"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac81c06bc4c304201bbefd9fa1c8dcc82"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; IHistogram &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html#ac81c06bc4c304201bbefd9fa1c8dcc82">createHistogram</a> (uint32 numBins) const override final</td></tr>
-<tr class="separator:ac81c06bc4c304201bbefd9fa1c8dcc82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6de2af2d163590c5358be5e86ad38879"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; IStatisticsSubset &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html#a6de2af2d163590c5358be5e86ad38879">createSubset</a> (const CompleteIndexVector &amp;labelIndices) const override final</td></tr>
-<tr class="separator:a6de2af2d163590c5358be5e86ad38879"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a846acaa4358a09767aa96ed9120afa8f"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; IStatisticsSubset &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html#a846acaa4358a09767aa96ed9120afa8f">createSubset</a> (const PartialIndexVector &amp;labelIndices) const override final</td></tr>
-<tr class="separator:a846acaa4358a09767aa96ed9120afa8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classboosting_1_1AbstractLabelWiseImmutableStatistics"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classboosting_1_1AbstractLabelWiseImmutableStatistics')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classboosting_1_1AbstractLabelWiseImmutableStatistics.html">boosting::AbstractLabelWiseImmutableStatistics&lt; StatisticVector, StatisticView, StatisticMatrix, ScoreMatrix, RuleEvaluationFactory &gt;</a></td></tr>
-<tr class="memitem:a2168660409bdbb782a8c76e422e9f71e inherit pub_methods_classboosting_1_1AbstractLabelWiseImmutableStatistics"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseImmutableStatistics.html#a2168660409bdbb782a8c76e422e9f71e">AbstractLabelWiseImmutableStatistics</a> (std::unique_ptr&lt; StatisticView &gt; statisticViewPtr, const RuleEvaluationFactory &amp;ruleEvaluationFactory)</td></tr>
-<tr class="separator:a2168660409bdbb782a8c76e422e9f71e inherit pub_methods_classboosting_1_1AbstractLabelWiseImmutableStatistics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2312611b7deeada70f1995bf4b2ca48a inherit pub_methods_classboosting_1_1AbstractLabelWiseImmutableStatistics"><td class="memItemLeft" align="right" valign="top">uint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseImmutableStatistics.html#a2312611b7deeada70f1995bf4b2ca48a">getNumStatistics</a> () const override final</td></tr>
-<tr class="separator:a2312611b7deeada70f1995bf4b2ca48a inherit pub_methods_classboosting_1_1AbstractLabelWiseImmutableStatistics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae428d5e292bbf66102a3ac8ff1d0ce5d inherit pub_methods_classboosting_1_1AbstractLabelWiseImmutableStatistics"><td class="memItemLeft" align="right" valign="top">uint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseImmutableStatistics.html#ae428d5e292bbf66102a3ac8ff1d0ce5d">getNumLabels</a> () const override final</td></tr>
-<tr class="separator:ae428d5e292bbf66102a3ac8ff1d0ce5d inherit pub_methods_classboosting_1_1AbstractLabelWiseImmutableStatistics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae53952ea7f8d6f5a18131087205f9da0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html#ae53952ea7f8d6f5a18131087205f9da0">AbstractLabelWiseStatistics</a> (std::unique_ptr&lt; LossFunction &gt; lossPtr, std::unique_ptr&lt; EvaluationMeasure &gt; evaluationMeasurePtr, const RuleEvaluationFactory &amp;ruleEvaluationFactory, const LabelMatrix &amp;labelMatrix, std::unique_ptr&lt; StatisticView &gt; statisticViewPtr, std::unique_ptr&lt; ScoreMatrix &gt; scoreMatrixPtr)</td></tr>
+<tr class="separator:ae53952ea7f8d6f5a18131087205f9da0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab912fb6a9a0df6bb04b767ada4fbb4e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html#ab912fb6a9a0df6bb04b767ada4fbb4e7">setRuleEvaluationFactory</a> (const RuleEvaluationFactory &amp;ruleEvaluationFactory) override final</td></tr>
+<tr class="separator:ab912fb6a9a0df6bb04b767ada4fbb4e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ced26dbdc89692e43aa2a199dc1da56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html#a8ced26dbdc89692e43aa2a199dc1da56">resetSampledStatistics</a> () override final</td></tr>
+<tr class="separator:a8ced26dbdc89692e43aa2a199dc1da56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0dcd8008d2842905ef6305c3c97daf2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html#ae0dcd8008d2842905ef6305c3c97daf2">addSampledStatistic</a> (uint32 statisticIndex, float64 weight) override final</td></tr>
+<tr class="separator:ae0dcd8008d2842905ef6305c3c97daf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c3383861b6e41994c326768669a7b44"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html#a0c3383861b6e41994c326768669a7b44">resetCoveredStatistics</a> () override final</td></tr>
+<tr class="separator:a0c3383861b6e41994c326768669a7b44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf0a928dbce829af98c587186dee02f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html#aaf0a928dbce829af98c587186dee02f2">updateCoveredStatistic</a> (uint32 statisticIndex, float64 weight, bool remove) override final</td></tr>
+<tr class="separator:aaf0a928dbce829af98c587186dee02f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cc76807c5de93bb9d132829fa018460"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html#a9cc76807c5de93bb9d132829fa018460">applyPrediction</a> (uint32 statisticIndex, const CompletePrediction &amp;prediction) override final</td></tr>
+<tr class="separator:a9cc76807c5de93bb9d132829fa018460"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e56f789374e95c71156cda77b5613d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html#a1e56f789374e95c71156cda77b5613d7">applyPrediction</a> (uint32 statisticIndex, const PartialPrediction &amp;prediction) override final</td></tr>
+<tr class="separator:a1e56f789374e95c71156cda77b5613d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a335a6783ba2866d63ddf569f97f61725"><td class="memItemLeft" align="right" valign="top">float64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html#a335a6783ba2866d63ddf569f97f61725">evaluatePrediction</a> (uint32 statisticIndex) const override final</td></tr>
+<tr class="separator:a335a6783ba2866d63ddf569f97f61725"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6061b32e14f3f450d0e61feeff676fbf"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; IHistogram &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html#a6061b32e14f3f450d0e61feeff676fbf">createHistogram</a> (uint32 numBins) const override final</td></tr>
+<tr class="separator:a6061b32e14f3f450d0e61feeff676fbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e5ef146445857260098374e700d2b8d"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; IStatisticsSubset &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html#a0e5ef146445857260098374e700d2b8d">createSubset</a> (const CompleteIndexVector &amp;labelIndices) const override final</td></tr>
+<tr class="separator:a0e5ef146445857260098374e700d2b8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c1f66605de3b0a5b01d61bbe782e953"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; IStatisticsSubset &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html#a1c1f66605de3b0a5b01d61bbe782e953">createSubset</a> (const PartialIndexVector &amp;labelIndices) const override final</td></tr>
+<tr class="separator:a1c1f66605de3b0a5b01d61bbe782e953"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classboosting_1_1AbstractLabelWiseImmutableStatistics"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classboosting_1_1AbstractLabelWiseImmutableStatistics')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classboosting_1_1AbstractLabelWiseImmutableStatistics.html">boosting::AbstractLabelWiseImmutableStatistics&lt; StatisticVector, StatisticView, ScoreMatrix, RuleEvaluationFactory &gt;</a></td></tr>
+<tr class="memitem:a6e9f1ca4a0fc1cfb72fd1958902f32b0 inherit pub_methods_classboosting_1_1AbstractLabelWiseImmutableStatistics"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseImmutableStatistics.html#a6e9f1ca4a0fc1cfb72fd1958902f32b0">AbstractLabelWiseImmutableStatistics</a> (std::unique_ptr&lt; StatisticView &gt; statisticViewPtr, const RuleEvaluationFactory &amp;ruleEvaluationFactory)</td></tr>
+<tr class="separator:a6e9f1ca4a0fc1cfb72fd1958902f32b0 inherit pub_methods_classboosting_1_1AbstractLabelWiseImmutableStatistics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01f17306983163733ff54650b70cc885 inherit pub_methods_classboosting_1_1AbstractLabelWiseImmutableStatistics"><td class="memItemLeft" align="right" valign="top">uint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseImmutableStatistics.html#a01f17306983163733ff54650b70cc885">getNumStatistics</a> () const override final</td></tr>
+<tr class="separator:a01f17306983163733ff54650b70cc885 inherit pub_methods_classboosting_1_1AbstractLabelWiseImmutableStatistics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18365255d9420b5d693fe5cf84bb1dc0 inherit pub_methods_classboosting_1_1AbstractLabelWiseImmutableStatistics"><td class="memItemLeft" align="right" valign="top">uint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseImmutableStatistics.html#a18365255d9420b5d693fe5cf84bb1dc0">getNumLabels</a> () const override final</td></tr>
+<tr class="separator:a18365255d9420b5d693fe5cf84bb1dc0 inherit pub_methods_classboosting_1_1AbstractLabelWiseImmutableStatistics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a442b5088b88b0d787685b9339ca0dcd2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1ILabelWiseStatistics.html#a442b5088b88b0d787685b9339ca0dcd2">setRuleEvaluationFactory</a> (const RuleEvaluationFactory &amp;ruleEvaluationFactory)=0</td></tr>
 <tr class="separator:a442b5088b88b0d787685b9339ca0dcd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_types_classboosting_1_1AbstractLabelWiseImmutableStatistics"><td colspan="2" onclick="javascript:toggleInherit('pro_types_classboosting_1_1AbstractLabelWiseImmutableStatistics')"><img src="closed.png" alt="-"/>&#160;Protected Types inherited from <a class="el" href="classboosting_1_1AbstractLabelWiseImmutableStatistics.html">boosting::AbstractLabelWiseImmutableStatistics&lt; StatisticVector, StatisticView, StatisticMatrix, ScoreMatrix, RuleEvaluationFactory &gt;</a></td></tr>
-<tr class="memitem:a6a9391b6d34c7b1b6719eee9bfadde71 inherit pro_types_classboosting_1_1AbstractLabelWiseImmutableStatistics"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classboosting_1_1AbstractLabelWiseImmutableStatistics_1_1StatisticsSubset.html">StatisticsSubset</a>&lt; CompleteIndexVector &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseImmutableStatistics.html#a6a9391b6d34c7b1b6719eee9bfadde71">CompleteSubset</a></td></tr>
-<tr class="separator:a6a9391b6d34c7b1b6719eee9bfadde71 inherit pro_types_classboosting_1_1AbstractLabelWiseImmutableStatistics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a5a786aa9cc2907a0050557e2b4a11e inherit pro_types_classboosting_1_1AbstractLabelWiseImmutableStatistics"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classboosting_1_1AbstractLabelWiseImmutableStatistics_1_1StatisticsSubset.html">StatisticsSubset</a>&lt; PartialIndexVector &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseImmutableStatistics.html#a6a5a786aa9cc2907a0050557e2b4a11e">PartialSubset</a></td></tr>
-<tr class="separator:a6a5a786aa9cc2907a0050557e2b4a11e inherit pro_types_classboosting_1_1AbstractLabelWiseImmutableStatistics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_classboosting_1_1AbstractLabelWiseImmutableStatistics"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classboosting_1_1AbstractLabelWiseImmutableStatistics')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classboosting_1_1AbstractLabelWiseImmutableStatistics.html">boosting::AbstractLabelWiseImmutableStatistics&lt; StatisticVector, StatisticView, StatisticMatrix, ScoreMatrix, RuleEvaluationFactory &gt;</a></td></tr>
-<tr class="memitem:a6a9b4e9177310482d27fbf4c149f9d6c inherit pro_attribs_classboosting_1_1AbstractLabelWiseImmutableStatistics"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; StatisticView &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseImmutableStatistics.html#a6a9b4e9177310482d27fbf4c149f9d6c">statisticViewPtr_</a></td></tr>
-<tr class="separator:a6a9b4e9177310482d27fbf4c149f9d6c inherit pro_attribs_classboosting_1_1AbstractLabelWiseImmutableStatistics"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58d9f75f39d5589268c93505acbe1cbe inherit pro_attribs_classboosting_1_1AbstractLabelWiseImmutableStatistics"><td class="memItemLeft" align="right" valign="top">const RuleEvaluationFactory *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseImmutableStatistics.html#a58d9f75f39d5589268c93505acbe1cbe">ruleEvaluationFactoryPtr_</a></td></tr>
-<tr class="separator:a58d9f75f39d5589268c93505acbe1cbe inherit pro_attribs_classboosting_1_1AbstractLabelWiseImmutableStatistics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classboosting_1_1AbstractLabelWiseImmutableStatistics"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classboosting_1_1AbstractLabelWiseImmutableStatistics')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classboosting_1_1AbstractLabelWiseImmutableStatistics.html">boosting::AbstractLabelWiseImmutableStatistics&lt; StatisticVector, StatisticView, ScoreMatrix, RuleEvaluationFactory &gt;</a></td></tr>
+<tr class="memitem:af9f51fc9305369403b0a2180e99e10dd inherit pro_attribs_classboosting_1_1AbstractLabelWiseImmutableStatistics"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; StatisticView &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseImmutableStatistics.html#af9f51fc9305369403b0a2180e99e10dd">statisticViewPtr_</a></td></tr>
+<tr class="separator:af9f51fc9305369403b0a2180e99e10dd inherit pro_attribs_classboosting_1_1AbstractLabelWiseImmutableStatistics"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4433de2cc543662163546efe183f7c0 inherit pro_attribs_classboosting_1_1AbstractLabelWiseImmutableStatistics"><td class="memItemLeft" align="right" valign="top">const RuleEvaluationFactory *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboosting_1_1AbstractLabelWiseImmutableStatistics.html#ac4433de2cc543662163546efe183f7c0">ruleEvaluationFactoryPtr_</a></td></tr>
+<tr class="separator:ac4433de2cc543662163546efe183f7c0 inherit pro_attribs_classboosting_1_1AbstractLabelWiseImmutableStatistics"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;typename LabelMatrix, typename StatisticVector, typename StatisticView, typename StatisticMatrix, typename ScoreMatrix, typename LossFunction, typename EvaluationMeasure, typename RuleEvaluationFactory&gt;<br />
-class boosting::AbstractLabelWiseStatistics&lt; LabelMatrix, StatisticVector, StatisticView, StatisticMatrix, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt;</div><p >An abstract base class for all classes that provide access to gradients and Hessians that are calculated according to a differentiable loss function that is applied label-wise and allows to update the gradients and Hessians after a new rule has been learned.</p>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename LabelMatrix, typename StatisticVector, typename StatisticView, typename Histogram, typename ScoreMatrix, typename LossFunction, typename EvaluationMeasure, typename RuleEvaluationFactory&gt;<br />
+class boosting::AbstractLabelWiseStatistics&lt; LabelMatrix, StatisticVector, StatisticView, Histogram, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt;</div><p >An abstract base class for all classes that provide access to gradients and Hessians that are calculated according to a differentiable loss function that is applied label-wise and allows to update the gradients and Hessians after a new rule has been learned.</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">LabelMatrix</td><td>The type of the matrix that provides access to the labels of the training examples </td></tr>
     <tr><td class="paramname">StatisticVector</td><td>The type of the vectors that are used to store gradients and Hessians </td></tr>
     <tr><td class="paramname">StatisticView</td><td>The type of the view that provides access to the gradients and Hessians </td></tr>
-    <tr><td class="paramname">StatisticMatrix</td><td>The type of the matrix that is used to store gradients and Hessians </td></tr>
+    <tr><td class="paramname">Histogram</td><td>The type of a histogram that stores aggregated gradients and Hessians </td></tr>
     <tr><td class="paramname">ScoreMatrix</td><td>The type of the matrices that are used to store predicted scores </td></tr>
     <tr><td class="paramname">LossFunction</td><td>The type of the loss function that is used to calculate gradients and Hessians </td></tr>
     <tr><td class="paramname">EvaluationMeasure</td><td>The type of the evaluation measure that is used to assess the quality of predictions for a specific statistic </td></tr>
@@ -152,19 +148,19 @@ class boosting::AbstractLabelWiseStatistics&lt; LabelMatrix, StatisticVector, St
   </dd>
 </dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a89da568ae5c31e50ef210e72a09d7261" name="a89da568ae5c31e50ef210e72a09d7261"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89da568ae5c31e50ef210e72a09d7261">&#9670;&nbsp;</a></span>AbstractLabelWiseStatistics()</h2>
+<a id="ae53952ea7f8d6f5a18131087205f9da0" name="ae53952ea7f8d6f5a18131087205f9da0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae53952ea7f8d6f5a18131087205f9da0">&#9670;&nbsp;</a></span>AbstractLabelWiseStatistics()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename LabelMatrix , typename StatisticVector , typename StatisticView , typename StatisticMatrix , typename ScoreMatrix , typename LossFunction , typename EvaluationMeasure , typename RuleEvaluationFactory &gt; </div>
+template&lt;typename LabelMatrix , typename StatisticVector , typename StatisticView , typename Histogram , typename ScoreMatrix , typename LossFunction , typename EvaluationMeasure , typename RuleEvaluationFactory &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html">boosting::AbstractLabelWiseStatistics</a>&lt; LabelMatrix, StatisticVector, StatisticView, StatisticMatrix, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt;::AbstractLabelWiseStatistics </td>
+          <td class="memname"><a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html">boosting::AbstractLabelWiseStatistics</a>&lt; LabelMatrix, StatisticVector, StatisticView, Histogram, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt;::AbstractLabelWiseStatistics </td>
           <td>(</td>
           <td class="paramtype">std::unique_ptr&lt; LossFunction &gt;&#160;</td>
           <td class="paramname"><em>lossPtr</em>, </td>
@@ -226,19 +222,19 @@ template&lt;typename LabelMatrix , typename StatisticVector , typename Statistic
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a162b0ba5a5c487ca263db4c94ba42db2" name="a162b0ba5a5c487ca263db4c94ba42db2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a162b0ba5a5c487ca263db4c94ba42db2">&#9670;&nbsp;</a></span>addSampledStatistic()</h2>
+<a id="ae0dcd8008d2842905ef6305c3c97daf2" name="ae0dcd8008d2842905ef6305c3c97daf2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0dcd8008d2842905ef6305c3c97daf2">&#9670;&nbsp;</a></span>addSampledStatistic()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename LabelMatrix , typename StatisticVector , typename StatisticView , typename StatisticMatrix , typename ScoreMatrix , typename LossFunction , typename EvaluationMeasure , typename RuleEvaluationFactory &gt; </div>
+template&lt;typename LabelMatrix , typename StatisticVector , typename StatisticView , typename Histogram , typename ScoreMatrix , typename LossFunction , typename EvaluationMeasure , typename RuleEvaluationFactory &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html">boosting::AbstractLabelWiseStatistics</a>&lt; LabelMatrix, StatisticVector, StatisticView, StatisticMatrix, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt;::addSampledStatistic </td>
+          <td class="memname">void <a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html">boosting::AbstractLabelWiseStatistics</a>&lt; LabelMatrix, StatisticVector, StatisticView, Histogram, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt;::addSampledStatistic </td>
           <td>(</td>
           <td class="paramtype">uint32&#160;</td>
           <td class="paramname"><em>statisticIndex</em>, </td>
@@ -265,19 +261,19 @@ template&lt;typename LabelMatrix , typename StatisticVector , typename Statistic
 
 </div>
 </div>
-<a id="aafe41d296f4b5ad48069dc8a496b6872" name="aafe41d296f4b5ad48069dc8a496b6872"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aafe41d296f4b5ad48069dc8a496b6872">&#9670;&nbsp;</a></span>applyPrediction() <span class="overload">[1/2]</span></h2>
+<a id="a9cc76807c5de93bb9d132829fa018460" name="a9cc76807c5de93bb9d132829fa018460"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cc76807c5de93bb9d132829fa018460">&#9670;&nbsp;</a></span>applyPrediction() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename LabelMatrix , typename StatisticVector , typename StatisticView , typename StatisticMatrix , typename ScoreMatrix , typename LossFunction , typename EvaluationMeasure , typename RuleEvaluationFactory &gt; </div>
+template&lt;typename LabelMatrix , typename StatisticVector , typename StatisticView , typename Histogram , typename ScoreMatrix , typename LossFunction , typename EvaluationMeasure , typename RuleEvaluationFactory &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html">boosting::AbstractLabelWiseStatistics</a>&lt; LabelMatrix, StatisticVector, StatisticView, StatisticMatrix, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt;::applyPrediction </td>
+          <td class="memname">void <a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html">boosting::AbstractLabelWiseStatistics</a>&lt; LabelMatrix, StatisticVector, StatisticView, Histogram, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt;::applyPrediction </td>
           <td>(</td>
           <td class="paramtype">uint32&#160;</td>
           <td class="paramname"><em>statisticIndex</em>, </td>
@@ -304,19 +300,19 @@ template&lt;typename LabelMatrix , typename StatisticVector , typename Statistic
 
 </div>
 </div>
-<a id="a1cd0a47f071b286e6fbead5a23f4790f" name="a1cd0a47f071b286e6fbead5a23f4790f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1cd0a47f071b286e6fbead5a23f4790f">&#9670;&nbsp;</a></span>applyPrediction() <span class="overload">[2/2]</span></h2>
+<a id="a1e56f789374e95c71156cda77b5613d7" name="a1e56f789374e95c71156cda77b5613d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e56f789374e95c71156cda77b5613d7">&#9670;&nbsp;</a></span>applyPrediction() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename LabelMatrix , typename StatisticVector , typename StatisticView , typename StatisticMatrix , typename ScoreMatrix , typename LossFunction , typename EvaluationMeasure , typename RuleEvaluationFactory &gt; </div>
+template&lt;typename LabelMatrix , typename StatisticVector , typename StatisticView , typename Histogram , typename ScoreMatrix , typename LossFunction , typename EvaluationMeasure , typename RuleEvaluationFactory &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html">boosting::AbstractLabelWiseStatistics</a>&lt; LabelMatrix, StatisticVector, StatisticView, StatisticMatrix, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt;::applyPrediction </td>
+          <td class="memname">void <a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html">boosting::AbstractLabelWiseStatistics</a>&lt; LabelMatrix, StatisticVector, StatisticView, Histogram, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt;::applyPrediction </td>
           <td>(</td>
           <td class="paramtype">uint32&#160;</td>
           <td class="paramname"><em>statisticIndex</em>, </td>
@@ -343,19 +339,19 @@ template&lt;typename LabelMatrix , typename StatisticVector , typename Statistic
 
 </div>
 </div>
-<a id="ac81c06bc4c304201bbefd9fa1c8dcc82" name="ac81c06bc4c304201bbefd9fa1c8dcc82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac81c06bc4c304201bbefd9fa1c8dcc82">&#9670;&nbsp;</a></span>createHistogram()</h2>
+<a id="a6061b32e14f3f450d0e61feeff676fbf" name="a6061b32e14f3f450d0e61feeff676fbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6061b32e14f3f450d0e61feeff676fbf">&#9670;&nbsp;</a></span>createHistogram()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename LabelMatrix , typename StatisticVector , typename StatisticView , typename StatisticMatrix , typename ScoreMatrix , typename LossFunction , typename EvaluationMeasure , typename RuleEvaluationFactory &gt; </div>
+template&lt;typename LabelMatrix , typename StatisticVector , typename StatisticView , typename Histogram , typename ScoreMatrix , typename LossFunction , typename EvaluationMeasure , typename RuleEvaluationFactory &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt; IHistogram &gt; <a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html">boosting::AbstractLabelWiseStatistics</a>&lt; LabelMatrix, StatisticVector, StatisticView, StatisticMatrix, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt;::createHistogram </td>
+          <td class="memname">std::unique_ptr&lt; IHistogram &gt; <a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html">boosting::AbstractLabelWiseStatistics</a>&lt; LabelMatrix, StatisticVector, StatisticView, Histogram, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt;::createHistogram </td>
           <td>(</td>
           <td class="paramtype">uint32&#160;</td>
           <td class="paramname"><em>numBins</em></td><td>)</td>
@@ -372,19 +368,19 @@ template&lt;typename LabelMatrix , typename StatisticVector , typename Statistic
 
 </div>
 </div>
-<a id="a6de2af2d163590c5358be5e86ad38879" name="a6de2af2d163590c5358be5e86ad38879"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6de2af2d163590c5358be5e86ad38879">&#9670;&nbsp;</a></span>createSubset() <span class="overload">[1/2]</span></h2>
+<a id="a0e5ef146445857260098374e700d2b8d" name="a0e5ef146445857260098374e700d2b8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e5ef146445857260098374e700d2b8d">&#9670;&nbsp;</a></span>createSubset() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename LabelMatrix , typename StatisticVector , typename StatisticView , typename StatisticMatrix , typename ScoreMatrix , typename LossFunction , typename EvaluationMeasure , typename RuleEvaluationFactory &gt; </div>
+template&lt;typename LabelMatrix , typename StatisticVector , typename StatisticView , typename Histogram , typename ScoreMatrix , typename LossFunction , typename EvaluationMeasure , typename RuleEvaluationFactory &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt; IStatisticsSubset &gt; <a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html">boosting::AbstractLabelWiseStatistics</a>&lt; LabelMatrix, StatisticVector, StatisticView, StatisticMatrix, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt;::createSubset </td>
+          <td class="memname">std::unique_ptr&lt; IStatisticsSubset &gt; <a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html">boosting::AbstractLabelWiseStatistics</a>&lt; LabelMatrix, StatisticVector, StatisticView, Histogram, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt;::createSubset </td>
           <td>(</td>
           <td class="paramtype">const CompleteIndexVector &amp;&#160;</td>
           <td class="paramname"><em>labelIndices</em></td><td>)</td>
@@ -401,19 +397,19 @@ template&lt;typename LabelMatrix , typename StatisticVector , typename Statistic
 
 </div>
 </div>
-<a id="a846acaa4358a09767aa96ed9120afa8f" name="a846acaa4358a09767aa96ed9120afa8f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a846acaa4358a09767aa96ed9120afa8f">&#9670;&nbsp;</a></span>createSubset() <span class="overload">[2/2]</span></h2>
+<a id="a1c1f66605de3b0a5b01d61bbe782e953" name="a1c1f66605de3b0a5b01d61bbe782e953"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c1f66605de3b0a5b01d61bbe782e953">&#9670;&nbsp;</a></span>createSubset() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename LabelMatrix , typename StatisticVector , typename StatisticView , typename StatisticMatrix , typename ScoreMatrix , typename LossFunction , typename EvaluationMeasure , typename RuleEvaluationFactory &gt; </div>
+template&lt;typename LabelMatrix , typename StatisticVector , typename StatisticView , typename Histogram , typename ScoreMatrix , typename LossFunction , typename EvaluationMeasure , typename RuleEvaluationFactory &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt; IStatisticsSubset &gt; <a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html">boosting::AbstractLabelWiseStatistics</a>&lt; LabelMatrix, StatisticVector, StatisticView, StatisticMatrix, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt;::createSubset </td>
+          <td class="memname">std::unique_ptr&lt; IStatisticsSubset &gt; <a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html">boosting::AbstractLabelWiseStatistics</a>&lt; LabelMatrix, StatisticVector, StatisticView, Histogram, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt;::createSubset </td>
           <td>(</td>
           <td class="paramtype">const PartialIndexVector &amp;&#160;</td>
           <td class="paramname"><em>labelIndices</em></td><td>)</td>
@@ -430,19 +426,19 @@ template&lt;typename LabelMatrix , typename StatisticVector , typename Statistic
 
 </div>
 </div>
-<a id="ab279218c336d1970fac539ab1b317284" name="ab279218c336d1970fac539ab1b317284"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab279218c336d1970fac539ab1b317284">&#9670;&nbsp;</a></span>evaluatePrediction()</h2>
+<a id="a335a6783ba2866d63ddf569f97f61725" name="a335a6783ba2866d63ddf569f97f61725"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a335a6783ba2866d63ddf569f97f61725">&#9670;&nbsp;</a></span>evaluatePrediction()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename LabelMatrix , typename StatisticVector , typename StatisticView , typename StatisticMatrix , typename ScoreMatrix , typename LossFunction , typename EvaluationMeasure , typename RuleEvaluationFactory &gt; </div>
+template&lt;typename LabelMatrix , typename StatisticVector , typename StatisticView , typename Histogram , typename ScoreMatrix , typename LossFunction , typename EvaluationMeasure , typename RuleEvaluationFactory &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float64 <a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html">boosting::AbstractLabelWiseStatistics</a>&lt; LabelMatrix, StatisticVector, StatisticView, StatisticMatrix, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt;::evaluatePrediction </td>
+          <td class="memname">float64 <a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html">boosting::AbstractLabelWiseStatistics</a>&lt; LabelMatrix, StatisticVector, StatisticView, Histogram, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt;::evaluatePrediction </td>
           <td>(</td>
           <td class="paramtype">uint32&#160;</td>
           <td class="paramname"><em>statisticIndex</em></td><td>)</td>
@@ -459,19 +455,19 @@ template&lt;typename LabelMatrix , typename StatisticVector , typename Statistic
 
 </div>
 </div>
-<a id="a943d0d77c8d686a2380446c77e2b1b75" name="a943d0d77c8d686a2380446c77e2b1b75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a943d0d77c8d686a2380446c77e2b1b75">&#9670;&nbsp;</a></span>resetCoveredStatistics()</h2>
+<a id="a0c3383861b6e41994c326768669a7b44" name="a0c3383861b6e41994c326768669a7b44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c3383861b6e41994c326768669a7b44">&#9670;&nbsp;</a></span>resetCoveredStatistics()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename LabelMatrix , typename StatisticVector , typename StatisticView , typename StatisticMatrix , typename ScoreMatrix , typename LossFunction , typename EvaluationMeasure , typename RuleEvaluationFactory &gt; </div>
+template&lt;typename LabelMatrix , typename StatisticVector , typename StatisticView , typename Histogram , typename ScoreMatrix , typename LossFunction , typename EvaluationMeasure , typename RuleEvaluationFactory &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html">boosting::AbstractLabelWiseStatistics</a>&lt; LabelMatrix, StatisticVector, StatisticView, StatisticMatrix, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt;::resetCoveredStatistics </td>
+          <td class="memname">void <a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html">boosting::AbstractLabelWiseStatistics</a>&lt; LabelMatrix, StatisticVector, StatisticView, Histogram, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt;::resetCoveredStatistics </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -487,19 +483,19 @@ template&lt;typename LabelMatrix , typename StatisticVector , typename Statistic
 
 </div>
 </div>
-<a id="aa7740ffb7dfccb2c8204a2db1b8a4fe3" name="aa7740ffb7dfccb2c8204a2db1b8a4fe3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7740ffb7dfccb2c8204a2db1b8a4fe3">&#9670;&nbsp;</a></span>resetSampledStatistics()</h2>
+<a id="a8ced26dbdc89692e43aa2a199dc1da56" name="a8ced26dbdc89692e43aa2a199dc1da56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ced26dbdc89692e43aa2a199dc1da56">&#9670;&nbsp;</a></span>resetSampledStatistics()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename LabelMatrix , typename StatisticVector , typename StatisticView , typename StatisticMatrix , typename ScoreMatrix , typename LossFunction , typename EvaluationMeasure , typename RuleEvaluationFactory &gt; </div>
+template&lt;typename LabelMatrix , typename StatisticVector , typename StatisticView , typename Histogram , typename ScoreMatrix , typename LossFunction , typename EvaluationMeasure , typename RuleEvaluationFactory &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html">boosting::AbstractLabelWiseStatistics</a>&lt; LabelMatrix, StatisticVector, StatisticView, StatisticMatrix, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt;::resetSampledStatistics </td>
+          <td class="memname">void <a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html">boosting::AbstractLabelWiseStatistics</a>&lt; LabelMatrix, StatisticVector, StatisticView, Histogram, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt;::resetSampledStatistics </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -515,19 +511,19 @@ template&lt;typename LabelMatrix , typename StatisticVector , typename Statistic
 
 </div>
 </div>
-<a id="ab9a9d2c7135476eb3e2506803d7d8a1c" name="ab9a9d2c7135476eb3e2506803d7d8a1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9a9d2c7135476eb3e2506803d7d8a1c">&#9670;&nbsp;</a></span>setRuleEvaluationFactory()</h2>
+<a id="ab912fb6a9a0df6bb04b767ada4fbb4e7" name="ab912fb6a9a0df6bb04b767ada4fbb4e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab912fb6a9a0df6bb04b767ada4fbb4e7">&#9670;&nbsp;</a></span>setRuleEvaluationFactory()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename LabelMatrix , typename StatisticVector , typename StatisticView , typename StatisticMatrix , typename ScoreMatrix , typename LossFunction , typename EvaluationMeasure , typename RuleEvaluationFactory &gt; </div>
+template&lt;typename LabelMatrix , typename StatisticVector , typename StatisticView , typename Histogram , typename ScoreMatrix , typename LossFunction , typename EvaluationMeasure , typename RuleEvaluationFactory &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html">boosting::AbstractLabelWiseStatistics</a>&lt; LabelMatrix, StatisticVector, StatisticView, StatisticMatrix, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt;::setRuleEvaluationFactory </td>
+          <td class="memname">void <a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html">boosting::AbstractLabelWiseStatistics</a>&lt; LabelMatrix, StatisticVector, StatisticView, Histogram, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt;::setRuleEvaluationFactory </td>
           <td>(</td>
           <td class="paramtype">const RuleEvaluationFactory &amp;&#160;</td>
           <td class="paramname"><em>ruleEvaluationFactory</em></td><td>)</td>
@@ -546,19 +542,19 @@ template&lt;typename LabelMatrix , typename StatisticVector , typename Statistic
 
 </div>
 </div>
-<a id="a0bf145343ff9978b26956581b016e9a2" name="a0bf145343ff9978b26956581b016e9a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bf145343ff9978b26956581b016e9a2">&#9670;&nbsp;</a></span>updateCoveredStatistic()</h2>
+<a id="aaf0a928dbce829af98c587186dee02f2" name="aaf0a928dbce829af98c587186dee02f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf0a928dbce829af98c587186dee02f2">&#9670;&nbsp;</a></span>updateCoveredStatistic()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename LabelMatrix , typename StatisticVector , typename StatisticView , typename StatisticMatrix , typename ScoreMatrix , typename LossFunction , typename EvaluationMeasure , typename RuleEvaluationFactory &gt; </div>
+template&lt;typename LabelMatrix , typename StatisticVector , typename StatisticView , typename Histogram , typename ScoreMatrix , typename LossFunction , typename EvaluationMeasure , typename RuleEvaluationFactory &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html">boosting::AbstractLabelWiseStatistics</a>&lt; LabelMatrix, StatisticVector, StatisticView, StatisticMatrix, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt;::updateCoveredStatistic </td>
+          <td class="memname">void <a class="el" href="classboosting_1_1AbstractLabelWiseStatistics.html">boosting::AbstractLabelWiseStatistics</a>&lt; LabelMatrix, StatisticVector, StatisticView, Histogram, ScoreMatrix, LossFunction, EvaluationMeasure, RuleEvaluationFactory &gt;::updateCoveredStatistic </td>
           <td>(</td>
           <td class="paramtype">uint32&#160;</td>
           <td class="paramname"><em>statisticIndex</em>, </td>

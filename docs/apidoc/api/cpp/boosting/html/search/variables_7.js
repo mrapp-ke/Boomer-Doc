@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ruleevaluationfactoryptr_5f_0',['ruleEvaluationFactoryPtr_',['../classboosting_1_1AbstractExampleWiseImmutableStatistics.html#af9ccfcda4cf6432e74d8b0058b20de35',1,'boosting::AbstractExampleWiseImmutableStatistics::ruleEvaluationFactoryPtr_()'],['../classboosting_1_1AbstractLabelWiseImmutableStatistics.html#a58d9f75f39d5589268c93505acbe1cbe',1,'boosting::AbstractLabelWiseImmutableStatistics::ruleEvaluationFactoryPtr_()']]]
+  ['ruleevaluationfactoryptr_5f_0',['ruleEvaluationFactoryPtr_',['../classboosting_1_1AbstractExampleWiseImmutableStatistics.html#a64e2fbea9c2e708a9ca6763dfdfa7fb4',1,'boosting::AbstractExampleWiseImmutableStatistics::ruleEvaluationFactoryPtr_()'],['../classboosting_1_1AbstractLabelWiseImmutableStatistics.html#ac4433de2cc543662163546efe183f7c0',1,'boosting::AbstractLabelWiseImmutableStatistics::ruleEvaluationFactoryPtr_()']]]
 ];

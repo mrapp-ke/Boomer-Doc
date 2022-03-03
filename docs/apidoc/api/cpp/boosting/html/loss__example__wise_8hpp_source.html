@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">mlrlboosting<span id="projectnumber">&#160;0.8.0</span>
+   <div id="projectname">mlrlboosting<span id="projectnumber">&#160;0.8.1</span>
    </div>
    <div id="projectbrief">An Algorithm for Learning Gradient Boosted Multi-label Classification Rules</div>
   </td>
@@ -120,12 +120,22 @@ $(function() {
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno"><a class="line" href="classboosting_1_1IExampleWiseLossConfig.html#a4157090707cc2c518c078509969cf67e">   90</a></span>            <span class="keyword">virtual</span> std::unique_ptr&lt;IExampleWiseLossFactory&gt; <a class="code hl_function" href="classboosting_1_1IExampleWiseLossConfig.html#a4157090707cc2c518c078509969cf67e">createExampleWiseLossFactory</a>() <span class="keyword">const</span> = 0;</div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    };</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>}</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="classboosting_1_1IExampleWiseLossConfig.html#a3b4379bcccb370cbf0a331c4a8bac6b4">   92</a></span>            std::unique_ptr&lt;IEvaluationMeasureFactory&gt; <a class="code hl_function" href="classboosting_1_1IExampleWiseLossConfig.html#a3b4379bcccb370cbf0a331c4a8bac6b4">createEvaluationMeasureFactory</a>() const override final {</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>                <span class="keywordflow">return</span> this-&gt;<a class="code hl_function" href="classboosting_1_1IExampleWiseLossConfig.html#a4157090707cc2c518c078509969cf67e">createExampleWiseLossFactory</a>();</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>            }</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="classboosting_1_1IExampleWiseLossConfig.html#a87a03dcede6536ba0a09eb02b78eb0be">   96</a></span>            std::unique_ptr&lt;ISimilarityMeasureFactory&gt; <a class="code hl_function" href="classboosting_1_1IExampleWiseLossConfig.html#a87a03dcede6536ba0a09eb02b78eb0be">createSimilarityMeasureFactory</a>() const override final {</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>                <span class="keywordflow">return</span> this-&gt;<a class="code hl_function" href="classboosting_1_1IExampleWiseLossConfig.html#a4157090707cc2c518c078509969cf67e">createExampleWiseLossFactory</a>();</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>            }</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    };</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>}</div>
 <div class="ttc" id="aclassboosting_1_1DenseExampleWiseStatisticView_html"><div class="ttname"><a href="classboosting_1_1DenseExampleWiseStatisticView.html">boosting::DenseExampleWiseStatisticView</a></div><div class="ttdef"><b>Definition:</b> statistic_view_example_wise_dense.hpp:143</div></div>
 <div class="ttc" id="aclassboosting_1_1IExampleWiseLossConfig_html"><div class="ttname"><a href="classboosting_1_1IExampleWiseLossConfig.html">boosting::IExampleWiseLossConfig</a></div><div class="ttdef"><b>Definition:</b> loss_example_wise.hpp:78</div></div>
+<div class="ttc" id="aclassboosting_1_1IExampleWiseLossConfig_html_a3b4379bcccb370cbf0a331c4a8bac6b4"><div class="ttname"><a href="classboosting_1_1IExampleWiseLossConfig.html#a3b4379bcccb370cbf0a331c4a8bac6b4">boosting::IExampleWiseLossConfig::createEvaluationMeasureFactory</a></div><div class="ttdeci">std::unique_ptr&lt; IEvaluationMeasureFactory &gt; createEvaluationMeasureFactory() const override final</div><div class="ttdef"><b>Definition:</b> loss_example_wise.hpp:92</div></div>
 <div class="ttc" id="aclassboosting_1_1IExampleWiseLossConfig_html_a4157090707cc2c518c078509969cf67e"><div class="ttname"><a href="classboosting_1_1IExampleWiseLossConfig.html#a4157090707cc2c518c078509969cf67e">boosting::IExampleWiseLossConfig::createExampleWiseLossFactory</a></div><div class="ttdeci">virtual std::unique_ptr&lt; IExampleWiseLossFactory &gt; createExampleWiseLossFactory() const =0</div></div>
+<div class="ttc" id="aclassboosting_1_1IExampleWiseLossConfig_html_a87a03dcede6536ba0a09eb02b78eb0be"><div class="ttname"><a href="classboosting_1_1IExampleWiseLossConfig.html#a87a03dcede6536ba0a09eb02b78eb0be">boosting::IExampleWiseLossConfig::createSimilarityMeasureFactory</a></div><div class="ttdeci">std::unique_ptr&lt; ISimilarityMeasureFactory &gt; createSimilarityMeasureFactory() const override final</div><div class="ttdef"><b>Definition:</b> loss_example_wise.hpp:96</div></div>
 <div class="ttc" id="aclassboosting_1_1IExampleWiseLossFactory_html"><div class="ttname"><a href="classboosting_1_1IExampleWiseLossFactory.html">boosting::IExampleWiseLossFactory</a></div><div class="ttdef"><b>Definition:</b> loss_example_wise.hpp:55</div></div>
 <div class="ttc" id="aclassboosting_1_1IExampleWiseLossFactory_html_aa6bba1e89c14cfccc32e1f7c431e2ee9"><div class="ttname"><a href="classboosting_1_1IExampleWiseLossFactory.html#aa6bba1e89c14cfccc32e1f7c431e2ee9">boosting::IExampleWiseLossFactory::createExampleWiseLoss</a></div><div class="ttdeci">virtual std::unique_ptr&lt; IExampleWiseLoss &gt; createExampleWiseLoss() const =0</div></div>
 <div class="ttc" id="aclassboosting_1_1IExampleWiseLossFactory_html_ade820fd427c8080bbc09e02e5a7170da"><div class="ttname"><a href="classboosting_1_1IExampleWiseLossFactory.html#ade820fd427c8080bbc09e02e5a7170da">boosting::IExampleWiseLossFactory::createLabelWiseLoss</a></div><div class="ttdeci">std::unique_ptr&lt; ILabelWiseLoss &gt; createLabelWiseLoss() const override final</div><div class="ttdef"><b>Definition:</b> loss_example_wise.hpp:68</div></div>

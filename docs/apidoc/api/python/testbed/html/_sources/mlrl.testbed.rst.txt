@@ -76,14 +76,6 @@ mlrl.testbed.main\_boomer module
    :undoc-members:
    :show-inheritance:
 
-mlrl.testbed.main\_seco module
-------------------------------
-
-.. automodule:: mlrl.testbed.main_seco
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
 mlrl.testbed.model\_characteristics module
 ------------------------------------------
 
