@@ -1,0 +1,10 @@
+var searchData=
+[
+  ['nominalfeaturemask_5f_0',['nominalFeatureMask_',['../classAbstractThresholds.html#a632e2340415bdeeeb26313bf18e3e89e',1,'AbstractThresholds']]],
+  ['numcols_5f_1',['numCols_',['../classCContiguousConstView.html#a9558a7649ecc745557fc7c1b48ae1b2e',1,'CContiguousConstView::numCols_()'],['../classCscConstView.html#a1ccb0bac5a1991269b792c5ffbc14488',1,'CscConstView::numCols_()'],['../classBinaryCscConstView.html#a4b0cc5cc28024fd01b444fc2f32822fb',1,'BinaryCscConstView::numCols_()'],['../classCsrConstView.html#aa6004fe3f42eba0e119963ef2a0f39c9',1,'CsrConstView::numCols_()'],['../classBinaryCsrConstView.html#a920f85f35b6530385bd916f54f16f738',1,'BinaryCsrConstView::numCols_()'],['../classFortranContiguousConstView.html#a2314bd0a74eb6e930f75677bac55ccfb',1,'FortranContiguousConstView::numCols_()']]],
+  ['numconditions_2',['numConditions',['../structFilteredCacheEntry.html#adc8de4ec22a7a0e838d814cc4107e281',1,'FilteredCacheEntry']]],
+  ['numcovered_3',['numCovered',['../classCondition.html#abbbf54be7370b3ce54bf3d545e8a9856',1,'Condition']]],
+  ['numelements_5f_4',['numElements_',['../classVectorConstView.html#a8def1132023b8d9a18a4cc7e3d5d8e59',1,'VectorConstView']]],
+  ['numrows_5f_5',['numRows_',['../classCContiguousConstView.html#a5bb6806e3f178dcd9d17fbf5dba10e02',1,'CContiguousConstView::numRows_()'],['../classCscConstView.html#a63bb6bed3161a65c6052058506f876d1',1,'CscConstView::numRows_()'],['../classBinaryCscConstView.html#af8980b504a2c6303849e2ba536331647',1,'BinaryCscConstView::numRows_()'],['../classCsrConstView.html#a29d5a9935a09819943d794dc8bc9e4cd',1,'CsrConstView::numRows_()'],['../classBinaryCsrConstView.html#a38241e830b10e68d8ef52005a0e5f6be',1,'BinaryCsrConstView::numRows_()'],['../classFortranContiguousConstView.html#a2c78903cad6036988c27e43e0372592a',1,'FortranContiguousConstView::numRows_()']]],
+  ['numrules_6',['numRules',['../structIStoppingCriterion_1_1Result.html#a4a91dfc998914bbd6727a36740034247',1,'IStoppingCriterion::Result']]]
+];
