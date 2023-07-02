@@ -1,10 +1,9 @@
 var searchData=
 [
-  ['parallelpredictionconfigptr_5f_0',['parallelPredictionConfigPtr_',['../classAbstractRuleLearner_1_1Config.html#a4871b9c64ecfa15dbbd92a3bd38f8f8c',1,'AbstractRuleLearner::Config']]],
-  ['parallelrulerefinementconfigptr_5f_1',['parallelRuleRefinementConfigPtr_',['../classAbstractRuleLearner_1_1Config.html#a78887ca3be32ad36d16391de6549ecf1',1,'AbstractRuleLearner::Config']]],
-  ['parallelstatisticupdateconfigptr_5f_2',['parallelStatisticUpdateConfigPtr_',['../classAbstractRuleLearner_1_1Config.html#a42c1b134629d432fd0c3c33a4f9c2357',1,'AbstractRuleLearner::Config']]],
-  ['partitionsamplingconfigptr_5f_3',['partitionSamplingConfigPtr_',['../classAbstractRuleLearner_1_1Config.html#abeaa849f6b5c229d8236c7c1df5b85ca',1,'AbstractRuleLearner::Config']]],
-  ['postprocessorconfigptr_5f_4',['postProcessorConfigPtr_',['../classAbstractRuleLearner_1_1Config.html#a3d68398948285c8dde7fd6de791a9408',1,'AbstractRuleLearner::Config']]],
-  ['previous_5',['previous',['../classRefinement.html#a0b96cf89161a0d9ff761ff980bae72a5',1,'Refinement']]],
-  ['pruningconfigptr_5f_6',['pruningConfigPtr_',['../classAbstractRuleLearner_1_1Config.html#a5001da5d2927f5abcee145c1162fe744',1,'AbstractRuleLearner::Config']]]
+  ['numcols_5f_0',['numCols_',['../classCContiguousConstView.html#ab354fbbed8f4f2008212746be38e7115',1,'CContiguousConstView::numCols_'],['../classCscConstView.html#affd4566d544c1105552db892b294c7a8',1,'CscConstView::numCols_'],['../classBinaryCscConstView.html#a943a4807e88b37f408fdfe1748bb3a4c',1,'BinaryCscConstView::numCols_'],['../classCsrConstView.html#a084dd2922b90a3669b9ec13180e3c307',1,'CsrConstView::numCols_'],['../classBinaryCsrConstView.html#aff0230dd0441cc1fd57f34f114975610',1,'BinaryCsrConstView::numCols_'],['../classFortranContiguousConstView.html#af0462217bbbd0d442e99bc6005ff2dfd',1,'FortranContiguousConstView::numCols_']]],
+  ['numconditions_1',['numConditions',['../structFilteredCacheEntry.html#adc8de4ec22a7a0e838d814cc4107e281',1,'FilteredCacheEntry']]],
+  ['numcovered_2',['numCovered',['../structCondition.html#abbbf54be7370b3ce54bf3d545e8a9856',1,'Condition']]],
+  ['numelements_5f_3',['numElements_',['../classVectorConstView.html#a8def1132023b8d9a18a4cc7e3d5d8e59',1,'VectorConstView']]],
+  ['numrows_5f_4',['numRows_',['../classCContiguousConstView.html#a1c25c9f53b518f4dbe22838b1df745b6',1,'CContiguousConstView::numRows_'],['../classCscConstView.html#abccaff05a1eb9f972616df4017ac81f9',1,'CscConstView::numRows_'],['../classBinaryCscConstView.html#a013f5dd59ed4172853d33a28d3da6de1',1,'BinaryCscConstView::numRows_'],['../classCsrConstView.html#a4f1c4ccdd03458bc295d7e1d980c8c50',1,'CsrConstView::numRows_'],['../classBinaryCsrConstView.html#a812440ca4a5eeca5778c818d6929accd',1,'BinaryCsrConstView::numRows_'],['../classFortranContiguousConstView.html#ae504b7fe6598ed30806366586c9db2c6',1,'FortranContiguousConstView::numRows_']]],
+  ['numusedrules_5',['numUsedRules',['../structIStoppingCriterion_1_1Result.html#aff9563b5817c5bc3e0c1d15c229e7fa8',1,'IStoppingCriterion::Result']]]
 ];

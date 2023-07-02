@@ -1,10 +1,7 @@
 var searchData=
 [
-  ['operator_21_3d_0',['operator!=',['../classboosting_1_1DiagonalConstIterator.html#a51f36c74b0d0b2186d7df0843183cc51',1,'boosting::DiagonalConstIterator']]],
-  ['operator_2a_1',['operator*',['../classboosting_1_1DiagonalConstIterator.html#a8eb92575f0f2ede48e29d399ffc258f4',1,'boosting::DiagonalConstIterator']]],
-  ['operator_2b_2b_2',['operator++',['../classboosting_1_1DiagonalConstIterator.html#a4e658f5da7efb7d5925edba17357ea69',1,'boosting::DiagonalConstIterator::operator++()'],['../classboosting_1_1DiagonalConstIterator.html#ab259ea68574b170840b5f680813da694',1,'boosting::DiagonalConstIterator::operator++(int n)']]],
-  ['operator_2d_3',['operator-',['../classboosting_1_1DiagonalConstIterator.html#a2c810e5996012874f8e7714ce5857cc7',1,'boosting::DiagonalConstIterator']]],
-  ['operator_2d_2d_4',['operator--',['../classboosting_1_1DiagonalConstIterator.html#a25b2068ecc7567dcd07a24527cc6507d',1,'boosting::DiagonalConstIterator::operator--()'],['../classboosting_1_1DiagonalConstIterator.html#aaae16dbf12c400a16d041d5e50df992e',1,'boosting::DiagonalConstIterator::operator--(int n)']]],
-  ['operator_3d_3d_5',['operator==',['../classboosting_1_1DiagonalConstIterator.html#a2d9fec82d30ab20dd4017bb6ff9d2d57',1,'boosting::DiagonalConstIterator']]],
-  ['operator_5b_5d_6',['operator[]',['../classboosting_1_1DiagonalConstIterator.html#aeeefd00c89901b20ce24593807489466',1,'boosting::DiagonalConstIterator']]]
+  ['marginalizedprobabilitypredictorconfig_0',['MarginalizedProbabilityPredictorConfig',['../classboosting_1_1MarginalizedProbabilityPredictorConfig.html#a0d4aec50299bfd38ed978afbf8ead3c7',1,'boosting::MarginalizedProbabilityPredictorConfig']]],
+  ['marginalizedprobabilitypredictorfactory_1',['MarginalizedProbabilityPredictorFactory',['../classboosting_1_1MarginalizedProbabilityPredictorFactory.html#aba9b72dfd75fc1201f095beeddb9a86f',1,'boosting::MarginalizedProbabilityPredictorFactory']]],
+  ['marginalizedprobabilitytransformation_2',['MarginalizedProbabilityTransformation',['../classboosting_1_1MarginalizedProbabilityTransformation.html#aa4bfb9dd6332c7598691acfda6aa3d2b',1,'boosting::MarginalizedProbabilityTransformation']]],
+  ['measuredistance_3',['measureDistance',['../classboosting_1_1IJointProbabilityFunction.html#a9c76ee9ad91b8a544245915ba69b37f5',1,'boosting::IJointProbabilityFunction::measureDistance()'],['../classboosting_1_1ExampleWiseLogisticLoss.html#a6fa2eb06edbedfc3fb9c5a6a6b0fd8f0',1,'boosting::ExampleWiseLogisticLoss::measureDistance()'],['../classboosting_1_1ExampleWiseSquaredErrorLoss.html#a48844ad918be5d42faacfffa7b31e57d',1,'boosting::ExampleWiseSquaredErrorLoss::measureDistance()'],['../classboosting_1_1ExampleWiseSquaredHingeLoss.html#ac23b81fb1f8d7087c3b3297d34f3c1ab',1,'boosting::ExampleWiseSquaredHingeLoss::measureDistance()'],['../classboosting_1_1LabelWiseLoss.html#ab5276cabbd013b52a06934828a0126ea',1,'boosting::LabelWiseLoss::measureDistance()']]]
 ];

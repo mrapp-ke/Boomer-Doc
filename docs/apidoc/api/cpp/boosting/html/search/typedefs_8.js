@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['updatefunction_0',['UpdateFunction',['../classboosting_1_1LabelWiseLoss.html#aa65f7d9e82a28c8b79f8437f5aaa6814',1,'boosting::LabelWiseLoss']]]
+  ['sparsescorematrixvisitor_0',['SparseScoreMatrixVisitor',['../classIBoostingStatistics.html#a27b35b0344c447e7d886f1d22e1a6315',1,'IBoostingStatistics']]]
 ];

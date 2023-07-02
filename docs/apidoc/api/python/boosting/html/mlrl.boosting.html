@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>mlrl.boosting package &mdash; mlrl-boosting 0.8.2 documentation</title>
+  <title>mlrl.boosting package &mdash; mlrl-boosting 0.9.0 documentation</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
     <script src="_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
         <script src="_static/jquery.js"></script>
-        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
         <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -26,11 +27,15 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-            <a href="index.html" class="icon icon-home"> mlrl-boosting
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            mlrl-boosting
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
@@ -42,6 +47,7 @@
 <li class="toctree-l3 current"><a class="current reference internal" href="#">mlrl.boosting package</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#submodules">Submodules</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#module-mlrl.boosting.boosting_learners">mlrl.boosting.boosting_learners module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-mlrl.boosting.config">mlrl.boosting.config module</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#module-mlrl.boosting">Module contents</a></li>
 </ul>
 </li>
@@ -65,9 +71,9 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
-          <li><a href="mlrl.html">mlrl package</a> &raquo;</li>
-      <li>mlrl.boosting package</li>
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="mlrl.html">mlrl package</a></li>
+      <li class="breadcrumb-item active">mlrl.boosting package</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/mlrl.boosting.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -78,36 +84,252 @@
            <div itemprop="articleBody">
              
   <section id="mlrl-boosting-package">
-<h1>mlrl.boosting package<a class="headerlink" href="#mlrl-boosting-package" title="Permalink to this headline"></a></h1>
+<h1>mlrl.boosting package<a class="headerlink" href="#mlrl-boosting-package" title="Permalink to this heading"></a></h1>
 <section id="submodules">
-<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline"></a></h2>
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this heading"></a></h2>
 </section>
 <section id="module-mlrl.boosting.boosting_learners">
-<span id="mlrl-boosting-boosting-learners-module"></span><h2>mlrl.boosting.boosting_learners module<a class="headerlink" href="#module-mlrl.boosting.boosting_learners" title="Permalink to this headline"></a></h2>
+<span id="mlrl-boosting-boosting-learners-module"></span><h2>mlrl.boosting.boosting_learners module<a class="headerlink" href="#module-mlrl.boosting.boosting_learners" title="Permalink to this heading"></a></h2>
 <p>Author: Michael Rapp (<a class="reference external" href="mailto:michael&#46;rapp&#46;ml&#37;&#52;&#48;gmail&#46;com">michael<span>&#46;</span>rapp<span>&#46;</span>ml<span>&#64;</span>gmail<span>&#46;</span>com</a>)</p>
 <p>Provides scikit-learn implementations of boosting algorithms.</p>
 <dl class="py class">
 <dt class="sig sig-object py" id="mlrl.boosting.boosting_learners.Boomer">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mlrl.boosting.boosting_learners.</span></span><span class="sig-name descname"><span class="pre">Boomer</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">random_state</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">feature_format</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'auto'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">label_format</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'auto'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">prediction_format</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'auto'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rule_model_assemblage</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rule_induction</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_rules</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">time_limit</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">early_stopping</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">head_type</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">loss</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">predictor</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'auto'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">label_sampling</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">instance_sampling</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">feature_sampling</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">holdout</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">feature_binning</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">label_binning</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pruning</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">shrinkage</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0.3</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">l1_regularization_weight</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">l2_regularization_weight</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parallel_rule_refinement</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parallel_statistic_update</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parallel_prediction</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.boosting.boosting_learners.Boomer" title="Permalink to this definition"></a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">mlrl.common.rule_learners.MLRuleLearner</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">sklearn.base.ClassifierMixin</span></code></p>
-<p>A scikit-multilearn implementation of “BOOMER”, an algorithm for learning gradient boosted multi-label
-classification rules.</p>
-<dl class="py method">
-<dt class="sig sig-object py" id="mlrl.boosting.boosting_learners.Boomer.get_name">
-<span class="sig-name descname"><span class="pre">get_name</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#mlrl.boosting.boosting_learners.Boomer.get_name" title="Permalink to this definition"></a></dt>
-<dd><p>Returns a human-readable name that allows to identify the configuration used by the classifier or ranker.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Returns</dt>
-<dd class="field-odd"><p>The name of the classifier or ranker</p>
-</dd>
-</dl>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mlrl.boosting.boosting_learners.</span></span><span class="sig-name descname"><span class="pre">Boomer</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">random_state</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">feature_format</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'auto'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">label_format</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'auto'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">prediction_format</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'auto'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">statistic_format</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">default_rule</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rule_induction</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_rules</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">time_limit</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">global_pruning</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sequential_post_optimization</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">head_type</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">loss</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">marginal_probability_calibration</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">joint_probability_calibration</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">binary_predictor</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">probability_predictor</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">label_sampling</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">instance_sampling</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">feature_sampling</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">holdout</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">feature_binning</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">label_binning</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rule_pruning</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">shrinkage</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0.3</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">l1_regularization_weight</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">l2_regularization_weight</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parallel_rule_refinement</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parallel_statistic_update</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parallel_prediction</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#mlrl.boosting.boosting_learners.Boomer" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">RuleLearner</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">ClassifierMixin</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">RegressorMixin</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">MultiOutputMixin</span></code></p>
+<p>A scikit-learn implementation of “BOOMER”, an algorithm for learning gradient boosted multi-label classification
+rules.</p>
 </dd></dl>
+
+</section>
+<section id="module-mlrl.boosting.config">
+<span id="mlrl-boosting-config-module"></span><h2>mlrl.boosting.config module<a class="headerlink" href="#module-mlrl.boosting.config" title="Permalink to this heading"></a></h2>
+<p>Author: Michael Rapp (<a class="reference external" href="mailto:michael&#46;rapp&#46;ml&#37;&#52;&#48;gmail&#46;com">michael<span>&#46;</span>rapp<span>&#46;</span>ml<span>&#64;</span>gmail<span>&#46;</span>com</a>)</p>
+<p>Provides utility function for configuring boosting algorithms.</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="mlrl.boosting.config.BinaryPredictorParameter">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mlrl.boosting.config.</span></span><span class="sig-name descname"><span class="pre">BinaryPredictorParameter</span></span><a class="headerlink" href="#mlrl.boosting.config.BinaryPredictorParameter" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">NominalParameter</span></code></p>
+<p>A parameter that allows to configure the strategy to be used for predicting binary labels.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.boosting.config.BinaryPredictorParameter.BINARY_PREDICTOR_EXAMPLE_WISE">
+<span class="sig-name descname"><span class="pre">BINARY_PREDICTOR_EXAMPLE_WISE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'example-wise'</span></em><a class="headerlink" href="#mlrl.boosting.config.BinaryPredictorParameter.BINARY_PREDICTOR_EXAMPLE_WISE" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.boosting.config.BinaryPredictorParameter.BINARY_PREDICTOR_GFM">
+<span class="sig-name descname"><span class="pre">BINARY_PREDICTOR_GFM</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'gfm'</span></em><a class="headerlink" href="#mlrl.boosting.config.BinaryPredictorParameter.BINARY_PREDICTOR_GFM" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.boosting.config.BinaryPredictorParameter.BINARY_PREDICTOR_LABEL_WISE">
+<span class="sig-name descname"><span class="pre">BINARY_PREDICTOR_LABEL_WISE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'label-wise'</span></em><a class="headerlink" href="#mlrl.boosting.config.BinaryPredictorParameter.BINARY_PREDICTOR_LABEL_WISE" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="mlrl.boosting.config.DefaultRuleParameter">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mlrl.boosting.config.</span></span><span class="sig-name descname"><span class="pre">DefaultRuleParameter</span></span><a class="headerlink" href="#mlrl.boosting.config.DefaultRuleParameter" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">NominalParameter</span></code></p>
+<p>A parameter that allows to configure whether a default rule should be induced or not.</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="mlrl.boosting.config.ExtendedFeatureBinningParameter">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mlrl.boosting.config.</span></span><span class="sig-name descname"><span class="pre">ExtendedFeatureBinningParameter</span></span><a class="headerlink" href="#mlrl.boosting.config.ExtendedFeatureBinningParameter" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">FeatureBinningParameter</span></code></p>
+<p>Extends the <cite>FeatureBinningParameter</cite> by a value for automatic configuration.</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="mlrl.boosting.config.ExtendedParallelRuleRefinementParameter">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mlrl.boosting.config.</span></span><span class="sig-name descname"><span class="pre">ExtendedParallelRuleRefinementParameter</span></span><a class="headerlink" href="#mlrl.boosting.config.ExtendedParallelRuleRefinementParameter" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">ParallelRuleRefinementParameter</span></code></p>
+<p>Extends the <cite>ParallelRuleRefinementParameter</cite> by a value for automatic configuration.</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="mlrl.boosting.config.ExtendedParallelStatisticUpdateParameter">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mlrl.boosting.config.</span></span><span class="sig-name descname"><span class="pre">ExtendedParallelStatisticUpdateParameter</span></span><a class="headerlink" href="#mlrl.boosting.config.ExtendedParallelStatisticUpdateParameter" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">ParallelStatisticUpdateParameter</span></code></p>
+<p>Extends the <cite>ParallelStatisticUpdateParameter</cite> by a value for automatic configuration.</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="mlrl.boosting.config.ExtendedPartitionSamplingParameter">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mlrl.boosting.config.</span></span><span class="sig-name descname"><span class="pre">ExtendedPartitionSamplingParameter</span></span><a class="headerlink" href="#mlrl.boosting.config.ExtendedPartitionSamplingParameter" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">PartitionSamplingParameter</span></code></p>
+<p>Extends the <cite>PartitionSamplingParameter</cite> by a value for automatic configuration.</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="mlrl.boosting.config.HeadTypeParameter">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mlrl.boosting.config.</span></span><span class="sig-name descname"><span class="pre">HeadTypeParameter</span></span><a class="headerlink" href="#mlrl.boosting.config.HeadTypeParameter" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">NominalParameter</span></code></p>
+<p>A parameter that allows to configure the type of the rule heads that should be used.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.boosting.config.HeadTypeParameter.HEAD_TYPE_COMPLETE">
+<span class="sig-name descname"><span class="pre">HEAD_TYPE_COMPLETE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'complete'</span></em><a class="headerlink" href="#mlrl.boosting.config.HeadTypeParameter.HEAD_TYPE_COMPLETE" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.boosting.config.HeadTypeParameter.HEAD_TYPE_PARTIAL_DYNAMIC">
+<span class="sig-name descname"><span class="pre">HEAD_TYPE_PARTIAL_DYNAMIC</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'partial-dynamic'</span></em><a class="headerlink" href="#mlrl.boosting.config.HeadTypeParameter.HEAD_TYPE_PARTIAL_DYNAMIC" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.boosting.config.HeadTypeParameter.HEAD_TYPE_PARTIAL_FIXED">
+<span class="sig-name descname"><span class="pre">HEAD_TYPE_PARTIAL_FIXED</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'partial-fixed'</span></em><a class="headerlink" href="#mlrl.boosting.config.HeadTypeParameter.HEAD_TYPE_PARTIAL_FIXED" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.boosting.config.HeadTypeParameter.HEAD_TYPE_SINGLE">
+<span class="sig-name descname"><span class="pre">HEAD_TYPE_SINGLE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'single-label'</span></em><a class="headerlink" href="#mlrl.boosting.config.HeadTypeParameter.HEAD_TYPE_SINGLE" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.boosting.config.HeadTypeParameter.OPTION_EXPONENT">
+<span class="sig-name descname"><span class="pre">OPTION_EXPONENT</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'exponent'</span></em><a class="headerlink" href="#mlrl.boosting.config.HeadTypeParameter.OPTION_EXPONENT" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.boosting.config.HeadTypeParameter.OPTION_LABEL_RATIO">
+<span class="sig-name descname"><span class="pre">OPTION_LABEL_RATIO</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'label_ratio'</span></em><a class="headerlink" href="#mlrl.boosting.config.HeadTypeParameter.OPTION_LABEL_RATIO" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.boosting.config.HeadTypeParameter.OPTION_MAX_LABELS">
+<span class="sig-name descname"><span class="pre">OPTION_MAX_LABELS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'max_labels'</span></em><a class="headerlink" href="#mlrl.boosting.config.HeadTypeParameter.OPTION_MAX_LABELS" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.boosting.config.HeadTypeParameter.OPTION_MIN_LABELS">
+<span class="sig-name descname"><span class="pre">OPTION_MIN_LABELS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'min_labels'</span></em><a class="headerlink" href="#mlrl.boosting.config.HeadTypeParameter.OPTION_MIN_LABELS" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.boosting.config.HeadTypeParameter.OPTION_THRESHOLD">
+<span class="sig-name descname"><span class="pre">OPTION_THRESHOLD</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'threshold'</span></em><a class="headerlink" href="#mlrl.boosting.config.HeadTypeParameter.OPTION_THRESHOLD" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="mlrl.boosting.config.JointProbabilityCalibrationParameter">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mlrl.boosting.config.</span></span><span class="sig-name descname"><span class="pre">JointProbabilityCalibrationParameter</span></span><a class="headerlink" href="#mlrl.boosting.config.JointProbabilityCalibrationParameter" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">NominalParameter</span></code></p>
+<p>A parameter that allows to configure the method to be used for the calibration of joint probabilities.</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="mlrl.boosting.config.L1RegularizationParameter">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mlrl.boosting.config.</span></span><span class="sig-name descname"><span class="pre">L1RegularizationParameter</span></span><a class="headerlink" href="#mlrl.boosting.config.L1RegularizationParameter" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">FloatParameter</span></code></p>
+<p>A parameter that allows to configure the weight of the L1 regularization.</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="mlrl.boosting.config.L2RegularizationParameter">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mlrl.boosting.config.</span></span><span class="sig-name descname"><span class="pre">L2RegularizationParameter</span></span><a class="headerlink" href="#mlrl.boosting.config.L2RegularizationParameter" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">FloatParameter</span></code></p>
+<p>A parameter that allows to configure the weight of the L2 regularization.</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="mlrl.boosting.config.LabelBinningParameter">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mlrl.boosting.config.</span></span><span class="sig-name descname"><span class="pre">LabelBinningParameter</span></span><a class="headerlink" href="#mlrl.boosting.config.LabelBinningParameter" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">NominalParameter</span></code></p>
+<p>A parameter that allows to configure the strategy to be used for gradient-based label binning (GBLB).</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="mlrl.boosting.config.LossParameter">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mlrl.boosting.config.</span></span><span class="sig-name descname"><span class="pre">LossParameter</span></span><a class="headerlink" href="#mlrl.boosting.config.LossParameter" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">NominalParameter</span></code></p>
+<p>A parameter that allows to configure the loss function to be minimized during training.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.boosting.config.LossParameter.LOSS_LOGISTIC_EXAMPLE_WISE">
+<span class="sig-name descname"><span class="pre">LOSS_LOGISTIC_EXAMPLE_WISE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'logistic-example-wise'</span></em><a class="headerlink" href="#mlrl.boosting.config.LossParameter.LOSS_LOGISTIC_EXAMPLE_WISE" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.boosting.config.LossParameter.LOSS_LOGISTIC_LABEL_WISE">
+<span class="sig-name descname"><span class="pre">LOSS_LOGISTIC_LABEL_WISE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'logistic-label-wise'</span></em><a class="headerlink" href="#mlrl.boosting.config.LossParameter.LOSS_LOGISTIC_LABEL_WISE" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.boosting.config.LossParameter.LOSS_SQUARED_ERROR_EXAMPLE_WISE">
+<span class="sig-name descname"><span class="pre">LOSS_SQUARED_ERROR_EXAMPLE_WISE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'squared-error-example-wise'</span></em><a class="headerlink" href="#mlrl.boosting.config.LossParameter.LOSS_SQUARED_ERROR_EXAMPLE_WISE" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.boosting.config.LossParameter.LOSS_SQUARED_ERROR_LABEL_WISE">
+<span class="sig-name descname"><span class="pre">LOSS_SQUARED_ERROR_LABEL_WISE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'squared-error-label-wise'</span></em><a class="headerlink" href="#mlrl.boosting.config.LossParameter.LOSS_SQUARED_ERROR_LABEL_WISE" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.boosting.config.LossParameter.LOSS_SQUARED_HINGE_EXAMPLE_WISE">
+<span class="sig-name descname"><span class="pre">LOSS_SQUARED_HINGE_EXAMPLE_WISE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'squared-hinge-example-wise'</span></em><a class="headerlink" href="#mlrl.boosting.config.LossParameter.LOSS_SQUARED_HINGE_EXAMPLE_WISE" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.boosting.config.LossParameter.LOSS_SQUARED_HINGE_LABEL_WISE">
+<span class="sig-name descname"><span class="pre">LOSS_SQUARED_HINGE_LABEL_WISE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'squared-hinge-label-wise'</span></em><a class="headerlink" href="#mlrl.boosting.config.LossParameter.LOSS_SQUARED_HINGE_LABEL_WISE" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="mlrl.boosting.config.MarginalProbabilityCalibrationParameter">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mlrl.boosting.config.</span></span><span class="sig-name descname"><span class="pre">MarginalProbabilityCalibrationParameter</span></span><a class="headerlink" href="#mlrl.boosting.config.MarginalProbabilityCalibrationParameter" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">NominalParameter</span></code></p>
+<p>A parameter that allows to configure the method to be used for the calibration of marginal probabilities.</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="mlrl.boosting.config.ProbabilityPredictorParameter">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mlrl.boosting.config.</span></span><span class="sig-name descname"><span class="pre">ProbabilityPredictorParameter</span></span><a class="headerlink" href="#mlrl.boosting.config.ProbabilityPredictorParameter" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">NominalParameter</span></code></p>
+<p>A parameter that allows to configure the strategy to be used for predicting probabilities.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.boosting.config.ProbabilityPredictorParameter.PROBABILITY_PREDICTOR_LABEL_WISE">
+<span class="sig-name descname"><span class="pre">PROBABILITY_PREDICTOR_LABEL_WISE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'label-wise'</span></em><a class="headerlink" href="#mlrl.boosting.config.ProbabilityPredictorParameter.PROBABILITY_PREDICTOR_LABEL_WISE" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.boosting.config.ProbabilityPredictorParameter.PROBABILITY_PREDICTOR_MARGINALIZED">
+<span class="sig-name descname"><span class="pre">PROBABILITY_PREDICTOR_MARGINALIZED</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'marginalized'</span></em><a class="headerlink" href="#mlrl.boosting.config.ProbabilityPredictorParameter.PROBABILITY_PREDICTOR_MARGINALIZED" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="mlrl.boosting.config.ShrinkageParameter">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mlrl.boosting.config.</span></span><span class="sig-name descname"><span class="pre">ShrinkageParameter</span></span><a class="headerlink" href="#mlrl.boosting.config.ShrinkageParameter" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">FloatParameter</span></code></p>
+<p>A parameter that allows to configure the shrinkage parameter, a.k.a. the learning rate, to be used.</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="mlrl.boosting.config.StatisticFormatParameter">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">mlrl.boosting.config.</span></span><span class="sig-name descname"><span class="pre">StatisticFormatParameter</span></span><a class="headerlink" href="#mlrl.boosting.config.StatisticFormatParameter" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">NominalParameter</span></code></p>
+<p>A parameter that allows to configure the format to be used for the representation of gradients and Hessians.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.boosting.config.StatisticFormatParameter.STATISTIC_FORMAT_DENSE">
+<span class="sig-name descname"><span class="pre">STATISTIC_FORMAT_DENSE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'dense'</span></em><a class="headerlink" href="#mlrl.boosting.config.StatisticFormatParameter.STATISTIC_FORMAT_DENSE" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="mlrl.boosting.config.StatisticFormatParameter.STATISTIC_FORMAT_SPARSE">
+<span class="sig-name descname"><span class="pre">STATISTIC_FORMAT_SPARSE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'sparse'</span></em><a class="headerlink" href="#mlrl.boosting.config.StatisticFormatParameter.STATISTIC_FORMAT_SPARSE" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
 
 </dd></dl>
 
 </section>
 <section id="module-mlrl.boosting">
-<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-mlrl.boosting" title="Permalink to this headline"></a></h2>
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-mlrl.boosting" title="Permalink to this heading"></a></h2>
 </section>
 </section>
 

@@ -12,6 +12,14 @@ mlrl.boosting.boosting\_learners module
    :undoc-members:
    :show-inheritance:
 
+mlrl.boosting.config module
+---------------------------
+
+.. automodule:: mlrl.boosting.config
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 Module contents
 ---------------
 

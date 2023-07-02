@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>mlrl package &mdash; mlrl-boosting 0.8.2 documentation</title>
+  <title>mlrl package &mdash; mlrl-boosting 0.9.0 documentation</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
     <script src="_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
         <script src="_static/jquery.js"></script>
-        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
         <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -27,11 +28,15 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-            <a href="index.html" class="icon icon-home"> mlrl-boosting
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            mlrl-boosting
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
@@ -61,8 +66,8 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>mlrl package</li>
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">mlrl package</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/mlrl.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -73,14 +78,68 @@
            <div itemprop="articleBody">
              
   <section id="mlrl-package">
-<h1>mlrl package<a class="headerlink" href="#mlrl-package" title="Permalink to this headline"></a></h1>
+<h1>mlrl package<a class="headerlink" href="#mlrl-package" title="Permalink to this heading"></a></h1>
 <section id="subpackages">
-<h2>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this headline"></a></h2>
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this heading"></a></h2>
 <div class="toctree-wrapper compound">
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="mlrl.boosting.html">mlrl.boosting package</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="mlrl.boosting.html#submodules">Submodules</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mlrl.boosting.html#module-mlrl.boosting.boosting_learners">mlrl.boosting.boosting_learners module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mlrl.boosting.html#module-mlrl.boosting.boosting_learners">mlrl.boosting.boosting_learners module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.boosting_learners.Boomer"><code class="docutils literal notranslate"><span class="pre">Boomer</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="mlrl.boosting.html#module-mlrl.boosting.config">mlrl.boosting.config module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.BinaryPredictorParameter"><code class="docutils literal notranslate"><span class="pre">BinaryPredictorParameter</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.BinaryPredictorParameter.BINARY_PREDICTOR_EXAMPLE_WISE"><code class="docutils literal notranslate"><span class="pre">BinaryPredictorParameter.BINARY_PREDICTOR_EXAMPLE_WISE</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.BinaryPredictorParameter.BINARY_PREDICTOR_GFM"><code class="docutils literal notranslate"><span class="pre">BinaryPredictorParameter.BINARY_PREDICTOR_GFM</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.BinaryPredictorParameter.BINARY_PREDICTOR_LABEL_WISE"><code class="docutils literal notranslate"><span class="pre">BinaryPredictorParameter.BINARY_PREDICTOR_LABEL_WISE</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.DefaultRuleParameter"><code class="docutils literal notranslate"><span class="pre">DefaultRuleParameter</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.ExtendedFeatureBinningParameter"><code class="docutils literal notranslate"><span class="pre">ExtendedFeatureBinningParameter</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.ExtendedParallelRuleRefinementParameter"><code class="docutils literal notranslate"><span class="pre">ExtendedParallelRuleRefinementParameter</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.ExtendedParallelStatisticUpdateParameter"><code class="docutils literal notranslate"><span class="pre">ExtendedParallelStatisticUpdateParameter</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.ExtendedPartitionSamplingParameter"><code class="docutils literal notranslate"><span class="pre">ExtendedPartitionSamplingParameter</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.HeadTypeParameter"><code class="docutils literal notranslate"><span class="pre">HeadTypeParameter</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.HeadTypeParameter.HEAD_TYPE_COMPLETE"><code class="docutils literal notranslate"><span class="pre">HeadTypeParameter.HEAD_TYPE_COMPLETE</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.HeadTypeParameter.HEAD_TYPE_PARTIAL_DYNAMIC"><code class="docutils literal notranslate"><span class="pre">HeadTypeParameter.HEAD_TYPE_PARTIAL_DYNAMIC</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.HeadTypeParameter.HEAD_TYPE_PARTIAL_FIXED"><code class="docutils literal notranslate"><span class="pre">HeadTypeParameter.HEAD_TYPE_PARTIAL_FIXED</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.HeadTypeParameter.HEAD_TYPE_SINGLE"><code class="docutils literal notranslate"><span class="pre">HeadTypeParameter.HEAD_TYPE_SINGLE</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.HeadTypeParameter.OPTION_EXPONENT"><code class="docutils literal notranslate"><span class="pre">HeadTypeParameter.OPTION_EXPONENT</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.HeadTypeParameter.OPTION_LABEL_RATIO"><code class="docutils literal notranslate"><span class="pre">HeadTypeParameter.OPTION_LABEL_RATIO</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.HeadTypeParameter.OPTION_MAX_LABELS"><code class="docutils literal notranslate"><span class="pre">HeadTypeParameter.OPTION_MAX_LABELS</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.HeadTypeParameter.OPTION_MIN_LABELS"><code class="docutils literal notranslate"><span class="pre">HeadTypeParameter.OPTION_MIN_LABELS</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.HeadTypeParameter.OPTION_THRESHOLD"><code class="docutils literal notranslate"><span class="pre">HeadTypeParameter.OPTION_THRESHOLD</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.JointProbabilityCalibrationParameter"><code class="docutils literal notranslate"><span class="pre">JointProbabilityCalibrationParameter</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.L1RegularizationParameter"><code class="docutils literal notranslate"><span class="pre">L1RegularizationParameter</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.L2RegularizationParameter"><code class="docutils literal notranslate"><span class="pre">L2RegularizationParameter</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.LabelBinningParameter"><code class="docutils literal notranslate"><span class="pre">LabelBinningParameter</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.LossParameter"><code class="docutils literal notranslate"><span class="pre">LossParameter</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.LossParameter.LOSS_LOGISTIC_EXAMPLE_WISE"><code class="docutils literal notranslate"><span class="pre">LossParameter.LOSS_LOGISTIC_EXAMPLE_WISE</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.LossParameter.LOSS_LOGISTIC_LABEL_WISE"><code class="docutils literal notranslate"><span class="pre">LossParameter.LOSS_LOGISTIC_LABEL_WISE</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.LossParameter.LOSS_SQUARED_ERROR_EXAMPLE_WISE"><code class="docutils literal notranslate"><span class="pre">LossParameter.LOSS_SQUARED_ERROR_EXAMPLE_WISE</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.LossParameter.LOSS_SQUARED_ERROR_LABEL_WISE"><code class="docutils literal notranslate"><span class="pre">LossParameter.LOSS_SQUARED_ERROR_LABEL_WISE</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.LossParameter.LOSS_SQUARED_HINGE_EXAMPLE_WISE"><code class="docutils literal notranslate"><span class="pre">LossParameter.LOSS_SQUARED_HINGE_EXAMPLE_WISE</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.LossParameter.LOSS_SQUARED_HINGE_LABEL_WISE"><code class="docutils literal notranslate"><span class="pre">LossParameter.LOSS_SQUARED_HINGE_LABEL_WISE</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.MarginalProbabilityCalibrationParameter"><code class="docutils literal notranslate"><span class="pre">MarginalProbabilityCalibrationParameter</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.ProbabilityPredictorParameter"><code class="docutils literal notranslate"><span class="pre">ProbabilityPredictorParameter</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.ProbabilityPredictorParameter.PROBABILITY_PREDICTOR_LABEL_WISE"><code class="docutils literal notranslate"><span class="pre">ProbabilityPredictorParameter.PROBABILITY_PREDICTOR_LABEL_WISE</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.ProbabilityPredictorParameter.PROBABILITY_PREDICTOR_MARGINALIZED"><code class="docutils literal notranslate"><span class="pre">ProbabilityPredictorParameter.PROBABILITY_PREDICTOR_MARGINALIZED</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.ShrinkageParameter"><code class="docutils literal notranslate"><span class="pre">ShrinkageParameter</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.StatisticFormatParameter"><code class="docutils literal notranslate"><span class="pre">StatisticFormatParameter</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.StatisticFormatParameter.STATISTIC_FORMAT_DENSE"><code class="docutils literal notranslate"><span class="pre">StatisticFormatParameter.STATISTIC_FORMAT_DENSE</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.boosting.html#mlrl.boosting.config.StatisticFormatParameter.STATISTIC_FORMAT_SPARSE"><code class="docutils literal notranslate"><span class="pre">StatisticFormatParameter.STATISTIC_FORMAT_SPARSE</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="mlrl.boosting.html#module-mlrl.boosting">Module contents</a></li>
 </ul>
 </li>
@@ -88,7 +147,7 @@
 </div>
 </section>
 <section id="module-mlrl">
-<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-mlrl" title="Permalink to this headline"></a></h2>
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-mlrl" title="Permalink to this heading"></a></h2>
 </section>
 </section>
 

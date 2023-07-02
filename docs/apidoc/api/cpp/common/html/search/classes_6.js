@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['hash_0',['Hash',['../structCContiguousLabelMatrix_1_1View_1_1Hash.html',1,'CContiguousLabelMatrix::View::Hash'],['../structCsrLabelMatrix_1_1View_1_1Hash.html',1,'CsrLabelMatrix::View::Hash']]]
+  ['greedytopdownruleinduction_0',['GreedyTopDownRuleInduction',['../classGreedyTopDownRuleInduction.html',1,'']]],
+  ['greedytopdownruleinductionconfig_1',['GreedyTopDownRuleInductionConfig',['../classGreedyTopDownRuleInductionConfig.html',1,'']]],
+  ['greedytopdownruleinductionfactory_2',['GreedyTopDownRuleInductionFactory',['../classGreedyTopDownRuleInductionFactory.html',1,'']]]
 ];

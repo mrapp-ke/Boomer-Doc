@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['zerocallback_0',['ZeroCallback',['../classboosting_1_1ILabelBinning.html#ad5339434eef4684f64730ed741a225f7',1,'boosting::ILabelBinning']]]
+  ['value_5ftype_0',['value_type',['../classboosting_1_1DiagonalConstIterator.html#a2dd9c165739613402f96b7934197c5ab',1,'boosting::DiagonalConstIterator']]]
 ];

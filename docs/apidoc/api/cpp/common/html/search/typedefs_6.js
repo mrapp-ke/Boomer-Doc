@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['missing_5findex_5fconst_5fiterator_0',['missing_index_const_iterator',['../classMissingFeatureVector.html#a8f0484de5492f0cbb6bc6002b025cc69',1,'MissingFeatureVector']]]
+  ['labelvectorvisitor_0',['LabelVectorVisitor',['../classILabelVectorSet.html#ac60729f0fae8eac147255db859126230',1,'ILabelVectorSet']]]
 ];

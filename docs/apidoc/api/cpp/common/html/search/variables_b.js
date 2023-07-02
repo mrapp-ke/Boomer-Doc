@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['overallqualityscore_0',['overallQualityScore',['../classIScoreVector.html#a89f4fbd7c7161cf65d23558a27342671',1,'IScoreVector::overallQualityScore()'],['../classAbstractEvaluatedPrediction.html#aab412e09198be18e6690ae84503125df',1,'AbstractEvaluatedPrediction::overallQualityScore()']]]
+  ['marginalprobabilitycalibratorconfigptr_5f_0',['marginalProbabilityCalibratorConfigPtr_',['../classAbstractRuleLearner_1_1Config.html#a5b89ba3ff3669e35d3c933fafeeb6386',1,'AbstractRuleLearner::Config']]],
+  ['minquality_1',['minQuality',['../structRuleCompareFunction.html#a7ac7cf6011fccc5f45f48fcfee82ad3c',1,'RuleCompareFunction']]]
 ];

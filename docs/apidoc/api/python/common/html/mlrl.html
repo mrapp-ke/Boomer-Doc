@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>mlrl package &mdash; mlrl-common 0.8.2 documentation</title>
+  <title>mlrl package &mdash; mlrl-common 0.9.0 documentation</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
     <script src="_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
         <script src="_static/jquery.js"></script>
-        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
         <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -27,11 +28,15 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-            <a href="index.html" class="icon icon-home"> mlrl-common
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            mlrl-common
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
@@ -61,8 +66,8 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>mlrl package</li>
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">mlrl package</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/mlrl.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -73,19 +78,180 @@
            <div itemprop="articleBody">
              
   <section id="mlrl-package">
-<h1>mlrl package<a class="headerlink" href="#mlrl-package" title="Permalink to this headline"></a></h1>
+<h1>mlrl package<a class="headerlink" href="#mlrl-package" title="Permalink to this heading"></a></h1>
 <section id="subpackages">
-<h2>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this headline"></a></h2>
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this heading"></a></h2>
 <div class="toctree-wrapper compound">
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="mlrl.common.html">mlrl.common package</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="mlrl.common.html#submodules">Submodules</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mlrl.common.html#module-mlrl.common.arrays">mlrl.common.arrays module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mlrl.common.html#module-mlrl.common.arrays">mlrl.common.arrays module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.arrays.enforce_2d"><code class="docutils literal notranslate"><span class="pre">enforce_2d()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.arrays.enforce_dense"><code class="docutils literal notranslate"><span class="pre">enforce_dense()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="mlrl.common.html#module-mlrl.common.config">mlrl.common.config module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.FeatureBinningParameter"><code class="docutils literal notranslate"><span class="pre">FeatureBinningParameter</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.FeatureSamplingParameter"><code class="docutils literal notranslate"><span class="pre">FeatureSamplingParameter</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.FeatureSamplingParameter.OPTION_NUM_RETAINED"><code class="docutils literal notranslate"><span class="pre">FeatureSamplingParameter.OPTION_NUM_RETAINED</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.FloatParameter"><code class="docutils literal notranslate"><span class="pre">FloatParameter</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.GlobalPruningParameter"><code class="docutils literal notranslate"><span class="pre">GlobalPruningParameter</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.GlobalPruningParameter.AGGREGATION_FUNCTION_ARITHMETIC_MEAN"><code class="docutils literal notranslate"><span class="pre">GlobalPruningParameter.AGGREGATION_FUNCTION_ARITHMETIC_MEAN</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.GlobalPruningParameter.AGGREGATION_FUNCTION_MAX"><code class="docutils literal notranslate"><span class="pre">GlobalPruningParameter.AGGREGATION_FUNCTION_MAX</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.GlobalPruningParameter.AGGREGATION_FUNCTION_MIN"><code class="docutils literal notranslate"><span class="pre">GlobalPruningParameter.AGGREGATION_FUNCTION_MIN</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.GlobalPruningParameter.GLOBAL_PRUNING_POST"><code class="docutils literal notranslate"><span class="pre">GlobalPruningParameter.GLOBAL_PRUNING_POST</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.GlobalPruningParameter.GLOBAL_PRUNING_PRE"><code class="docutils literal notranslate"><span class="pre">GlobalPruningParameter.GLOBAL_PRUNING_PRE</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.GlobalPruningParameter.OPTION_AGGREGATION_FUNCTION"><code class="docutils literal notranslate"><span class="pre">GlobalPruningParameter.OPTION_AGGREGATION_FUNCTION</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.GlobalPruningParameter.OPTION_INTERVAL"><code class="docutils literal notranslate"><span class="pre">GlobalPruningParameter.OPTION_INTERVAL</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.GlobalPruningParameter.OPTION_MIN_IMPROVEMENT"><code class="docutils literal notranslate"><span class="pre">GlobalPruningParameter.OPTION_MIN_IMPROVEMENT</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.GlobalPruningParameter.OPTION_MIN_RULES"><code class="docutils literal notranslate"><span class="pre">GlobalPruningParameter.OPTION_MIN_RULES</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.GlobalPruningParameter.OPTION_NUM_PAST"><code class="docutils literal notranslate"><span class="pre">GlobalPruningParameter.OPTION_NUM_PAST</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.GlobalPruningParameter.OPTION_NUM_RECENT"><code class="docutils literal notranslate"><span class="pre">GlobalPruningParameter.OPTION_NUM_RECENT</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.GlobalPruningParameter.OPTION_REMOVE_UNUSED_RULES"><code class="docutils literal notranslate"><span class="pre">GlobalPruningParameter.OPTION_REMOVE_UNUSED_RULES</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.GlobalPruningParameter.OPTION_STOP_INTERVAL"><code class="docutils literal notranslate"><span class="pre">GlobalPruningParameter.OPTION_STOP_INTERVAL</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.GlobalPruningParameter.OPTION_UPDATE_INTERVAL"><code class="docutils literal notranslate"><span class="pre">GlobalPruningParameter.OPTION_UPDATE_INTERVAL</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.InstanceSamplingParameter"><code class="docutils literal notranslate"><span class="pre">InstanceSamplingParameter</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.IntParameter"><code class="docutils literal notranslate"><span class="pre">IntParameter</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.LabelSamplingParameter"><code class="docutils literal notranslate"><span class="pre">LabelSamplingParameter</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.LabelSamplingParameter.LABEL_SAMPLING_ROUND_ROBIN"><code class="docutils literal notranslate"><span class="pre">LabelSamplingParameter.LABEL_SAMPLING_ROUND_ROBIN</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.NominalParameter"><code class="docutils literal notranslate"><span class="pre">NominalParameter</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.NominalParameter.Value"><code class="docutils literal notranslate"><span class="pre">NominalParameter.Value</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.NominalParameter.add_to_argument_parser"><code class="docutils literal notranslate"><span class="pre">NominalParameter.add_to_argument_parser()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.NominalParameter.add_value"><code class="docutils literal notranslate"><span class="pre">NominalParameter.add_value()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.NominalParameter.configure"><code class="docutils literal notranslate"><span class="pre">NominalParameter.configure()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.NumericalParameter"><code class="docutils literal notranslate"><span class="pre">NumericalParameter</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.NumericalParameter.add_to_argument_parser"><code class="docutils literal notranslate"><span class="pre">NumericalParameter.add_to_argument_parser()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.NumericalParameter.configure"><code class="docutils literal notranslate"><span class="pre">NumericalParameter.configure()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.ParallelPredictionParameter"><code class="docutils literal notranslate"><span class="pre">ParallelPredictionParameter</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.ParallelRuleRefinementParameter"><code class="docutils literal notranslate"><span class="pre">ParallelRuleRefinementParameter</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.ParallelStatisticUpdateParameter"><code class="docutils literal notranslate"><span class="pre">ParallelStatisticUpdateParameter</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.Parameter"><code class="docutils literal notranslate"><span class="pre">Parameter</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.Parameter.add_to_argument_parser"><code class="docutils literal notranslate"><span class="pre">Parameter.add_to_argument_parser()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.Parameter.argument_name"><code class="docutils literal notranslate"><span class="pre">Parameter.argument_name</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.Parameter.configure"><code class="docutils literal notranslate"><span class="pre">Parameter.configure()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.PartitionSamplingParameter"><code class="docutils literal notranslate"><span class="pre">PartitionSamplingParameter</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.PartitionSamplingParameter.OPTION_HOLDOUT_SET_SIZE"><code class="docutils literal notranslate"><span class="pre">PartitionSamplingParameter.OPTION_HOLDOUT_SET_SIZE</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.PartitionSamplingParameter.PARTITION_SAMPLING_RANDOM"><code class="docutils literal notranslate"><span class="pre">PartitionSamplingParameter.PARTITION_SAMPLING_RANDOM</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.RuleInductionParameter"><code class="docutils literal notranslate"><span class="pre">RuleInductionParameter</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.RuleInductionParameter.OPTION_BEAM_WIDTH"><code class="docutils literal notranslate"><span class="pre">RuleInductionParameter.OPTION_BEAM_WIDTH</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.RuleInductionParameter.OPTION_MAX_CONDITIONS"><code class="docutils literal notranslate"><span class="pre">RuleInductionParameter.OPTION_MAX_CONDITIONS</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.RuleInductionParameter.OPTION_MAX_HEAD_REFINEMENTS"><code class="docutils literal notranslate"><span class="pre">RuleInductionParameter.OPTION_MAX_HEAD_REFINEMENTS</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.RuleInductionParameter.OPTION_MIN_COVERAGE"><code class="docutils literal notranslate"><span class="pre">RuleInductionParameter.OPTION_MIN_COVERAGE</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.RuleInductionParameter.OPTION_MIN_SUPPORT"><code class="docutils literal notranslate"><span class="pre">RuleInductionParameter.OPTION_MIN_SUPPORT</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.RuleInductionParameter.OPTION_RECALCULATE_PREDICTIONS"><code class="docutils literal notranslate"><span class="pre">RuleInductionParameter.OPTION_RECALCULATE_PREDICTIONS</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.RuleInductionParameter.RULE_INDUCTION_TOP_DOWN_BEAM_SEARCH"><code class="docutils literal notranslate"><span class="pre">RuleInductionParameter.RULE_INDUCTION_TOP_DOWN_BEAM_SEARCH</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.RuleInductionParameter.RULE_INDUCTION_TOP_DOWN_GREEDY"><code class="docutils literal notranslate"><span class="pre">RuleInductionParameter.RULE_INDUCTION_TOP_DOWN_GREEDY</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.RulePruningParameter"><code class="docutils literal notranslate"><span class="pre">RulePruningParameter</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.RulePruningParameter.RULE_PRUNING_IREP"><code class="docutils literal notranslate"><span class="pre">RulePruningParameter.RULE_PRUNING_IREP</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.SequentialPostOptimizationParameter"><code class="docutils literal notranslate"><span class="pre">SequentialPostOptimizationParameter</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.SequentialPostOptimizationParameter.OPTION_NUM_ITERATIONS"><code class="docutils literal notranslate"><span class="pre">SequentialPostOptimizationParameter.OPTION_NUM_ITERATIONS</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.SequentialPostOptimizationParameter.OPTION_REFINE_HEADS"><code class="docutils literal notranslate"><span class="pre">SequentialPostOptimizationParameter.OPTION_REFINE_HEADS</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.SizeStoppingCriterionParameter"><code class="docutils literal notranslate"><span class="pre">SizeStoppingCriterionParameter</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.TimeStoppingCriterionParameter"><code class="docutils literal notranslate"><span class="pre">TimeStoppingCriterionParameter</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.configure_argument_parser"><code class="docutils literal notranslate"><span class="pre">configure_argument_parser()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.configure_rule_learner"><code class="docutils literal notranslate"><span class="pre">configure_rule_learner()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.config.create_kwargs_from_parameters"><code class="docutils literal notranslate"><span class="pre">create_kwargs_from_parameters()</span></code></a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="mlrl.common.html#module-mlrl.common.data_types">mlrl.common.data_types module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mlrl.common.html#module-mlrl.common.learners">mlrl.common.learners module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mlrl.common.html#module-mlrl.common.options">mlrl.common.options module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mlrl.common.html#module-mlrl.common.rule_learners">mlrl.common.rule_learners module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mlrl.common.html#module-mlrl.common.strings">mlrl.common.strings module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mlrl.common.html#module-mlrl.common.format">mlrl.common.format module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.format.format_dict_keys"><code class="docutils literal notranslate"><span class="pre">format_dict_keys()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.format.format_enum_values"><code class="docutils literal notranslate"><span class="pre">format_enum_values()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.format.format_string_set"><code class="docutils literal notranslate"><span class="pre">format_string_set()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="mlrl.common.html#module-mlrl.common.learners">mlrl.common.learners module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.learners.IncrementalLearner"><code class="docutils literal notranslate"><span class="pre">IncrementalLearner</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.learners.IncrementalLearner.IncrementalPredictor"><code class="docutils literal notranslate"><span class="pre">IncrementalLearner.IncrementalPredictor</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.learners.IncrementalLearner.predict_incrementally"><code class="docutils literal notranslate"><span class="pre">IncrementalLearner.predict_incrementally()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.learners.IncrementalLearner.predict_proba_incrementally"><code class="docutils literal notranslate"><span class="pre">IncrementalLearner.predict_proba_incrementally()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.learners.Learner"><code class="docutils literal notranslate"><span class="pre">Learner</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.learners.Learner.fit"><code class="docutils literal notranslate"><span class="pre">Learner.fit()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.learners.Learner.predict"><code class="docutils literal notranslate"><span class="pre">Learner.predict()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.learners.Learner.predict_proba"><code class="docutils literal notranslate"><span class="pre">Learner.predict_proba()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.learners.NominalAttributeLearner"><code class="docutils literal notranslate"><span class="pre">NominalAttributeLearner</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.learners.NominalAttributeLearner.nominal_attribute_indices"><code class="docutils literal notranslate"><span class="pre">NominalAttributeLearner.nominal_attribute_indices</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.learners.OrdinalAttributeLearner"><code class="docutils literal notranslate"><span class="pre">OrdinalAttributeLearner</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.learners.OrdinalAttributeLearner.ordinal_attribute_indices"><code class="docutils literal notranslate"><span class="pre">OrdinalAttributeLearner.ordinal_attribute_indices</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="mlrl.common.html#module-mlrl.common.options">mlrl.common.options module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.options.BooleanOption"><code class="docutils literal notranslate"><span class="pre">BooleanOption</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.options.BooleanOption.FALSE"><code class="docutils literal notranslate"><span class="pre">BooleanOption.FALSE</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.options.BooleanOption.TRUE"><code class="docutils literal notranslate"><span class="pre">BooleanOption.TRUE</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.options.BooleanOption.parse"><code class="docutils literal notranslate"><span class="pre">BooleanOption.parse()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.options.Options"><code class="docutils literal notranslate"><span class="pre">Options</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.options.Options.ERROR_MESSAGE_INVALID_OPTION"><code class="docutils literal notranslate"><span class="pre">Options.ERROR_MESSAGE_INVALID_OPTION</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.options.Options.ERROR_MESSAGE_INVALID_SYNTAX"><code class="docutils literal notranslate"><span class="pre">Options.ERROR_MESSAGE_INVALID_SYNTAX</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.options.Options.create"><code class="docutils literal notranslate"><span class="pre">Options.create()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.options.Options.get_bool"><code class="docutils literal notranslate"><span class="pre">Options.get_bool()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.options.Options.get_float"><code class="docutils literal notranslate"><span class="pre">Options.get_float()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.options.Options.get_int"><code class="docutils literal notranslate"><span class="pre">Options.get_int()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.options.Options.get_string"><code class="docutils literal notranslate"><span class="pre">Options.get_string()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.options.parse_param"><code class="docutils literal notranslate"><span class="pre">parse_param()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.options.parse_param_and_options"><code class="docutils literal notranslate"><span class="pre">parse_param_and_options()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="mlrl.common.html#module-mlrl.common.rule_learners">mlrl.common.rule_learners module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.rule_learners.RuleLearner"><code class="docutils literal notranslate"><span class="pre">RuleLearner</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.rule_learners.RuleLearner.IncrementalPredictor"><code class="docutils literal notranslate"><span class="pre">RuleLearner.IncrementalPredictor</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.rule_learners.RuleLearner.IncrementalProbabilityPredictor"><code class="docutils literal notranslate"><span class="pre">RuleLearner.IncrementalProbabilityPredictor</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.rule_learners.RuleLearner.NativeIncrementalPredictor"><code class="docutils literal notranslate"><span class="pre">RuleLearner.NativeIncrementalPredictor</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.rule_learners.RuleLearner.NativeIncrementalProbabilityPredictor"><code class="docutils literal notranslate"><span class="pre">RuleLearner.NativeIncrementalProbabilityPredictor</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.rule_learners.SparseFormat"><code class="docutils literal notranslate"><span class="pre">SparseFormat</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.rule_learners.SparseFormat.CSC"><code class="docutils literal notranslate"><span class="pre">SparseFormat.CSC</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.rule_learners.SparseFormat.CSR"><code class="docutils literal notranslate"><span class="pre">SparseFormat.CSR</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.rule_learners.SparsePolicy"><code class="docutils literal notranslate"><span class="pre">SparsePolicy</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.rule_learners.SparsePolicy.AUTO"><code class="docutils literal notranslate"><span class="pre">SparsePolicy.AUTO</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.rule_learners.SparsePolicy.FORCE_DENSE"><code class="docutils literal notranslate"><span class="pre">SparsePolicy.FORCE_DENSE</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="mlrl.common.html#mlrl.common.rule_learners.SparsePolicy.FORCE_SPARSE"><code class="docutils literal notranslate"><span class="pre">SparsePolicy.FORCE_SPARSE</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.rule_learners.create_binary_predictor"><code class="docutils literal notranslate"><span class="pre">create_binary_predictor()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.rule_learners.create_probability_predictor"><code class="docutils literal notranslate"><span class="pre">create_probability_predictor()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.rule_learners.create_score_predictor"><code class="docutils literal notranslate"><span class="pre">create_score_predictor()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.rule_learners.create_sklearn_compatible_probabilities"><code class="docutils literal notranslate"><span class="pre">create_sklearn_compatible_probabilities()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.rule_learners.create_sparse_policy"><code class="docutils literal notranslate"><span class="pre">create_sparse_policy()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.rule_learners.is_sparse"><code class="docutils literal notranslate"><span class="pre">is_sparse()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="mlrl.common.html#mlrl.common.rule_learners.should_enforce_sparse"><code class="docutils literal notranslate"><span class="pre">should_enforce_sparse()</span></code></a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="mlrl.common.html#module-mlrl.common">Module contents</a></li>
 </ul>
 </li>
@@ -93,7 +259,7 @@
 </div>
 </section>
 <section id="module-mlrl">
-<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-mlrl" title="Permalink to this headline"></a></h2>
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-mlrl" title="Permalink to this heading"></a></h2>
 </section>
 </section>
 

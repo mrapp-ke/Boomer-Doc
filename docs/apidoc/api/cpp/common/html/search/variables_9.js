@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['measurestoppingcriterionconfigptr_5f_0',['measureStoppingCriterionConfigPtr_',['../classAbstractRuleLearner_1_1Config.html#ac92c648d08e47744fc18c5125ce5b082',1,'AbstractRuleLearner::Config']]]
+  ['jointprobabilitycalibratorconfigptr_5f_0',['jointProbabilityCalibratorConfigPtr_',['../classAbstractRuleLearner_1_1Config.html#a7d277dadb49aa8beb4837b6b6997b535',1,'AbstractRuleLearner::Config']]]
 ];

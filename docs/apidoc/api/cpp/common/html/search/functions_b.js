@@ -14,6 +14,7 @@ var searchData=
   ['noinstancesampling_11',['NoInstanceSampling',['../classNoInstanceSampling.html#a85a60c4b693a018a961087bffc7dad15',1,'NoInstanceSampling']]],
   ['nolabelsampling_12',['NoLabelSampling',['../classNoLabelSampling.html#a589adf1dcb76759ab137d6f920356039',1,'NoLabelSampling']]],
   ['nolabelsamplingfactory_13',['NoLabelSamplingFactory',['../classNoLabelSamplingFactory.html#a76e056289c0e5ce7e09100216d1d0cfd',1,'NoLabelSamplingFactory']]],
-  ['nonzeroindexforwarditerator_14',['NonZeroIndexForwardIterator',['../classNonZeroIndexForwardIterator.html#a8a2816475228e8fd449cda7c4d346514',1,'NonZeroIndexForwardIterator']]],
-  ['nopartitionsampling_15',['NoPartitionSampling',['../classNoPartitionSampling.html#a17b8840f639b66aa50300c3c2fda14e1',1,'NoPartitionSampling']]]
+  ['nonzeroindexforwarditerator_14',['NonZeroIndexForwardIterator',['../classNonZeroIndexForwardIterator.html#a2cc6191feb8c407801bae3a4907b238a',1,'NonZeroIndexForwardIterator']]],
+  ['nopartitionsampling_15',['NoPartitionSampling',['../classNoPartitionSampling.html#a17b8840f639b66aa50300c3c2fda14e1',1,'NoPartitionSampling']]],
+  ['nopostoptimization_16',['NoPostOptimization',['../classNoPostOptimization.html#a357ca6f1a2d39c7547ebe1f2404d5ab9',1,'NoPostOptimization']]]
 ];

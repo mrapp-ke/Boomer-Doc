@@ -3,17 +3,18 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Index &mdash; mlrl-testbed 0.8.2 documentation</title>
+  <title>Index &mdash; mlrl-testbed 0.9.0 documentation</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
     <script src="_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
         <script src="_static/jquery.js"></script>
-        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
         <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="#" />
     <link rel="search" title="Search" href="search.html" /> 
@@ -24,11 +25,15 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-            <a href="index.html" class="icon icon-home"> mlrl-testbed
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            mlrl-testbed
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
@@ -51,8 +56,8 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>Index</li>
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Index</li>
       <li class="wy-breadcrumbs-aside">
       </li>
   </ul>
@@ -73,6 +78,8 @@
  | <a href="#F"><strong>F</strong></a>
  | <a href="#G"><strong>G</strong></a>
  | <a href="#I"><strong>I</strong></a>
+ | <a href="#J"><strong>J</strong></a>
+ | <a href="#K"><strong>K</strong></a>
  | <a href="#L"><strong>L</strong></a>
  | <a href="#M"><strong>M</strong></a>
  | <a href="#N"><strong>N</strong></a>
@@ -80,6 +87,7 @@
  | <a href="#P"><strong>P</strong></a>
  | <a href="#R"><strong>R</strong></a>
  | <a href="#S"><strong>S</strong></a>
+ | <a href="#T"><strong>T</strong></a>
  | <a href="#V"><strong>V</strong></a>
  | <a href="#W"><strong>W</strong></a>
  
@@ -87,25 +95,19 @@
 <h2 id="A">A</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.AbstractEvaluation">AbstractEvaluation (class in mlrl.testbed.evaluation)</a>
-</li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.args.add_learner_arguments">add_learner_arguments() (in module mlrl.testbed.args)</a>
-</li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.args.add_log_level_argument">add_log_level_argument() (in module mlrl.testbed.args)</a>
-</li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.args.add_random_state_argument">add_random_state_argument() (in module mlrl.testbed.args)</a>
-</li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.args.add_rule_learner_arguments">add_rule_learner_arguments() (in module mlrl.testbed.args)</a>
-</li>
       <li><a href="mlrl.testbed.html#mlrl.testbed.data.Attribute">Attribute (class in mlrl.testbed.data)</a>
 </li>
       <li><a href="mlrl.testbed.html#mlrl.testbed.data.AttributeType">AttributeType (class in mlrl.testbed.data)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.EvaluationResult.avg">avg() (mlrl.testbed.evaluation.EvaluationResult method)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.EvaluationWriter.EvaluationResult.avg">avg() (mlrl.testbed.evaluation.EvaluationWriter.EvaluationResult method)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.EvaluationResult.avg_dict">avg_dict() (mlrl.testbed.evaluation.EvaluationResult method)</a>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.EvaluationWriter.EvaluationResult.avg_dict">avg_dict() (mlrl.testbed.evaluation.EvaluationWriter.EvaluationResult method)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.characteristics.LabelCharacteristics.avg_label_cardinality">avg_label_cardinality (mlrl.testbed.characteristics.LabelCharacteristics property)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.characteristics.LabelCharacteristics.avg_label_imbalance_ratio">avg_label_imbalance_ratio (mlrl.testbed.characteristics.LabelCharacteristics property)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -113,27 +115,11 @@
 <h2 id="B">B</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.bbc_cv.BbcCv">BbcCv (class in mlrl.testbed.bbc_cv)</a>
-</li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.bbc_cv.BbcCvAdapter">BbcCvAdapter (class in mlrl.testbed.bbc_cv)</a>
-</li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.bbc_cv.BbcCvObserver">BbcCvObserver (class in mlrl.testbed.bbc_cv)</a>
-</li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.args.boolean_string">boolean_string() (in module mlrl.testbed.args)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.prediction_scope.PredictionType.BINARY">BINARY (mlrl.testbed.prediction_scope.PredictionType attribute)</a>
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.main_boomer.BoomerRunnable">BoomerRunnable (class in mlrl.testbed.main_boomer)</a>
-</li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.bbc_cv.Bootstrapping.bootstrap">bootstrap() (mlrl.testbed.bbc_cv.Bootstrapping method)</a>
-
-      <ul>
-        <li><a href="mlrl.testbed.html#mlrl.testbed.bbc_cv.CVBootstrapping.bootstrap">(mlrl.testbed.bbc_cv.CVBootstrapping method)</a>
-</li>
-        <li><a href="mlrl.testbed.html#mlrl.testbed.bbc_cv.DefaultBootstrapping.bootstrap">(mlrl.testbed.bbc_cv.DefaultBootstrapping method)</a>
-</li>
-      </ul></li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.bbc_cv.Bootstrapping">Bootstrapping (class in mlrl.testbed.bbc_cv)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.BinaryEvaluationWriter">BinaryEvaluationWriter (class in mlrl.testbed.evaluation)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -141,47 +127,31 @@
 <h2 id="C">C</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.ClassificationEvaluation">ClassificationEvaluation (class in mlrl.testbed.evaluation)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.characteristics.Characteristic">Characteristic (class in mlrl.testbed.characteristics)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.check_if_files_exist">check_if_files_exist() (in module mlrl.testbed.data_splitting)</a>
 </li>
       <li><a href="mlrl.testbed.html#mlrl.testbed.io.clear_directory">clear_directory() (in module mlrl.testbed.io)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsCsvOutput.COL_CONDITIONS">COL_CONDITIONS (mlrl.testbed.model_characteristics.RuleModelCharacteristicsCsvOutput attribute)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.label_vectors.LabelVectorWriter.LabelVectors.COLUMN_FREQUENCY">COLUMN_FREQUENCY (mlrl.testbed.label_vectors.LabelVectorWriter.LabelVectors attribute)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsCsvOutput.COL_EQ_CONDITIONS">COL_EQ_CONDITIONS (mlrl.testbed.model_characteristics.RuleModelCharacteristicsCsvOutput attribute)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.label_vectors.LabelVectorWriter.LabelVectors.COLUMN_INDEX">COLUMN_INDEX (mlrl.testbed.label_vectors.LabelVectorWriter.LabelVectors attribute)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsCsvOutput.COL_GR_CONDITIONS">COL_GR_CONDITIONS (mlrl.testbed.model_characteristics.RuleModelCharacteristicsCsvOutput attribute)</a>
-</li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsCsvOutput.COL_LEQ_CONDITIONS">COL_LEQ_CONDITIONS (mlrl.testbed.model_characteristics.RuleModelCharacteristicsCsvOutput attribute)</a>
-</li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsCsvOutput.COL_NEG_PREDICTIONS">COL_NEG_PREDICTIONS (mlrl.testbed.model_characteristics.RuleModelCharacteristicsCsvOutput attribute)</a>
-</li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsCsvOutput.COL_NEQ_CONDITIONS">COL_NEQ_CONDITIONS (mlrl.testbed.model_characteristics.RuleModelCharacteristicsCsvOutput attribute)</a>
-</li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsCsvOutput.COL_NOMINAL_CONDITIONS">COL_NOMINAL_CONDITIONS (mlrl.testbed.model_characteristics.RuleModelCharacteristicsCsvOutput attribute)</a>
-</li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsCsvOutput.COL_NUMERICAL_CONDITIONS">COL_NUMERICAL_CONDITIONS (mlrl.testbed.model_characteristics.RuleModelCharacteristicsCsvOutput attribute)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.label_vectors.LabelVectorWriter.LabelVectors.COLUMN_LABEL_VECTOR">COLUMN_LABEL_VECTOR (mlrl.testbed.label_vectors.LabelVectorWriter.LabelVectors attribute)</a>
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsCsvOutput.COL_POS_PREDICTIONS">COL_POS_PREDICTIONS (mlrl.testbed.model_characteristics.RuleModelCharacteristicsCsvOutput attribute)</a>
-</li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsCsvOutput.COL_PREDICTIONS">COL_PREDICTIONS (mlrl.testbed.model_characteristics.RuleModelCharacteristicsCsvOutput attribute)</a>
-</li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsCsvOutput.COL_RULE_NAME">COL_RULE_NAME (mlrl.testbed.model_characteristics.RuleModelCharacteristicsCsvOutput attribute)</a>
-</li>
       <li><a href="mlrl.testbed.html#mlrl.testbed.io.create_csv_dict_reader">create_csv_dict_reader() (in module mlrl.testbed.io)</a>
 </li>
       <li><a href="mlrl.testbed.html#mlrl.testbed.io.create_csv_dict_writer">create_csv_dict_writer() (in module mlrl.testbed.io)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.args.LogLevel.CRITICAL">CRITICAL (mlrl.testbed.args.LogLevel attribute)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LogLevel.CRITICAL">CRITICAL (mlrl.testbed.runnables.LogLevel attribute)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.training.CrossValidation">CrossValidation (class in mlrl.testbed.training)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.CrossValidationFold">CrossValidationFold (class in mlrl.testbed.data_splitting)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.args.current_fold_string">current_fold_string() (in module mlrl.testbed.args)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.CrossValidationOverall">CrossValidationOverall (class in mlrl.testbed.data_splitting)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.bbc_cv.CV">CV (class in mlrl.testbed.bbc_cv)</a>
-</li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.bbc_cv.CVBootstrapping">CVBootstrapping (class in mlrl.testbed.bbc_cv)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.CrossValidationSplitter">CrossValidationSplitter (class in mlrl.testbed.data_splitting)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -189,31 +159,39 @@
 <h2 id="D">D</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.data_characteristics.DataCharacteristics">DataCharacteristics (class in mlrl.testbed.data_characteristics)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable.DATA_SPLIT_CROSS_VALIDATION">DATA_SPLIT_CROSS_VALIDATION (mlrl.testbed.runnables.LearnerRunnable attribute)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.data_characteristics.DataCharacteristicsCsvOutput">DataCharacteristicsCsvOutput (class in mlrl.testbed.data_characteristics)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable.DATA_SPLIT_TRAIN_TEST">DATA_SPLIT_TRAIN_TEST (mlrl.testbed.runnables.LearnerRunnable attribute)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.data_characteristics.DataCharacteristicsLogOutput">DataCharacteristicsLogOutput (class in mlrl.testbed.data_characteristics)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable.DATA_SPLIT_VALUES">DATA_SPLIT_VALUES (mlrl.testbed.runnables.LearnerRunnable attribute)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.data_characteristics.DataCharacteristicsOutput">DataCharacteristicsOutput (class in mlrl.testbed.data_characteristics)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data_characteristics.DataCharacteristicsWriter">DataCharacteristicsWriter (class in mlrl.testbed.data_characteristics)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.data_characteristics.DataCharacteristicsPrinter">DataCharacteristicsPrinter (class in mlrl.testbed.data_characteristics)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data_characteristics.DataCharacteristicsWriter.CsvSink">DataCharacteristicsWriter.CsvSink (class in mlrl.testbed.data_characteristics)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.training.DataSet">DataSet (class in mlrl.testbed.training)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data_characteristics.DataCharacteristicsWriter.DataCharacteristics">DataCharacteristicsWriter.DataCharacteristics (class in mlrl.testbed.data_characteristics)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data_characteristics.DataCharacteristicsWriter.LogSink">DataCharacteristicsWriter.LogSink (class in mlrl.testbed.data_characteristics)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.DataSet">DataSet (class in mlrl.testbed.data_splitting)</a>
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.args.LogLevel.DEBUG">DEBUG (mlrl.testbed.args.LogLevel attribute)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.DataSplit">DataSplit (class in mlrl.testbed.data_splitting)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.bbc_cv.DefaultBbcCvObserver">DefaultBbcCvObserver (class in mlrl.testbed.bbc_cv)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.DataSplitter">DataSplitter (class in mlrl.testbed.data_splitting)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.bbc_cv.DefaultBootstrapping">DefaultBootstrapping (class in mlrl.testbed.bbc_cv)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.DataSplitter.Callback">DataSplitter.Callback (class in mlrl.testbed.data_splitting)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.data_characteristics.density">density() (in module mlrl.testbed.data_characteristics)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.DataType">DataType (class in mlrl.testbed.data_splitting)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.EvaluationResult.dict">dict() (mlrl.testbed.evaluation.EvaluationResult method)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LogLevel.DEBUG">DEBUG (mlrl.testbed.runnables.LogLevel attribute)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.data_characteristics.distinct_label_vectors">distinct_label_vectors() (in module mlrl.testbed.data_characteristics)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.characteristics.density">density() (in module mlrl.testbed.characteristics)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.EvaluationWriter.EvaluationResult.dict">dict() (mlrl.testbed.evaluation.EvaluationWriter.EvaluationResult method)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.characteristics.distinct_label_vectors">distinct_label_vectors() (in module mlrl.testbed.characteristics)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -221,33 +199,33 @@
 <h2 id="E">E</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.args.LogLevel.ERROR">ERROR (mlrl.testbed.args.LogLevel attribute)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LogLevel.ERROR">ERROR (mlrl.testbed.runnables.LogLevel attribute)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.bbc_cv.BbcCv.evaluate">evaluate() (mlrl.testbed.bbc_cv.BbcCv method)</a>
-
-      <ul>
-        <li><a href="mlrl.testbed.html#mlrl.testbed.bbc_cv.BbcCvObserver.evaluate">(mlrl.testbed.bbc_cv.BbcCvObserver method)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.EvaluationFunction.evaluate">evaluate() (mlrl.testbed.evaluation.EvaluationFunction method)</a>
 </li>
-        <li><a href="mlrl.testbed.html#mlrl.testbed.bbc_cv.DefaultBbcCvObserver.evaluate">(mlrl.testbed.bbc_cv.DefaultBbcCvObserver method)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.experiments.Evaluation">Evaluation (class in mlrl.testbed.experiments)</a>
 </li>
-        <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.AbstractEvaluation.evaluate">(mlrl.testbed.evaluation.AbstractEvaluation method)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.EvaluationFunction">EvaluationFunction (class in mlrl.testbed.evaluation)</a>
 </li>
-        <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.Evaluation.evaluate">(mlrl.testbed.evaluation.Evaluation method)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.EvaluationWriter">EvaluationWriter (class in mlrl.testbed.evaluation)</a>
 </li>
-      </ul></li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.EvaluationWriter.CsvSink">EvaluationWriter.CsvSink (class in mlrl.testbed.evaluation)</a>
+</li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.Evaluation">Evaluation (class in mlrl.testbed.evaluation)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.EvaluationWriter.EvaluationResult">EvaluationWriter.EvaluationResult (class in mlrl.testbed.evaluation)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.EvaluationCsvOutput">EvaluationCsvOutput (class in mlrl.testbed.evaluation)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.EvaluationWriter.LogSink">EvaluationWriter.LogSink (class in mlrl.testbed.evaluation)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.EvaluationLogOutput">EvaluationLogOutput (class in mlrl.testbed.evaluation)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.experiments.Experiment.ExecutionHook.execute">execute() (mlrl.testbed.experiments.Experiment.ExecutionHook method)</a>
+
+      <ul>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable.ClearOutputDirHook.execute">(mlrl.testbed.runnables.LearnerRunnable.ClearOutputDirHook method)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.EvaluationOutput">EvaluationOutput (class in mlrl.testbed.evaluation)</a>
-</li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.EvaluationResult">EvaluationResult (class in mlrl.testbed.evaluation)</a>
-</li>
+      </ul></li>
       <li><a href="mlrl.testbed.html#mlrl.testbed.experiments.Experiment">Experiment (class in mlrl.testbed.experiments)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.experiments.Experiment.ExecutionHook">Experiment.ExecutionHook (class in mlrl.testbed.experiments)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -255,11 +233,57 @@
 <h2 id="F">F</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.args.LogLevel.FATAL">FATAL (mlrl.testbed.args.LogLevel attribute)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LogLevel.FATAL">FATAL (mlrl.testbed.runnables.LogLevel attribute)</a>
 </li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data_characteristics.FeatureCharacteristics.feature_density">feature_density (mlrl.testbed.data_characteristics.FeatureCharacteristics property)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data_characteristics.FeatureCharacteristics.feature_sparsity">feature_sparsity (mlrl.testbed.data_characteristics.FeatureCharacteristics property)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data_characteristics.FeatureCharacteristics">FeatureCharacteristics (class in mlrl.testbed.data_characteristics)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.format.filter_formatters">filter_formatters() (in module mlrl.testbed.format)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.characteristics.Characteristic.format">format() (mlrl.testbed.characteristics.Characteristic method)</a>
+
+      <ul>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.characteristics.LabelCharacteristics.format">(mlrl.testbed.characteristics.LabelCharacteristics method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.data_characteristics.DataCharacteristicsWriter.DataCharacteristics.format">(mlrl.testbed.data_characteristics.DataCharacteristicsWriter.DataCharacteristics method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.EvaluationWriter.EvaluationResult.format">(mlrl.testbed.evaluation.EvaluationWriter.EvaluationResult method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.format.Formatter.format">(mlrl.testbed.format.Formatter method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.label_vectors.LabelVectorWriter.LabelVectors.format">(mlrl.testbed.label_vectors.LabelVectorWriter.LabelVectors method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsWriter.RuleModelCharacteristics.format">(mlrl.testbed.model_characteristics.RuleModelCharacteristicsWriter.RuleModelCharacteristics method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.models.RuleModelWriter.RuleModelFormattable.format">(mlrl.testbed.models.RuleModelWriter.RuleModelFormattable method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.output_writer.Formattable.format">(mlrl.testbed.output_writer.Formattable method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.parameters.ParameterWriter.Parameters.format">(mlrl.testbed.parameters.ParameterWriter.Parameters method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.predictions.PredictionWriter.Predictions.format">(mlrl.testbed.predictions.PredictionWriter.Predictions method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.probability_calibration.ProbabilityCalibrationModelWriter.IsotonicProbabilityCalibrationModelFormattable.format">(mlrl.testbed.probability_calibration.ProbabilityCalibrationModelWriter.IsotonicProbabilityCalibrationModelFormattable method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.probability_calibration.ProbabilityCalibrationModelWriter.NoProbabilityCalibrationModelFormattable.format">(mlrl.testbed.probability_calibration.ProbabilityCalibrationModelWriter.NoProbabilityCalibrationModelFormattable method)</a>
+</li>
+      </ul></li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.bbc_cv.BbcCvAdapter.fit">fit() (mlrl.testbed.bbc_cv.BbcCvAdapter method)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.format.format_duration">format_duration() (in module mlrl.testbed.format)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.format.format_float">format_float() (in module mlrl.testbed.format)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.format.format_percentage">format_percentage() (in module mlrl.testbed.format)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.format.format_table">format_table() (in module mlrl.testbed.format)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.output_writer.Formattable">Formattable (class in mlrl.testbed.output_writer)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.format.Formatter">Formatter (class in mlrl.testbed.format)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -267,21 +291,61 @@
 <h2 id="G">G</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.EvaluationResult.get">get() (mlrl.testbed.evaluation.EvaluationResult method)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.EvaluationWriter.EvaluationResult.get">get() (mlrl.testbed.evaluation.EvaluationWriter.EvaluationResult method)</a>
 </li>
       <li><a href="mlrl.testbed.html#mlrl.testbed.data.MetaData.get_attribute_indices">get_attribute_indices() (mlrl.testbed.data.MetaData method)</a>
 </li>
       <li><a href="mlrl.testbed.html#mlrl.testbed.io.get_file_name">get_file_name() (in module mlrl.testbed.io)</a>
+
+      <ul>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.DataType.get_file_name">(mlrl.testbed.data_splitting.DataType method)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.prediction_scope.GlobalPrediction.get_file_name">(mlrl.testbed.prediction_scope.GlobalPrediction method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.prediction_scope.IncrementalPrediction.get_file_name">(mlrl.testbed.prediction_scope.IncrementalPrediction method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.prediction_scope.PredictionScope.get_file_name">(mlrl.testbed.prediction_scope.PredictionScope method)</a>
+</li>
+      </ul></li>
       <li><a href="mlrl.testbed.html#mlrl.testbed.io.get_file_name_per_fold">get_file_name_per_fold() (in module mlrl.testbed.io)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.parameters.ParameterSearch.get_params">get_params() (mlrl.testbed.parameters.ParameterSearch method)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.CrossValidationFold.get_fold">get_fold() (mlrl.testbed.data_splitting.CrossValidationFold method)</a>
+
+      <ul>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.CrossValidationOverall.get_fold">(mlrl.testbed.data_splitting.CrossValidationOverall method)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.parameters.ParameterSearch.get_score">get_score() (mlrl.testbed.parameters.ParameterSearch method)</a>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.DataSplit.get_fold">(mlrl.testbed.data_splitting.DataSplit method)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelFormatter.get_text">get_text() (mlrl.testbed.model_characteristics.RuleModelFormatter method)</a>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.NoSplit.get_fold">(mlrl.testbed.data_splitting.NoSplit method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.TrainingTestSplit.get_fold">(mlrl.testbed.data_splitting.TrainingTestSplit method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.prediction_scope.GlobalPrediction.get_model_size">get_model_size() (mlrl.testbed.prediction_scope.GlobalPrediction method)</a>
+
+      <ul>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.prediction_scope.IncrementalPrediction.get_model_size">(mlrl.testbed.prediction_scope.IncrementalPrediction method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.prediction_scope.PredictionScope.get_model_size">(mlrl.testbed.prediction_scope.PredictionScope method)</a>
+</li>
+      </ul></li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.CrossValidationFold.get_num_folds">get_num_folds() (mlrl.testbed.data_splitting.CrossValidationFold method)</a>
+
+      <ul>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.CrossValidationOverall.get_num_folds">(mlrl.testbed.data_splitting.CrossValidationOverall method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.DataSplit.get_num_folds">(mlrl.testbed.data_splitting.DataSplit method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.NoSplit.get_num_folds">(mlrl.testbed.data_splitting.NoSplit method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.TrainingTestSplit.get_num_folds">(mlrl.testbed.data_splitting.TrainingTestSplit method)</a>
+</li>
+      </ul></li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.experiments.GlobalEvaluation">GlobalEvaluation (class in mlrl.testbed.experiments)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.prediction_scope.GlobalPrediction">GlobalPrediction (class in mlrl.testbed.prediction_scope)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -289,7 +353,75 @@
 <h2 id="I">I</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.args.LogLevel.INFO">INFO (mlrl.testbed.args.LogLevel attribute)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.RuleLearnerRunnable.INCREMENTAL_EVALUATION_VALUES">INCREMENTAL_EVALUATION_VALUES (mlrl.testbed.runnables.RuleLearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.experiments.IncrementalEvaluation">IncrementalEvaluation (class in mlrl.testbed.experiments)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.prediction_scope.IncrementalPrediction">IncrementalPrediction (class in mlrl.testbed.prediction_scope)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LogLevel.INFO">INFO (mlrl.testbed.runnables.LogLevel attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.DataSplit.is_cross_validation_used">is_cross_validation_used() (mlrl.testbed.data_splitting.DataSplit method)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.prediction_scope.GlobalPrediction.is_global">is_global() (mlrl.testbed.prediction_scope.GlobalPrediction method)</a>
+
+      <ul>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.prediction_scope.IncrementalPrediction.is_global">(mlrl.testbed.prediction_scope.IncrementalPrediction method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.prediction_scope.PredictionScope.is_global">(mlrl.testbed.prediction_scope.PredictionScope method)</a>
+</li>
+      </ul></li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.CrossValidationFold.is_last_fold">is_last_fold() (mlrl.testbed.data_splitting.CrossValidationFold method)</a>
+
+      <ul>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.CrossValidationOverall.is_last_fold">(mlrl.testbed.data_splitting.CrossValidationOverall method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.DataSplit.is_last_fold">(mlrl.testbed.data_splitting.DataSplit method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.NoSplit.is_last_fold">(mlrl.testbed.data_splitting.NoSplit method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.TrainingTestSplit.is_last_fold">(mlrl.testbed.data_splitting.TrainingTestSplit method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.CrossValidationFold.is_train_test_separated">is_train_test_separated() (mlrl.testbed.data_splitting.CrossValidationFold method)</a>
+
+      <ul>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.CrossValidationOverall.is_train_test_separated">(mlrl.testbed.data_splitting.CrossValidationOverall method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.DataSplit.is_train_test_separated">(mlrl.testbed.data_splitting.DataSplit method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.NoSplit.is_train_test_separated">(mlrl.testbed.data_splitting.NoSplit method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.TrainingTestSplit.is_train_test_separated">(mlrl.testbed.data_splitting.TrainingTestSplit method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="J">J</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.probability_calibration.JointProbabilityCalibrationModelWriter">JointProbabilityCalibrationModelWriter (class in mlrl.testbed.probability_calibration)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.probability_calibration.JointProbabilityCalibrationModelWriter.CsvSink">JointProbabilityCalibrationModelWriter.CsvSink (class in mlrl.testbed.probability_calibration)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.probability_calibration.JointProbabilityCalibrationModelWriter.LogSink">JointProbabilityCalibrationModelWriter.LogSink (class in mlrl.testbed.probability_calibration)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="K">K</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.output_writer.OutputWriter.KWARG_DATA_SPLIT">KWARG_DATA_SPLIT (mlrl.testbed.output_writer.OutputWriter attribute)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.EvaluationWriter.KWARG_FOLD">KWARG_FOLD (mlrl.testbed.evaluation.EvaluationWriter attribute)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -299,21 +431,41 @@
   <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="mlrl.testbed.html#mlrl.testbed.data.Label">Label (class in mlrl.testbed.data)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.data_characteristics.label_cardinality">label_cardinality() (in module mlrl.testbed.data_characteristics)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.characteristics.label_cardinality">label_cardinality() (in module mlrl.testbed.characteristics)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.data_characteristics.label_imbalance_ratio">label_imbalance_ratio() (in module mlrl.testbed.data_characteristics)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.characteristics.LabelCharacteristics.label_density">label_density (mlrl.testbed.characteristics.LabelCharacteristics property)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.data.load_data_set">load_data_set() (in module mlrl.testbed.data)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.characteristics.label_imbalance_ratio">label_imbalance_ratio() (in module mlrl.testbed.characteristics)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.characteristics.LabelCharacteristics.label_sparsity">label_sparsity (mlrl.testbed.characteristics.LabelCharacteristics property)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.characteristics.LabelCharacteristics">LabelCharacteristics (class in mlrl.testbed.characteristics)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.label_vectors.LabelVectorSetWriter">LabelVectorSetWriter (class in mlrl.testbed.label_vectors)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.label_vectors.LabelVectorSetWriter.Visitor">LabelVectorSetWriter.Visitor (class in mlrl.testbed.label_vectors)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.label_vectors.LabelVectorWriter">LabelVectorWriter (class in mlrl.testbed.label_vectors)</a>
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.label_vectors.LabelVectorWriter.CsvSink">LabelVectorWriter.CsvSink (class in mlrl.testbed.label_vectors)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.label_vectors.LabelVectorWriter.LabelVectors">LabelVectorWriter.LabelVectors (class in mlrl.testbed.label_vectors)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.label_vectors.LabelVectorWriter.LogSink">LabelVectorWriter.LogSink (class in mlrl.testbed.label_vectors)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable">LearnerRunnable (class in mlrl.testbed.runnables)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable.ClearOutputDirHook">LearnerRunnable.ClearOutputDirHook (class in mlrl.testbed.runnables)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data.load_data_set">load_data_set() (in module mlrl.testbed.data)</a>
+</li>
       <li><a href="mlrl.testbed.html#mlrl.testbed.data.load_data_set_and_meta_data">load_data_set_and_meta_data() (in module mlrl.testbed.data)</a>
 </li>
       <li><a href="mlrl.testbed.html#mlrl.testbed.persistence.ModelPersistence.load_model">load_model() (mlrl.testbed.persistence.ModelPersistence method)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.args.log_level">log_level() (in module mlrl.testbed.args)</a>
-</li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.args.LogLevel">LogLevel (class in mlrl.testbed.args)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LogLevel">LogLevel (class in mlrl.testbed.runnables)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -322,11 +474,13 @@
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="mlrl.testbed.html#mlrl.testbed.main_boomer.main">main() (in module mlrl.testbed.main_boomer)</a>
-
-      <ul>
-        <li><a href="mlrl.testbed.html#mlrl.testbed.main_seco.main">(in module mlrl.testbed.main_seco)</a>
 </li>
-      </ul></li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.probability_calibration.MarginalProbabilityCalibrationModelWriter">MarginalProbabilityCalibrationModelWriter (class in mlrl.testbed.probability_calibration)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.probability_calibration.MarginalProbabilityCalibrationModelWriter.CsvSink">MarginalProbabilityCalibrationModelWriter.CsvSink (class in mlrl.testbed.probability_calibration)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.probability_calibration.MarginalProbabilityCalibrationModelWriter.LogSink">MarginalProbabilityCalibrationModelWriter.LogSink (class in mlrl.testbed.probability_calibration)</a>
+</li>
       <li><a href="mlrl.testbed.html#mlrl.testbed.data.MetaData">MetaData (class in mlrl.testbed.data)</a>
 </li>
       <li>
@@ -344,17 +498,10 @@
 </li>
       </ul></li>
       <li>
-    mlrl.testbed.args
+    mlrl.testbed.characteristics
 
       <ul>
-        <li><a href="mlrl.testbed.html#module-mlrl.testbed.args">module</a>
-</li>
-      </ul></li>
-      <li>
-    mlrl.testbed.bbc_cv
-
-      <ul>
-        <li><a href="mlrl.testbed.html#module-mlrl.testbed.bbc_cv">module</a>
+        <li><a href="mlrl.testbed.html#module-mlrl.testbed.characteristics">module</a>
 </li>
       </ul></li>
       <li>
@@ -372,6 +519,13 @@
 </li>
       </ul></li>
       <li>
+    mlrl.testbed.data_splitting
+
+      <ul>
+        <li><a href="mlrl.testbed.html#module-mlrl.testbed.data_splitting">module</a>
+</li>
+      </ul></li>
+      <li>
     mlrl.testbed.evaluation
 
       <ul>
@@ -386,10 +540,10 @@
 </li>
       </ul></li>
       <li>
-    mlrl.testbed.interfaces
+    mlrl.testbed.format
 
       <ul>
-        <li><a href="mlrl.testbed.html#module-mlrl.testbed.interfaces">module</a>
+        <li><a href="mlrl.testbed.html#module-mlrl.testbed.format">module</a>
 </li>
       </ul></li>
       <li>
@@ -400,17 +554,17 @@
 </li>
       </ul></li>
       <li>
+    mlrl.testbed.label_vectors
+
+      <ul>
+        <li><a href="mlrl.testbed.html#module-mlrl.testbed.label_vectors">module</a>
+</li>
+      </ul></li>
+      <li>
     mlrl.testbed.main_boomer
 
       <ul>
         <li><a href="mlrl.testbed.html#module-mlrl.testbed.main_boomer">module</a>
-</li>
-      </ul></li>
-      <li>
-    mlrl.testbed.main_seco
-
-      <ul>
-        <li><a href="mlrl.testbed.html#module-mlrl.testbed.main_seco">module</a>
 </li>
       </ul></li>
       <li>
@@ -421,19 +575,61 @@
 </li>
       </ul></li>
       <li>
+    mlrl.testbed.models
+
+      <ul>
+        <li><a href="mlrl.testbed.html#module-mlrl.testbed.models">module</a>
+</li>
+      </ul></li>
+      <li>
+    mlrl.testbed.output_writer
+
+      <ul>
+        <li><a href="mlrl.testbed.html#module-mlrl.testbed.output_writer">module</a>
+</li>
+      </ul></li>
+      <li>
     mlrl.testbed.parameters
 
       <ul>
         <li><a href="mlrl.testbed.html#module-mlrl.testbed.parameters">module</a>
 </li>
       </ul></li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li>
     mlrl.testbed.persistence
 
       <ul>
         <li><a href="mlrl.testbed.html#module-mlrl.testbed.persistence">module</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li>
+    mlrl.testbed.prediction_characteristics
+
+      <ul>
+        <li><a href="mlrl.testbed.html#module-mlrl.testbed.prediction_characteristics">module</a>
+</li>
+      </ul></li>
+      <li>
+    mlrl.testbed.prediction_scope
+
+      <ul>
+        <li><a href="mlrl.testbed.html#module-mlrl.testbed.prediction_scope">module</a>
+</li>
+      </ul></li>
+      <li>
+    mlrl.testbed.predictions
+
+      <ul>
+        <li><a href="mlrl.testbed.html#module-mlrl.testbed.predictions">module</a>
+</li>
+      </ul></li>
+      <li>
+    mlrl.testbed.probability_calibration
+
+      <ul>
+        <li><a href="mlrl.testbed.html#module-mlrl.testbed.probability_calibration">module</a>
 </li>
       </ul></li>
       <li>
@@ -443,24 +639,19 @@
         <li><a href="mlrl.testbed.html#module-mlrl.testbed.runnables">module</a>
 </li>
       </ul></li>
-      <li>
-    mlrl.testbed.training
-
-      <ul>
-        <li><a href="mlrl.testbed.html#module-mlrl.testbed.training">module</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.ModelCharacteristicsWriter">ModelCharacteristicsWriter (class in mlrl.testbed.model_characteristics)</a>
 </li>
-      </ul></li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.ModelCharacteristicsPrinter">ModelCharacteristicsPrinter (class in mlrl.testbed.model_characteristics)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.ModelCharacteristicsWriter.CsvSink">ModelCharacteristicsWriter.CsvSink (class in mlrl.testbed.model_characteristics)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.ModelCharacteristicsWriter.LogSink">ModelCharacteristicsWriter.LogSink (class in mlrl.testbed.model_characteristics)</a>
 </li>
       <li><a href="mlrl.testbed.html#mlrl.testbed.persistence.ModelPersistence">ModelPersistence (class in mlrl.testbed.persistence)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.ModelPrinter">ModelPrinter (class in mlrl.testbed.model_characteristics)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.models.ModelWriter">ModelWriter (class in mlrl.testbed.models)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.ModelPrinterLogOutput">ModelPrinterLogOutput (class in mlrl.testbed.model_characteristics)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.models.ModelWriter.LogSink">ModelWriter.LogSink (class in mlrl.testbed.models)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.ModelPrinterOutput">ModelPrinterOutput (class in mlrl.testbed.model_characteristics)</a>
-</li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.ModelPrinterTxtOutput">ModelPrinterTxtOutput (class in mlrl.testbed.model_characteristics)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.models.ModelWriter.TxtSink">ModelWriter.TxtSink (class in mlrl.testbed.models)</a>
 </li>
       <li>
     module
@@ -470,35 +661,45 @@
 </li>
         <li><a href="mlrl.testbed.html#module-mlrl.testbed">mlrl.testbed</a>
 </li>
-        <li><a href="mlrl.testbed.html#module-mlrl.testbed.args">mlrl.testbed.args</a>
-</li>
-        <li><a href="mlrl.testbed.html#module-mlrl.testbed.bbc_cv">mlrl.testbed.bbc_cv</a>
+        <li><a href="mlrl.testbed.html#module-mlrl.testbed.characteristics">mlrl.testbed.characteristics</a>
 </li>
         <li><a href="mlrl.testbed.html#module-mlrl.testbed.data">mlrl.testbed.data</a>
 </li>
         <li><a href="mlrl.testbed.html#module-mlrl.testbed.data_characteristics">mlrl.testbed.data_characteristics</a>
 </li>
+        <li><a href="mlrl.testbed.html#module-mlrl.testbed.data_splitting">mlrl.testbed.data_splitting</a>
+</li>
         <li><a href="mlrl.testbed.html#module-mlrl.testbed.evaluation">mlrl.testbed.evaluation</a>
 </li>
         <li><a href="mlrl.testbed.html#module-mlrl.testbed.experiments">mlrl.testbed.experiments</a>
 </li>
-        <li><a href="mlrl.testbed.html#module-mlrl.testbed.interfaces">mlrl.testbed.interfaces</a>
+        <li><a href="mlrl.testbed.html#module-mlrl.testbed.format">mlrl.testbed.format</a>
 </li>
         <li><a href="mlrl.testbed.html#module-mlrl.testbed.io">mlrl.testbed.io</a>
 </li>
+        <li><a href="mlrl.testbed.html#module-mlrl.testbed.label_vectors">mlrl.testbed.label_vectors</a>
+</li>
         <li><a href="mlrl.testbed.html#module-mlrl.testbed.main_boomer">mlrl.testbed.main_boomer</a>
 </li>
-        <li><a href="mlrl.testbed.html#module-mlrl.testbed.main_seco">mlrl.testbed.main_seco</a>
-</li>
         <li><a href="mlrl.testbed.html#module-mlrl.testbed.model_characteristics">mlrl.testbed.model_characteristics</a>
+</li>
+        <li><a href="mlrl.testbed.html#module-mlrl.testbed.models">mlrl.testbed.models</a>
+</li>
+        <li><a href="mlrl.testbed.html#module-mlrl.testbed.output_writer">mlrl.testbed.output_writer</a>
 </li>
         <li><a href="mlrl.testbed.html#module-mlrl.testbed.parameters">mlrl.testbed.parameters</a>
 </li>
         <li><a href="mlrl.testbed.html#module-mlrl.testbed.persistence">mlrl.testbed.persistence</a>
 </li>
-        <li><a href="mlrl.testbed.html#module-mlrl.testbed.runnables">mlrl.testbed.runnables</a>
+        <li><a href="mlrl.testbed.html#module-mlrl.testbed.prediction_characteristics">mlrl.testbed.prediction_characteristics</a>
 </li>
-        <li><a href="mlrl.testbed.html#module-mlrl.testbed.training">mlrl.testbed.training</a>
+        <li><a href="mlrl.testbed.html#module-mlrl.testbed.prediction_scope">mlrl.testbed.prediction_scope</a>
+</li>
+        <li><a href="mlrl.testbed.html#module-mlrl.testbed.predictions">mlrl.testbed.predictions</a>
+</li>
+        <li><a href="mlrl.testbed.html#module-mlrl.testbed.probability_calibration">mlrl.testbed.probability_calibration</a>
+</li>
+        <li><a href="mlrl.testbed.html#module-mlrl.testbed.runnables">mlrl.testbed.runnables</a>
 </li>
       </ul></li>
   </ul></td>
@@ -507,15 +708,23 @@
 <h2 id="N">N</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.parameters.NestedCrossValidation">NestedCrossValidation (class in mlrl.testbed.parameters)</a>
-</li>
       <li><a href="mlrl.testbed.html#mlrl.testbed.data.AttributeType.NOMINAL">NOMINAL (mlrl.testbed.data.AttributeType attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.NoSplit">NoSplit (class in mlrl.testbed.data_splitting)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.NoSplitter">NoSplitter (class in mlrl.testbed.data_splitting)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LogLevel.NOTSET">NOTSET (mlrl.testbed.runnables.LogLevel attribute)</a>
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.args.LogLevel.NOTSET">NOTSET (mlrl.testbed.args.LogLevel attribute)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.characteristics.LabelCharacteristics.num_distinct_label_vectors">num_distinct_label_vectors (mlrl.testbed.characteristics.LabelCharacteristics property)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.data.AttributeType.NUMERIC">NUMERIC (mlrl.testbed.data.AttributeType attribute)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data_characteristics.FeatureCharacteristics.num_nominal_features">num_nominal_features (mlrl.testbed.data_characteristics.FeatureCharacteristics property)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data_characteristics.FeatureCharacteristics.num_numerical_features">num_numerical_features (mlrl.testbed.data_characteristics.FeatureCharacteristics property)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data.AttributeType.NUMERICAL">NUMERICAL (mlrl.testbed.data.AttributeType attribute)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -527,13 +736,35 @@
 </li>
       <li><a href="mlrl.testbed.html#mlrl.testbed.io.open_readable_csv_file">open_readable_csv_file() (in module mlrl.testbed.io)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="mlrl.testbed.html#mlrl.testbed.io.open_writable_csv_file">open_writable_csv_file() (in module mlrl.testbed.io)</a>
 </li>
       <li><a href="mlrl.testbed.html#mlrl.testbed.io.open_writable_txt_file">open_writable_txt_file() (in module mlrl.testbed.io)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.args.optional_string">optional_string() (in module mlrl.testbed.args)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable.OPTION_CURRENT_FOLD">OPTION_CURRENT_FOLD (mlrl.testbed.runnables.LearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.RuleLearnerRunnable.OPTION_MAX_SIZE">OPTION_MAX_SIZE (mlrl.testbed.runnables.RuleLearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.RuleLearnerRunnable.OPTION_MIN_SIZE">OPTION_MIN_SIZE (mlrl.testbed.runnables.RuleLearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable.OPTION_NUM_FOLDS">OPTION_NUM_FOLDS (mlrl.testbed.runnables.LearnerRunnable attribute)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.RuleLearnerRunnable.OPTION_STEP_SIZE">OPTION_STEP_SIZE (mlrl.testbed.runnables.RuleLearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable.OPTION_TEST_SIZE">OPTION_TEST_SIZE (mlrl.testbed.runnables.LearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data.AttributeType.ORDINAL">ORDINAL (mlrl.testbed.data.AttributeType attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.output_writer.OutputWriter">OutputWriter (class in mlrl.testbed.output_writer)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.output_writer.OutputWriter.CsvSink">OutputWriter.CsvSink (class in mlrl.testbed.output_writer)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.output_writer.OutputWriter.LogSink">OutputWriter.LogSink (class in mlrl.testbed.output_writer)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.output_writer.OutputWriter.Sink">OutputWriter.Sink (class in mlrl.testbed.output_writer)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.output_writer.OutputWriter.TxtSink">OutputWriter.TxtSink (class in mlrl.testbed.output_writer)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -541,33 +772,115 @@
 <h2 id="P">P</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.parameters.ParameterCsvInput">ParameterCsvInput (class in mlrl.testbed.parameters)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable.PARAM_DATA_SPLIT">PARAM_DATA_SPLIT (mlrl.testbed.runnables.LearnerRunnable attribute)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.parameters.ParameterCsvOutput">ParameterCsvOutput (class in mlrl.testbed.parameters)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.RuleLearnerRunnable.PARAM_INCREMENTAL_EVALUATION">PARAM_INCREMENTAL_EVALUATION (mlrl.testbed.runnables.RuleLearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable.PARAM_OUTPUT_DIR">PARAM_OUTPUT_DIR (mlrl.testbed.runnables.LearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable.PARAM_PREDICTION_TYPE">PARAM_PREDICTION_TYPE (mlrl.testbed.runnables.LearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable.PARAM_PRINT_DATA_CHARACTERISTICS">PARAM_PRINT_DATA_CHARACTERISTICS (mlrl.testbed.runnables.LearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable.PARAM_PRINT_EVALUATION">PARAM_PRINT_EVALUATION (mlrl.testbed.runnables.LearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.RuleLearnerRunnable.PARAM_PRINT_JOINT_PROBABILITY_CALIBRATION_MODEL">PARAM_PRINT_JOINT_PROBABILITY_CALIBRATION_MODEL (mlrl.testbed.runnables.RuleLearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable.PARAM_PRINT_LABEL_VECTORS">PARAM_PRINT_LABEL_VECTORS (mlrl.testbed.runnables.LearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.RuleLearnerRunnable.PARAM_PRINT_MARGINAL_PROBABILITY_CALIBRATION_MODEL">PARAM_PRINT_MARGINAL_PROBABILITY_CALIBRATION_MODEL (mlrl.testbed.runnables.RuleLearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable.PARAM_PRINT_PREDICTION_CHARACTERISTICS">PARAM_PRINT_PREDICTION_CHARACTERISTICS (mlrl.testbed.runnables.LearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable.PARAM_PRINT_PREDICTIONS">PARAM_PRINT_PREDICTIONS (mlrl.testbed.runnables.LearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.RuleLearnerRunnable.PARAM_PRINT_RULES">PARAM_PRINT_RULES (mlrl.testbed.runnables.RuleLearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable.PARAM_STORE_DATA_CHARACTERISTICS">PARAM_STORE_DATA_CHARACTERISTICS (mlrl.testbed.runnables.LearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable.PARAM_STORE_EVALUATION">PARAM_STORE_EVALUATION (mlrl.testbed.runnables.LearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.RuleLearnerRunnable.PARAM_STORE_JOINT_PROBABILITY_CALIBRATION_MODEL">PARAM_STORE_JOINT_PROBABILITY_CALIBRATION_MODEL (mlrl.testbed.runnables.RuleLearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable.PARAM_STORE_LABEL_VECTORS">PARAM_STORE_LABEL_VECTORS (mlrl.testbed.runnables.LearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.RuleLearnerRunnable.PARAM_STORE_MARGINAL_PROBABILITY_CALIBRATION_MODEL">PARAM_STORE_MARGINAL_PROBABILITY_CALIBRATION_MODEL (mlrl.testbed.runnables.RuleLearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable.PARAM_STORE_PREDICTION_CHARACTERISTICS">PARAM_STORE_PREDICTION_CHARACTERISTICS (mlrl.testbed.runnables.LearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable.PARAM_STORE_PREDICTIONS">PARAM_STORE_PREDICTIONS (mlrl.testbed.runnables.LearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.RuleLearnerRunnable.PARAM_STORE_RULES">PARAM_STORE_RULES (mlrl.testbed.runnables.RuleLearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.parameters.ParameterCsvInput">ParameterCsvInput (class in mlrl.testbed.parameters)</a>
 </li>
       <li><a href="mlrl.testbed.html#mlrl.testbed.parameters.ParameterInput">ParameterInput (class in mlrl.testbed.parameters)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.parameters.ParameterLogOutput">ParameterLogOutput (class in mlrl.testbed.parameters)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.parameters.ParameterWriter">ParameterWriter (class in mlrl.testbed.parameters)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.parameters.ParameterOutput">ParameterOutput (class in mlrl.testbed.parameters)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.parameters.ParameterWriter.CsvSink">ParameterWriter.CsvSink (class in mlrl.testbed.parameters)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.parameters.ParameterSearch">ParameterSearch (class in mlrl.testbed.parameters)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.parameters.ParameterWriter.LogSink">ParameterWriter.LogSink (class in mlrl.testbed.parameters)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.parameters.ParameterWriter.Parameters">ParameterWriter.Parameters (class in mlrl.testbed.parameters)</a>
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.parameters.ParameterTuning">ParameterTuning (class in mlrl.testbed.parameters)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LogLevel.parse">parse() (mlrl.testbed.runnables.LogLevel method)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.bbc_cv.BbcCvAdapter.predict">predict() (mlrl.testbed.bbc_cv.BbcCvAdapter method)</a>
-</li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.data_characteristics.DataCharacteristicsPrinter.print">print() (mlrl.testbed.data_characteristics.DataCharacteristicsPrinter method)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.experiments.Evaluation.predict_and_evaluate">predict_and_evaluate() (mlrl.testbed.experiments.Evaluation method)</a>
 
       <ul>
-        <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.ModelCharacteristicsPrinter.print">(mlrl.testbed.model_characteristics.ModelCharacteristicsPrinter method)</a>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.experiments.GlobalEvaluation.predict_and_evaluate">(mlrl.testbed.experiments.GlobalEvaluation method)</a>
 </li>
-        <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.ModelPrinter.print">(mlrl.testbed.model_characteristics.ModelPrinter method)</a>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.experiments.IncrementalEvaluation.predict_and_evaluate">(mlrl.testbed.experiments.IncrementalEvaluation method)</a>
 </li>
       </ul></li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.EvaluationResult.put">put() (mlrl.testbed.evaluation.EvaluationResult method)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.prediction_characteristics.PredictionCharacteristicsWriter">PredictionCharacteristicsWriter (class in mlrl.testbed.prediction_characteristics)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.prediction_characteristics.PredictionCharacteristicsWriter.CsvSink">PredictionCharacteristicsWriter.CsvSink (class in mlrl.testbed.prediction_characteristics)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.prediction_characteristics.PredictionCharacteristicsWriter.LogSink">PredictionCharacteristicsWriter.LogSink (class in mlrl.testbed.prediction_characteristics)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.prediction_scope.PredictionScope">PredictionScope (class in mlrl.testbed.prediction_scope)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.prediction_scope.PredictionType">PredictionType (class in mlrl.testbed.prediction_scope)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.predictions.PredictionWriter">PredictionWriter (class in mlrl.testbed.predictions)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.predictions.PredictionWriter.ArffSink">PredictionWriter.ArffSink (class in mlrl.testbed.predictions)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.predictions.PredictionWriter.LogSink">PredictionWriter.LogSink (class in mlrl.testbed.predictions)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.predictions.PredictionWriter.Predictions">PredictionWriter.Predictions (class in mlrl.testbed.predictions)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable.PRINT_DATA_CHARACTERISTICS_VALUES">PRINT_DATA_CHARACTERISTICS_VALUES (mlrl.testbed.runnables.LearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable.PRINT_EVALUATION_VALUES">PRINT_EVALUATION_VALUES (mlrl.testbed.runnables.LearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.RuleLearnerRunnable.PRINT_JOINT_PROBABILITY_CALIBRATION_MODEL_VALUES">PRINT_JOINT_PROBABILITY_CALIBRATION_MODEL_VALUES (mlrl.testbed.runnables.RuleLearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable.PRINT_LABEL_VECTORS_VALUES">PRINT_LABEL_VECTORS_VALUES (mlrl.testbed.runnables.LearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.RuleLearnerRunnable.PRINT_MARGINAL_PROBABILITY_CALIBRATION_MODEL_VALUES">PRINT_MARGINAL_PROBABILITY_CALIBRATION_MODEL_VALUES (mlrl.testbed.runnables.RuleLearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable.PRINT_PREDICTION_CHARACTERISTICS_VALUES">PRINT_PREDICTION_CHARACTERISTICS_VALUES (mlrl.testbed.runnables.LearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable.PRINT_PREDICTIONS_VALUES">PRINT_PREDICTIONS_VALUES (mlrl.testbed.runnables.LearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.RuleLearnerRunnable.PRINT_RULES_VALUES">PRINT_RULES_VALUES (mlrl.testbed.runnables.RuleLearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.prediction_scope.PredictionType.PROBABILITIES">PROBABILITIES (mlrl.testbed.prediction_scope.PredictionType attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.probability_calibration.ProbabilityCalibrationModelWriter">ProbabilityCalibrationModelWriter (class in mlrl.testbed.probability_calibration)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.probability_calibration.ProbabilityCalibrationModelWriter.IsotonicProbabilityCalibrationModelFormattable">ProbabilityCalibrationModelWriter.IsotonicProbabilityCalibrationModelFormattable (class in mlrl.testbed.probability_calibration)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.probability_calibration.ProbabilityCalibrationModelWriter.NoProbabilityCalibrationModelFormattable">ProbabilityCalibrationModelWriter.NoProbabilityCalibrationModelFormattable (class in mlrl.testbed.probability_calibration)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.ProbabilityEvaluationWriter">ProbabilityEvaluationWriter (class in mlrl.testbed.evaluation)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.EvaluationWriter.EvaluationResult.put">put() (mlrl.testbed.evaluation.EvaluationWriter.EvaluationResult method)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -575,12 +888,6 @@
 <h2 id="R">R</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.interfaces.Randomized.random_state">random_state (mlrl.testbed.interfaces.Randomized attribute)</a>
-</li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.interfaces.Randomized">Randomized (class in mlrl.testbed.interfaces)</a>
-</li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.RankingEvaluation">RankingEvaluation (class in mlrl.testbed.evaluation)</a>
-</li>
       <li><a href="mlrl.testbed.html#mlrl.testbed.parameters.ParameterCsvInput.read_parameters">read_parameters() (mlrl.testbed.parameters.ParameterCsvInput method)</a>
 
       <ul>
@@ -589,32 +896,24 @@
       </ul></li>
       <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.RuleLearnerRunnable">RuleLearnerRunnable (class in mlrl.testbed.runnables)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristics">RuleModelCharacteristics (class in mlrl.testbed.model_characteristics)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsWriter">RuleModelCharacteristicsWriter (class in mlrl.testbed.model_characteristics)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsCsvOutput">RuleModelCharacteristicsCsvOutput (class in mlrl.testbed.model_characteristics)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsWriter.RuleModelCharacteristics">RuleModelCharacteristicsWriter.RuleModelCharacteristics (class in mlrl.testbed.model_characteristics)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsLogOutput">RuleModelCharacteristicsLogOutput (class in mlrl.testbed.model_characteristics)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsWriter.RuleModelCharacteristicsVisitor">RuleModelCharacteristicsWriter.RuleModelCharacteristicsVisitor (class in mlrl.testbed.model_characteristics)</a>
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsOutput">RuleModelCharacteristicsOutput (class in mlrl.testbed.model_characteristics)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.models.RuleModelWriter">RuleModelWriter (class in mlrl.testbed.models)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsPrinter">RuleModelCharacteristicsPrinter (class in mlrl.testbed.model_characteristics)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.models.RuleModelWriter.RuleModelFormattable">RuleModelWriter.RuleModelFormattable (class in mlrl.testbed.models)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsVisitor">RuleModelCharacteristicsVisitor (class in mlrl.testbed.model_characteristics)</a>
-</li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelFormatter">RuleModelFormatter (class in mlrl.testbed.model_characteristics)</a>
-</li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RulePrinter">RulePrinter (class in mlrl.testbed.model_characteristics)</a>
-</li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.bbc_cv.BbcCvAdapter.run">run() (mlrl.testbed.bbc_cv.BbcCvAdapter method)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.DataSplitter.run">run() (mlrl.testbed.data_splitting.DataSplitter method)</a>
 
       <ul>
         <li><a href="mlrl.testbed.html#mlrl.testbed.experiments.Experiment.run">(mlrl.testbed.experiments.Experiment method)</a>
 </li>
         <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.Runnable.run">(mlrl.testbed.runnables.Runnable method)</a>
-</li>
-        <li><a href="mlrl.testbed.html#mlrl.testbed.training.CrossValidation.run">(mlrl.testbed.training.CrossValidation method)</a>
 </li>
       </ul></li>
       <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.Runnable">Runnable (class in mlrl.testbed.runnables)</a>
@@ -633,19 +932,73 @@
 </li>
       <li><a href="mlrl.testbed.html#mlrl.testbed.data.save_meta_data">save_meta_data() (in module mlrl.testbed.data)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="mlrl.testbed.html#mlrl.testbed.persistence.ModelPersistence.save_model">save_model() (mlrl.testbed.persistence.ModelPersistence method)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.parameters.NestedCrossValidation.search">search() (mlrl.testbed.parameters.NestedCrossValidation method)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.ScoreEvaluationWriter">ScoreEvaluationWriter (class in mlrl.testbed.evaluation)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.prediction_scope.PredictionType.SCORES">SCORES (mlrl.testbed.prediction_scope.PredictionType attribute)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable.STORE_DATA_CHARACTERISTICS_VALUES">STORE_DATA_CHARACTERISTICS_VALUES (mlrl.testbed.runnables.LearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable.STORE_EVALUATION_VALUES">STORE_EVALUATION_VALUES (mlrl.testbed.runnables.LearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.RuleLearnerRunnable.STORE_JOINT_PROBABILITY_CALIBRATION_MODEL_VALUES">STORE_JOINT_PROBABILITY_CALIBRATION_MODEL_VALUES (mlrl.testbed.runnables.RuleLearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable.STORE_LABEL_VECTORS_VALUES">STORE_LABEL_VECTORS_VALUES (mlrl.testbed.runnables.LearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.RuleLearnerRunnable.STORE_MARGINAL_PROBABILITY_CALIBRATION_MODEL_VALUES">STORE_MARGINAL_PROBABILITY_CALIBRATION_MODEL_VALUES (mlrl.testbed.runnables.RuleLearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable.STORE_PREDICTION_CHARACTERISTICS_VALUES">STORE_PREDICTION_CHARACTERISTICS_VALUES (mlrl.testbed.runnables.LearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LearnerRunnable.STORE_PREDICTIONS_VALUES">STORE_PREDICTIONS_VALUES (mlrl.testbed.runnables.LearnerRunnable attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.RuleLearnerRunnable.STORE_RULES_VALUES">STORE_RULES_VALUES (mlrl.testbed.runnables.RuleLearnerRunnable attribute)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="T">T</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.output_writer.Tabularizable">Tabularizable (class in mlrl.testbed.output_writer)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.characteristics.LabelCharacteristics.tabularize">tabularize() (mlrl.testbed.characteristics.LabelCharacteristics method)</a>
 
       <ul>
-        <li><a href="mlrl.testbed.html#mlrl.testbed.parameters.ParameterSearch.search">(mlrl.testbed.parameters.ParameterSearch method)</a>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.data_characteristics.DataCharacteristicsWriter.DataCharacteristics.tabularize">(mlrl.testbed.data_characteristics.DataCharacteristicsWriter.DataCharacteristics method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.EvaluationWriter.EvaluationResult.tabularize">(mlrl.testbed.evaluation.EvaluationWriter.EvaluationResult method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.label_vectors.LabelVectorWriter.LabelVectors.tabularize">(mlrl.testbed.label_vectors.LabelVectorWriter.LabelVectors method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsWriter.RuleModelCharacteristics.tabularize">(mlrl.testbed.model_characteristics.RuleModelCharacteristicsWriter.RuleModelCharacteristics method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.output_writer.Tabularizable.tabularize">(mlrl.testbed.output_writer.Tabularizable method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.parameters.ParameterWriter.Parameters.tabularize">(mlrl.testbed.parameters.ParameterWriter.Parameters method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.probability_calibration.ProbabilityCalibrationModelWriter.IsotonicProbabilityCalibrationModelFormattable.tabularize">(mlrl.testbed.probability_calibration.ProbabilityCalibrationModelWriter.IsotonicProbabilityCalibrationModelFormattable method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.probability_calibration.ProbabilityCalibrationModelWriter.NoProbabilityCalibrationModelFormattable.tabularize">(mlrl.testbed.probability_calibration.ProbabilityCalibrationModelWriter.NoProbabilityCalibrationModelFormattable method)</a>
 </li>
       </ul></li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.main_seco.SeCoRunnable">SeCoRunnable (class in mlrl.testbed.main_seco)</a>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.DataType.TEST">TEST (mlrl.testbed.data_splitting.DataType attribute)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.bbc_cv.BbcCv.store_predictions">store_predictions() (mlrl.testbed.bbc_cv.BbcCv method)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.DataSplitter.Callback.train_and_evaluate">train_and_evaluate() (mlrl.testbed.data_splitting.DataSplitter.Callback method)</a>
+
+      <ul>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.experiments.Experiment.train_and_evaluate">(mlrl.testbed.experiments.Experiment method)</a>
+</li>
+      </ul></li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.DataType.TRAINING">TRAINING (mlrl.testbed.data_splitting.DataType attribute)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.TrainingTestSplit">TrainingTestSplit (class in mlrl.testbed.data_splitting)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.data_splitting.TrainTestSplitter">TrainTestSplitter (class in mlrl.testbed.data_splitting)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -653,30 +1006,34 @@
 <h2 id="V">V</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsVisitor.visit_complete_head">visit_complete_head() (mlrl.testbed.model_characteristics.RuleModelCharacteristicsVisitor method)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.probability_calibration.ProbabilityCalibrationModelWriter.IsotonicProbabilityCalibrationModelFormattable.visit_bin">visit_bin() (mlrl.testbed.probability_calibration.ProbabilityCalibrationModelWriter.IsotonicProbabilityCalibrationModelFormattable method)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsWriter.RuleModelCharacteristicsVisitor.visit_complete_head">visit_complete_head() (mlrl.testbed.model_characteristics.RuleModelCharacteristicsWriter.RuleModelCharacteristicsVisitor method)</a>
 
       <ul>
-        <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelFormatter.visit_complete_head">(mlrl.testbed.model_characteristics.RuleModelFormatter method)</a>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.models.RuleModelWriter.RuleModelFormattable.visit_complete_head">(mlrl.testbed.models.RuleModelWriter.RuleModelFormattable method)</a>
 </li>
       </ul></li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsVisitor.visit_conjunctive_body">visit_conjunctive_body() (mlrl.testbed.model_characteristics.RuleModelCharacteristicsVisitor method)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsWriter.RuleModelCharacteristicsVisitor.visit_conjunctive_body">visit_conjunctive_body() (mlrl.testbed.model_characteristics.RuleModelCharacteristicsWriter.RuleModelCharacteristicsVisitor method)</a>
 
       <ul>
-        <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelFormatter.visit_conjunctive_body">(mlrl.testbed.model_characteristics.RuleModelFormatter method)</a>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.models.RuleModelWriter.RuleModelFormattable.visit_conjunctive_body">(mlrl.testbed.models.RuleModelWriter.RuleModelFormattable method)</a>
 </li>
       </ul></li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsVisitor.visit_empty_body">visit_empty_body() (mlrl.testbed.model_characteristics.RuleModelCharacteristicsVisitor method)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsWriter.RuleModelCharacteristicsVisitor.visit_empty_body">visit_empty_body() (mlrl.testbed.model_characteristics.RuleModelCharacteristicsWriter.RuleModelCharacteristicsVisitor method)</a>
 
       <ul>
-        <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelFormatter.visit_empty_body">(mlrl.testbed.model_characteristics.RuleModelFormatter method)</a>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.models.RuleModelWriter.RuleModelFormattable.visit_empty_body">(mlrl.testbed.models.RuleModelWriter.RuleModelFormattable method)</a>
 </li>
       </ul></li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsVisitor.visit_partial_head">visit_partial_head() (mlrl.testbed.model_characteristics.RuleModelCharacteristicsVisitor method)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.label_vectors.LabelVectorSetWriter.Visitor.visit_label_vector">visit_label_vector() (mlrl.testbed.label_vectors.LabelVectorSetWriter.Visitor method)</a>
+</li>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsWriter.RuleModelCharacteristicsVisitor.visit_partial_head">visit_partial_head() (mlrl.testbed.model_characteristics.RuleModelCharacteristicsWriter.RuleModelCharacteristicsVisitor method)</a>
 
       <ul>
-        <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelFormatter.visit_partial_head">(mlrl.testbed.model_characteristics.RuleModelFormatter method)</a>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.models.RuleModelWriter.RuleModelFormattable.visit_partial_head">(mlrl.testbed.models.RuleModelWriter.RuleModelFormattable method)</a>
 </li>
       </ul></li>
   </ul></td>
@@ -685,60 +1042,30 @@
 <h2 id="W">W</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.args.LogLevel.WARN">WARN (mlrl.testbed.args.LogLevel attribute)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LogLevel.WARN">WARN (mlrl.testbed.runnables.LogLevel attribute)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.args.LogLevel.WARNING">WARNING (mlrl.testbed.args.LogLevel attribute)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.runnables.LogLevel.WARNING">WARNING (mlrl.testbed.runnables.LogLevel attribute)</a>
 </li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.data_characteristics.DataCharacteristicsCsvOutput.write_data_characteristics">write_data_characteristics() (mlrl.testbed.data_characteristics.DataCharacteristicsCsvOutput method)</a>
+      <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.EvaluationWriter.CsvSink.write_output">write_output() (mlrl.testbed.evaluation.EvaluationWriter.CsvSink method)</a>
 
       <ul>
-        <li><a href="mlrl.testbed.html#mlrl.testbed.data_characteristics.DataCharacteristicsLogOutput.write_data_characteristics">(mlrl.testbed.data_characteristics.DataCharacteristicsLogOutput method)</a>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.EvaluationWriter.LogSink.write_output">(mlrl.testbed.evaluation.EvaluationWriter.LogSink method)</a>
 </li>
-        <li><a href="mlrl.testbed.html#mlrl.testbed.data_characteristics.DataCharacteristicsOutput.write_data_characteristics">(mlrl.testbed.data_characteristics.DataCharacteristicsOutput method)</a>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.output_writer.OutputWriter.write_output">(mlrl.testbed.output_writer.OutputWriter method)</a>
 </li>
-      </ul></li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.EvaluationCsvOutput.write_evaluation_results">write_evaluation_results() (mlrl.testbed.evaluation.EvaluationCsvOutput method)</a>
-
-      <ul>
-        <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.EvaluationLogOutput.write_evaluation_results">(mlrl.testbed.evaluation.EvaluationLogOutput method)</a>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.output_writer.OutputWriter.CsvSink.write_output">(mlrl.testbed.output_writer.OutputWriter.CsvSink method)</a>
 </li>
-        <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.EvaluationOutput.write_evaluation_results">(mlrl.testbed.evaluation.EvaluationOutput method)</a>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.output_writer.OutputWriter.LogSink.write_output">(mlrl.testbed.output_writer.OutputWriter.LogSink method)</a>
 </li>
-      </ul></li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.ModelPrinterLogOutput.write_model">write_model() (mlrl.testbed.model_characteristics.ModelPrinterLogOutput method)</a>
-
-      <ul>
-        <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.ModelPrinterOutput.write_model">(mlrl.testbed.model_characteristics.ModelPrinterOutput method)</a>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.output_writer.OutputWriter.Sink.write_output">(mlrl.testbed.output_writer.OutputWriter.Sink method)</a>
 </li>
-        <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.ModelPrinterTxtOutput.write_model">(mlrl.testbed.model_characteristics.ModelPrinterTxtOutput method)</a>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.output_writer.OutputWriter.TxtSink.write_output">(mlrl.testbed.output_writer.OutputWriter.TxtSink method)</a>
+</li>
+        <li><a href="mlrl.testbed.html#mlrl.testbed.predictions.PredictionWriter.ArffSink.write_output">(mlrl.testbed.predictions.PredictionWriter.ArffSink method)</a>
 </li>
       </ul></li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsCsvOutput.write_model_characteristics">write_model_characteristics() (mlrl.testbed.model_characteristics.RuleModelCharacteristicsCsvOutput method)</a>
-
-      <ul>
-        <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsLogOutput.write_model_characteristics">(mlrl.testbed.model_characteristics.RuleModelCharacteristicsLogOutput method)</a>
-</li>
-        <li><a href="mlrl.testbed.html#mlrl.testbed.model_characteristics.RuleModelCharacteristicsOutput.write_model_characteristics">(mlrl.testbed.model_characteristics.RuleModelCharacteristicsOutput method)</a>
-</li>
-      </ul></li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.parameters.ParameterCsvOutput.write_parameters">write_parameters() (mlrl.testbed.parameters.ParameterCsvOutput method)</a>
-
-      <ul>
-        <li><a href="mlrl.testbed.html#mlrl.testbed.parameters.ParameterLogOutput.write_parameters">(mlrl.testbed.parameters.ParameterLogOutput method)</a>
-</li>
-        <li><a href="mlrl.testbed.html#mlrl.testbed.parameters.ParameterOutput.write_parameters">(mlrl.testbed.parameters.ParameterOutput method)</a>
-</li>
-      </ul></li>
-      <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.EvaluationCsvOutput.write_predictions">write_predictions() (mlrl.testbed.evaluation.EvaluationCsvOutput method)</a>
-
-      <ul>
-        <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.EvaluationLogOutput.write_predictions">(mlrl.testbed.evaluation.EvaluationLogOutput method)</a>
-</li>
-        <li><a href="mlrl.testbed.html#mlrl.testbed.evaluation.EvaluationOutput.write_predictions">(mlrl.testbed.evaluation.EvaluationOutput method)</a>
-</li>
-      </ul></li>
       <li><a href="mlrl.testbed.html#mlrl.testbed.io.write_xml_file">write_xml_file() (in module mlrl.testbed.io)</a>
 </li>
   </ul></td>

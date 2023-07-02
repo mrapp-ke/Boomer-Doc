@@ -12,10 +12,26 @@ mlrl.common.arrays module
    :undoc-members:
    :show-inheritance:
 
+mlrl.common.config module
+-------------------------
+
+.. automodule:: mlrl.common.config
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 mlrl.common.data\_types module
 ------------------------------
 
 .. automodule:: mlrl.common.data_types
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+mlrl.common.format module
+-------------------------
+
+.. automodule:: mlrl.common.format
    :members:
    :undoc-members:
    :show-inheritance:
@@ -40,14 +56,6 @@ mlrl.common.rule\_learners module
 ---------------------------------
 
 .. automodule:: mlrl.common.rule_learners
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-mlrl.common.strings module
---------------------------
-
-.. automodule:: mlrl.common.strings
    :members:
    :undoc-members:
    :show-inheritance:

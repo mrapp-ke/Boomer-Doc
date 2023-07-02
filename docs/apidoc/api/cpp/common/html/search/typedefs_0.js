@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['binned_5fconst_5fiterator_0',['binned_const_iterator',['../classDenseBinnedVector.html#afed85438660cb1e0d33ad1e6c6e340b9',1,'DenseBinnedVector']]],
-  ['binned_5fiterator_1',['binned_iterator',['../classDenseBinnedVector.html#ad5a848dbf2af38b68367bee37f9b6416',1,'DenseBinnedVector']]]
+  ['bin_5flist_0',['bin_list',['../classIsotonicProbabilityCalibrationModel.html#a61fde255e504235b0b962058333b446a',1,'IsotonicProbabilityCalibrationModel']]],
+  ['binvisitor_1',['BinVisitor',['../classIIsotonicProbabilityCalibrationModel.html#a3b0a7fdfc4dcf075cdf443c89afa7d23',1,'IIsotonicProbabilityCalibrationModel']]]
 ];

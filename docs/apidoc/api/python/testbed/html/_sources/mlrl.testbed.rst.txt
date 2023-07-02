@@ -4,18 +4,10 @@ mlrl.testbed package
 Submodules
 ----------
 
-mlrl.testbed.args module
-------------------------
+mlrl.testbed.characteristics module
+-----------------------------------
 
-.. automodule:: mlrl.testbed.args
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-mlrl.testbed.bbc\_cv module
----------------------------
-
-.. automodule:: mlrl.testbed.bbc_cv
+.. automodule:: mlrl.testbed.characteristics
    :members:
    :undoc-members:
    :show-inheritance:
@@ -36,6 +28,14 @@ mlrl.testbed.data\_characteristics module
    :undoc-members:
    :show-inheritance:
 
+mlrl.testbed.data\_splitting module
+-----------------------------------
+
+.. automodule:: mlrl.testbed.data_splitting
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 mlrl.testbed.evaluation module
 ------------------------------
 
@@ -52,10 +52,10 @@ mlrl.testbed.experiments module
    :undoc-members:
    :show-inheritance:
 
-mlrl.testbed.interfaces module
-------------------------------
+mlrl.testbed.format module
+--------------------------
 
-.. automodule:: mlrl.testbed.interfaces
+.. automodule:: mlrl.testbed.format
    :members:
    :undoc-members:
    :show-inheritance:
@@ -68,6 +68,14 @@ mlrl.testbed.io module
    :undoc-members:
    :show-inheritance:
 
+mlrl.testbed.label\_vectors module
+----------------------------------
+
+.. automodule:: mlrl.testbed.label_vectors
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 mlrl.testbed.main\_boomer module
 --------------------------------
 
@@ -76,18 +84,26 @@ mlrl.testbed.main\_boomer module
    :undoc-members:
    :show-inheritance:
 
-mlrl.testbed.main\_seco module
-------------------------------
-
-.. automodule:: mlrl.testbed.main_seco
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
 mlrl.testbed.model\_characteristics module
 ------------------------------------------
 
 .. automodule:: mlrl.testbed.model_characteristics
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+mlrl.testbed.models module
+--------------------------
+
+.. automodule:: mlrl.testbed.models
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+mlrl.testbed.output\_writer module
+----------------------------------
+
+.. automodule:: mlrl.testbed.output_writer
    :members:
    :undoc-members:
    :show-inheritance:
@@ -108,18 +124,42 @@ mlrl.testbed.persistence module
    :undoc-members:
    :show-inheritance:
 
-mlrl.testbed.runnables module
------------------------------
+mlrl.testbed.prediction\_characteristics module
+-----------------------------------------------
 
-.. automodule:: mlrl.testbed.runnables
+.. automodule:: mlrl.testbed.prediction_characteristics
    :members:
    :undoc-members:
    :show-inheritance:
 
-mlrl.testbed.training module
-----------------------------
+mlrl.testbed.prediction\_scope module
+-------------------------------------
 
-.. automodule:: mlrl.testbed.training
+.. automodule:: mlrl.testbed.prediction_scope
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+mlrl.testbed.predictions module
+-------------------------------
+
+.. automodule:: mlrl.testbed.predictions
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+mlrl.testbed.probability\_calibration module
+--------------------------------------------
+
+.. automodule:: mlrl.testbed.probability_calibration
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+mlrl.testbed.runnables module
+-----------------------------
+
+.. automodule:: mlrl.testbed.runnables
    :members:
    :undoc-members:
    :show-inheritance:

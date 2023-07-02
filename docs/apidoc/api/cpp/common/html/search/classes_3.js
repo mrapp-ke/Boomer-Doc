@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['densebinindexvector_0',['DenseBinIndexVector',['../classDenseBinIndexVector.html',1,'']]],
-  ['densebinnedscorevector_1',['DenseBinnedScoreVector',['../classDenseBinnedScoreVector.html',1,'']]],
-  ['densebinnedvector_2',['DenseBinnedVector',['../classDenseBinnedVector.html',1,'']]],
-  ['densebinnedvector_3c_20float64_20_3e_3',['DenseBinnedVector&lt; float64 &gt;',['../classDenseBinnedVector.html',1,'']]],
-  ['densematrix_4',['DenseMatrix',['../classDenseMatrix.html',1,'']]],
+  ['defaultruleconfig_0',['DefaultRuleConfig',['../classDefaultRuleConfig.html',1,'']]],
+  ['densebinindexvector_1',['DenseBinIndexVector',['../classDenseBinIndexVector.html',1,'']]],
+  ['densebinnedscorevector_2',['DenseBinnedScoreVector',['../classDenseBinnedScoreVector.html',1,'']]],
+  ['densebinnedvector_3',['DenseBinnedVector',['../classDenseBinnedVector.html',1,'']]],
+  ['densebinnedvector_3c_20float64_20_3e_4',['DenseBinnedVector&lt; float64 &gt;',['../classDenseBinnedVector.html',1,'']]],
   ['densepredictionmatrix_5',['DensePredictionMatrix',['../classDensePredictionMatrix.html',1,'']]],
   ['densescorevector_6',['DenseScoreVector',['../classDenseScoreVector.html',1,'']]],
   ['densevector_7',['DenseVector',['../classDenseVector.html',1,'']]],

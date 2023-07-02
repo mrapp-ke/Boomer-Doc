@@ -1,10 +1,10 @@
 var searchData=
 [
   ['emptybody_0',['EmptyBody',['../classEmptyBody.html',1,'']]],
-  ['equalfrequencyfeaturebinning_1',['EqualFrequencyFeatureBinning',['../classEqualFrequencyFeatureBinning.html',1,'']]],
-  ['equalfrequencyfeaturebinningconfig_2',['EqualFrequencyFeatureBinningConfig',['../classEqualFrequencyFeatureBinningConfig.html',1,'']]],
-  ['equalfrequencyfeaturebinningfactory_3',['EqualFrequencyFeatureBinningFactory',['../classEqualFrequencyFeatureBinningFactory.html',1,'']]],
-  ['equalnominalfeaturemask_4',['EqualNominalFeatureMask',['../classEqualNominalFeatureMask.html',1,'']]],
+  ['equalfeatureinfo_1',['EqualFeatureInfo',['../classEqualFeatureInfo.html',1,'']]],
+  ['equalfrequencyfeaturebinning_2',['EqualFrequencyFeatureBinning',['../classEqualFrequencyFeatureBinning.html',1,'']]],
+  ['equalfrequencyfeaturebinningconfig_3',['EqualFrequencyFeatureBinningConfig',['../classEqualFrequencyFeatureBinningConfig.html',1,'']]],
+  ['equalfrequencyfeaturebinningfactory_4',['EqualFrequencyFeatureBinningFactory',['../classEqualFrequencyFeatureBinningFactory.html',1,'']]],
   ['equalweightvector_5',['EqualWeightVector',['../classEqualWeightVector.html',1,'']]],
   ['equalwidthfeaturebinning_6',['EqualWidthFeatureBinning',['../classEqualWidthFeatureBinning.html',1,'']]],
   ['equalwidthfeaturebinningconfig_7',['EqualWidthFeatureBinningConfig',['../classEqualWidthFeatureBinningConfig.html',1,'']]],

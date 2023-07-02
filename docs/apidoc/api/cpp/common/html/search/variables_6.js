@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['headptr_0',['headPtr',['../classRefinement.html#a76c23438d10b9779318a0452d6e2bd63',1,'Refinement']]],
-  ['histogramptr_1',['histogramPtr',['../structCacheEntry.html#a4923bc88ff97a751b2d30065e0a47315',1,'CacheEntry']]]
+  ['globalpruningconfigptr_5f_0',['globalPruningConfigPtr_',['../classAbstractRuleLearner_1_1Config.html#a3bcec6e1f159c26db965719cc6299076',1,'AbstractRuleLearner::Config']]]
 ];

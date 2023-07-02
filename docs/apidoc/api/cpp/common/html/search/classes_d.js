@@ -1,13 +1,17 @@
 var searchData=
 [
-  ['scoreprocessor_0',['ScoreProcessor',['../classScoreProcessor.html',1,'']]],
-  ['sequentialrulemodelassemblage_1',['SequentialRuleModelAssemblage',['../classSequentialRuleModelAssemblage.html',1,'']]],
-  ['sequentialrulemodelassemblageconfig_2',['SequentialRuleModelAssemblageConfig',['../classSequentialRuleModelAssemblageConfig.html',1,'']]],
-  ['sequentialrulemodelassemblagefactory_3',['SequentialRuleModelAssemblageFactory',['../classSequentialRuleModelAssemblageFactory.html',1,'']]],
-  ['singlepartition_4',['SinglePartition',['../classSinglePartition.html',1,'']]],
-  ['sizestoppingcriterion_5',['SizeStoppingCriterion',['../classSizeStoppingCriterion.html',1,'']]],
-  ['sizestoppingcriterionconfig_6',['SizeStoppingCriterionConfig',['../classSizeStoppingCriterionConfig.html',1,'']]],
-  ['sizestoppingcriterionfactory_7',['SizeStoppingCriterionFactory',['../classSizeStoppingCriterionFactory.html',1,'']]],
-  ['sparsearrayvector_8',['SparseArrayVector',['../classSparseArrayVector.html',1,'']]],
-  ['sparsearrayvector_3c_20float32_20_3e_9',['SparseArrayVector&lt; float32 &gt;',['../classSparseArrayVector.html',1,'']]]
+  ['partialhead_0',['PartialHead',['../classPartialHead.html',1,'']]],
+  ['partialindexvector_1',['PartialIndexVector',['../classPartialIndexVector.html',1,'']]],
+  ['partialprediction_2',['PartialPrediction',['../classPartialPrediction.html',1,'']]],
+  ['postoptimizationphaselist_3',['PostOptimizationPhaseList',['../classPostOptimizationPhaseList.html',1,'']]],
+  ['postoptimizationphaselistfactory_4',['PostOptimizationPhaseListFactory',['../classPostOptimizationPhaseListFactory.html',1,'']]],
+  ['postpruning_5',['PostPruning',['../classPostPruning.html',1,'']]],
+  ['postpruningconfig_6',['PostPruningConfig',['../classPostPruningConfig.html',1,'']]],
+  ['postpruningfactory_7',['PostPruningFactory',['../classPostPruningFactory.html',1,'']]],
+  ['pred_8',['Pred',['../structCContiguousLabelMatrix_1_1View_1_1Pred.html',1,'CContiguousLabelMatrix::View::Pred'],['../structCsrLabelMatrix_1_1View_1_1Pred.html',1,'CsrLabelMatrix::View::Pred']]],
+  ['predefinedfeaturesampling_9',['PredefinedFeatureSampling',['../classPredefinedFeatureSampling.html',1,'']]],
+  ['predictiondispatcher_10',['PredictionDispatcher',['../classPredictionDispatcher.html',1,'']]],
+  ['prepruning_11',['PrePruning',['../classPrePruning.html',1,'']]],
+  ['prepruningconfig_12',['PrePruningConfig',['../classPrePruningConfig.html',1,'']]],
+  ['prepruningfactory_13',['PrePruningFactory',['../classPrePruningFactory.html',1,'']]]
 ];

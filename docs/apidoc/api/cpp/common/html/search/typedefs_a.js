@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['threshold_5fconst_5fiterator_0',['threshold_const_iterator',['../classConjunctiveBody.html#a7909ecedbfebbd1f08f86cac446a3734',1,'ConjunctiveBody']]],
-  ['threshold_5fiterator_1',['threshold_iterator',['../classConjunctiveBody.html#a2333b358a5f13c2dd278b6c840694e46',1,'ConjunctiveBody']]]
+  ['score_5fbinned_5fconst_5fiterator_0',['score_binned_const_iterator',['../classDenseBinnedScoreVector.html#ac21e24eed36139647569676626b89e48',1,'DenseBinnedScoreVector']]],
+  ['score_5fbinned_5fiterator_1',['score_binned_iterator',['../classDenseBinnedScoreVector.html#ac3ad226456dcfd5b253cddc70028314b',1,'DenseBinnedScoreVector']]],
+  ['score_5fconst_5fiterator_2',['score_const_iterator',['../classCompleteHead.html#a3c3e071fa7e5470bfabc34eb0eb1e3d5',1,'CompleteHead::score_const_iterator'],['../classPartialHead.html#a86dd459325ff139a3e40c9488e8fc95b',1,'PartialHead::score_const_iterator'],['../classDenseBinnedScoreVector.html#a6a7634a4b0475b4ec33049e757f61af9',1,'DenseBinnedScoreVector::score_const_iterator'],['../classDenseScoreVector.html#a90dc3e0837c07e2c214ab98f15bca06a',1,'DenseScoreVector::score_const_iterator'],['../classAbstractPrediction.html#a2afcceee0a46ec4456a3b513c20364a5',1,'AbstractPrediction::score_const_iterator']]],
+  ['score_5fiterator_3',['score_iterator',['../classCompleteHead.html#a41116b5877d040372ff6ac3e345e72f0',1,'CompleteHead::score_iterator'],['../classPartialHead.html#acd8a7ae85e208860868fb9759ce72c23',1,'PartialHead::score_iterator'],['../classDenseScoreVector.html#ab9e427599686f4c0a82dc529965f0ca4',1,'DenseScoreVector::score_iterator'],['../classAbstractPrediction.html#ab9650acad3a3a5f495c22b56a637be03',1,'AbstractPrediction::score_iterator']]]
 ];
